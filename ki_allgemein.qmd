@@ -1,0 +1,31 @@
+---
+title: "About"
+---
+
+Auf dieser Seite findest du eine grobe Zusammenfassung, wie große Sprachmodelle (Large Language Models, LLMs) im Kern funktionieren. Die Überschriften auf dieser Seite werden automatisch in der rechten Sidebar als Inhaltsverzeichnis angezeigt.
+
+# Wie funktionieren große Sprachmodelle (LLMs)?
+
+Große Sprachmodelle wie GPT-4, Llama oder Claude sind komplexe neuronale Netze, die darauf trainiert wurden, menschliche Sprache zu verstehen und zu generieren. Ihr "Wissen" basiert auf den Mustern, die sie in riesigen Mengen von Textdaten aus dem Internet und Büchern gelernt haben. Der Prozess lässt sich grob in zwei Phasen unterteilen: Training und Inferenz.
+
+## Phase 1: Das Training
+
+Das Training ist der Prozess, bei dem das Modell lernt. Es ist extrem rechen- und datenintensiv.
+
+### Vor-Training (Pre-Training)
+
+1.  **Datensammlung:** Es werden riesige Textmengen (Terabytes an Daten) aus dem Internet, Büchern, Artikeln etc. gesammelt.
+2.  **Lernziel:** Das Modell bekommt eine einfache Aufgabe: "Vorhersage des nächsten Wortes". Man gibt ihm einen Satzanfang, und es muss das wahrscheinlichste nächste Wort erraten.
+3.  **Lernprozess:** Wenn die Vorhersage falsch ist, passt das Modell seine internen Parameter (Milliarden von "Gewichten") leicht an, um beim nächsten Mal eine bessere Vorhersage zu treffen. Dieser Prozess wird milliardenfach wiederholt.
+
+Durch diesen Prozess lernt das Modell Grammatik, Faktenwissen, logische Zusammenhänge und sogar bestimmte Argumentationsstile – alles nur durch die statistische Analyse von Wortfolgen.
+
+## Phase 2: Die Inferenz (Antwortgenerierung)
+
+Wenn du eine Frage an das LLM stellst (ein "Prompt"), beginnt die Inferenzphase.
+
+1.  **Prompt-Verarbeitung:** Das Modell analysiert deine Eingabe.
+2.  **Wort-für-Wort-Generierung:** Basierend auf deinem Prompt und dem, was es im Training gelernt hat, berechnet es das wahrscheinlichste erste Wort der Antwort.
+3.  **Autoregressiver Prozess:** Dieses neu generierte Wort wird an die bisherige Sequenz (dein Prompt + das erste Wort) angehängt. Nun wird das wahrscheinlichste *nächste* Wort berechnet. Dieser Vorgang wiederholt sich, bis das Modell ein "Ende"-Signal generiert oder die maximale Länge erreicht ist.
+
+Es ist also kein "Nachschlagen" in einer Datenbank, sondern eine kreative, statistische Generierung von Text, Wort für Wort.

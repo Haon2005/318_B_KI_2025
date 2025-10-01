@@ -1,0 +1,42 @@
+project:
+  type: website
+
+website:
+  reader-mode: true
+  title: "Geburtstagsgeschenk 2025"
+  sidebar:
+    style: "floating"
+    search: true
+    contents:
+      - section: "Begrüßung"
+        contents:
+          - href: index.qmd
+            text: "Willkommen & Gratulation"
+      - section: "Grundlagen"
+        contents:
+          - href: ki_allgemein.qmd
+            text: "KI im Allgemeinen"
+          - href: ki_philosophische_Sicht.qmd
+            text: "Ist das wirklich KI?"
+      - section: "Wie LLMs funktionieren"
+        contents:
+          - href: konzept_llm.qmd
+            text: "Grundkonzept LLM"
+          - href: vektor_embedding.qmd
+            text: "Vektor-Embedding"
+          - href: deterministisch_vs_probabilistisch.qmd
+            text: "Deterministisch vs. Probabilistisch"
+          - href: aufbau_llm.qmd
+            text: "Aufbau eines LLMs"
+      - href: abschied.qmd
+        text: "Verabschiedung"
+
+format:
+  html:
+    theme:
+      light: [cerulean]
+      dark: [darkly]
+    respect-user-color-scheme: true
+    css: styles.css
+    toc: true
+    toc-location: right
