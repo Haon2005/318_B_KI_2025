@@ -1,0 +1,46 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Alles Gute",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.",
+    "crumbs": [
+      "Begrüßung",
+      "Willkommen & Gratulation"
+    ]
+  },
+  {
+    "objectID": "ki_allgemein.html",
+    "href": "ki_allgemein.html",
+    "title": "About",
+    "section": "",
+    "text": "Auf dieser Seite findest du eine grobe Zusammenfassung, wie große Sprachmodelle (Large Language Models, LLMs) im Kern funktionieren. Die Überschriften auf dieser Seite werden automatisch in der rechten Sidebar als Inhaltsverzeichnis angezeigt.",
+    "crumbs": [
+      "Grundlagen",
+      "KI im Allgemeinen"
+    ]
+  },
+  {
+    "objectID": "ki_allgemein.html#phase-1-das-training",
+    "href": "ki_allgemein.html#phase-1-das-training",
+    "title": "About",
+    "section": "Phase 1: Das Training",
+    "text": "Phase 1: Das Training\nDas Training ist der Prozess, bei dem das Modell lernt. Es ist extrem rechen- und datenintensiv.\n\nVor-Training (Pre-Training)\n\nDatensammlung: Es werden riesige Textmengen (Terabytes an Daten) aus dem Internet, Büchern, Artikeln etc. gesammelt.\nLernziel: Das Modell bekommt eine einfache Aufgabe: “Vorhersage des nächsten Wortes”. Man gibt ihm einen Satzanfang, und es muss das wahrscheinlichste nächste Wort erraten.\nLernprozess: Wenn die Vorhersage falsch ist, passt das Modell seine internen Parameter (Milliarden von “Gewichten”) leicht an, um beim nächsten Mal eine bessere Vorhersage zu treffen. Dieser Prozess wird milliardenfach wiederholt.\n\nDurch diesen Prozess lernt das Modell Grammatik, Faktenwissen, logische Zusammenhänge und sogar bestimmte Argumentationsstile – alles nur durch die statistische Analyse von Wortfolgen.",
+    "crumbs": [
+      "Grundlagen",
+      "KI im Allgemeinen"
+    ]
+  },
+  {
+    "objectID": "ki_allgemein.html#phase-2-die-inferenz-antwortgenerierung",
+    "href": "ki_allgemein.html#phase-2-die-inferenz-antwortgenerierung",
+    "title": "About",
+    "section": "Phase 2: Die Inferenz (Antwortgenerierung)",
+    "text": "Phase 2: Die Inferenz (Antwortgenerierung)\nWenn du eine Frage an das LLM stellst (ein “Prompt”), beginnt die Inferenzphase.\n\nPrompt-Verarbeitung: Das Modell analysiert deine Eingabe.\nWort-für-Wort-Generierung: Basierend auf deinem Prompt und dem, was es im Training gelernt hat, berechnet es das wahrscheinlichste erste Wort der Antwort.\nAutoregressiver Prozess: Dieses neu generierte Wort wird an die bisherige Sequenz (dein Prompt + das erste Wort) angehängt. Nun wird das wahrscheinlichste nächste Wort berechnet. Dieser Vorgang wiederholt sich, bis das Modell ein “Ende”-Signal generiert oder die maximale Länge erreicht ist.\n\nEs ist also kein “Nachschlagen” in einer Datenbank, sondern eine kreative, statistische Generierung von Text, Wort für Wort.",
+    "crumbs": [
+      "Grundlagen",
+      "KI im Allgemeinen"
+    ]
+  }
+]
