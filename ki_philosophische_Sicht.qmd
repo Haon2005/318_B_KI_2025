@@ -1,0 +1,41 @@
+---
+title: "KI aus der Philosophischen Perspektive"
+bibliography: literatur.bib
+---
+
+## Grundlage
+
+KI also Künstliche Intelligenz beinhaltet offensichtlich den Begriff der Intelligenz. Allein dieser ist kein simpler Begriff, was bedeutet Intelligenz?
+Fangen wir klassich enzklopädisch an. 
+Intelligenz $\rightarrow$ *inter* *legere* *(lat.)*, also "zwischen" "lesen/wählen" kann also betrachtet werden als die Fähigkeit des Wählens zwischen Irgendetwas. 
+Intelligenz ist meistens als Problemlösekompetenz beschrieben.
+
+Aber zurück zum Thema, es geht darum inwiefern eine Maschine intelligent sein kann, hier gibt es **echt** viele Debatten $\dots$ ich hatte schon mindestens 3 Seminare zu Thematiken in diese Richtungen. 
+* Machine Consciousness (Kurzgesagt die Frage, nach dem Bewusstsein von Menschen und Maschinen)
+* Determinismus vs. freier Wille (Viele sagen, ein Computer ist nicht "Intelligent", da er niemals frei entscheiden kann)
+* general vs. narrow AI (auch wenn man einen Computer als "intelligent" betrachten mag, so doch niemals als menschlich intelligent)
+
+
+
+:::{.callout-tip collapse="true" title="Ein paar weiterführende Links"}
+- Ein geniales Beispiel der Bewusstseinsfrage spielt sich in "Star Trek: The Next Generation" Staffel 2 Episode 9 ab. [@TNGmeasureofaman]
+<details>
+<summary>Hintergrundwissen</summary>
+Dazu vielleicht noch ein wenig Hintergrundwissen (falls TNG nicht bekannt). Die Serie spielt im 24.Jh. Data ist ein Androide und der Herr in Blau im Clip hat als Ziel Data auseinanderbauen um weitere wie ihn zu erschaffen. Dies will Data nicht, es geht in diesem "Gerichtsprozess" darum, ob Data einen eigenen Willen äußern kann, oder er sich nicht dem Auseinanderbauen unterziehen muss, da er nicht anderes ist als ein Besitz der Sternenflotte.
+</details>
+
+- Im Grund könnte man hier auch Filme wie Terminator o.ä. verlinken, die Idee der "Superintelligenz" entspringt der Idee, dass sobald eine KI ein Bewusstsein erringt, sie von nichts mehr aufgehalten werden kann. 
+
+- Zu general vs narrow AI habe ich leider kein passendes Paper gefunden auf Anhieb (ich glaube, dass ist etwas, was in vielen Papern nebenbei gesagt wird), also fasse ich das ganze einmal kurz zusammen.
+Eine **narrow AI** ist eine künstliche Intelligenz die eine bestimmte Tätigkeit ausführen kann, hierbei kann es auch sehr gut sein, dass sie Tätigkeit weit besser als Menschen durchführen kann. Beispiel hierfür sind die KI's die im Schach, GO oder in Starcraft Menschen, die ihre Leben diesen Spielen gewidmet haben besiegt haben. *Hierbei ist jedoch auch zu vermerken, bei komplexeren Spielen, wie Starcraft ist das erst vor wenigen Jahren passiert und auch nicht durchgängig, d.h. ja die KI ist besser als der Mensch, aber nicht in jedem Spielstil, eine bestimmte KI ist immer auf einen bestimmten Stil trainiert, selbst in einem Spiel, kann die KI nicht mehrere unterschiedliche Stilarten anwenden.*
+Eine **general AI** ist (wäre, es gibt keine) eine künstliche Intelligenz, welche nicht nur eine sondern jegliche Art von Tätigkeit ausführen kann. Und dabei in mehreren auf dem Niveau von Menschen ist, oder gar darüber hinaus gut ist. *Man könnte jetzt sagen, aber ChatGPT und Co KG sind das doch. NEIN, sind sie nicht, LLMs, da geht es auf den anderen Seiten drum sind KEINE general AIs, sie können auf vielartige Probleme eingehen, aber erstens funktionieren sie meistens nicht als einzelne Programme, sondern sind ein riesiges Konglumarat von AIs die sich bei bestimmten eingaben abwechseln, zweitens sind selbst die Ausgaben eines LLM nicht mehr nur dieses LLM, sondern das große LLM beauftragt viele kleine und wählt dann die passendste Ausgabe die tatsächlich ausgegeben wird.* 
+Eine **general AI** die tatächlich existieren würde wäre im Prinzip eine **Superintelligenz**, also in der Lage in allem besser zu sein als der Mensch und den Mensch in Gänze zu ersetzen und auszulöschen, was laut diversen Theorien recht schnell passieren würde, da die größte Gefahr für eine Superintelligenz der Mensch wäre.
+:::
+
+## Das Chinese-Room-Experiment
+
+## Turing-Test 
+
+## Moderne Benchmark Tests 
+
+Turing Test wurde ersetzt durch IMO (Mathe Olympiade) Tests ersetzt die sind seit letztem Jahr, aber komplett lösbar inzwischen ist man bei MMLU Benchmarks
