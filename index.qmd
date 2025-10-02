@@ -13,7 +13,12 @@ Richtig AI ach ne KI hmm GPT oder LLM was ist denn da jetzt eigentlich der richt
 :::{.callout-important title="Ein paar Hinweise" collapse="true"}
 - Es wird auf dieser Webseite immer mal wieder ein paar kleine "Callout" Blöcke wie diesen geben, ich werde damit ein wenig versuchen die Webseite lesbarer zu gestalten und evtl. schon vorhandenes Vorwissen in solchen Blöcken zu verstecken, damit falls du das bereits kennst du es leicht ignorieren kannst.
 
-**Steurung der Webseite**
+<details>
+<summary> Auch solche Blöcke wird es teilweise Drücke hier $\leftarrow$</summary>
+Diese Blöcke werde ich auch manchmal nutzen, da sie ein wenig subtiler sind um Inhalte zu verschachteln.
+</details>
+
+**Steuerung der Webseite**
 - Wie oben zu sehen gibt es zum einen ...
 - Platzhalter!
 :::

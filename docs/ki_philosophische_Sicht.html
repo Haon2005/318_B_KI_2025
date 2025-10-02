@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>ki_philosophische_sicht – Geburtstagsgeschenk 2025</title>
+<title>KI aus der Philosophischen Perspektive – Geburtstagsgeschenk 2025</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -72,6 +92,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -375,20 +424,148 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#grundlage" id="toc-grundlage" class="nav-link active" data-scroll-target="#grundlage">Grundlage</a></li>
+  <li><a href="#das-chinese-room-experiment" id="toc-das-chinese-room-experiment" class="nav-link" data-scroll-target="#das-chinese-room-experiment">Das Chinese-Room-Experiment</a></li>
+  <li><a href="#turing-test" id="toc-turing-test" class="nav-link" data-scroll-target="#turing-test">Turing-Test</a></li>
+  <li><a href="#moderne-benchmark-tests" id="toc-moderne-benchmark-tests" class="nav-link" data-scroll-target="#moderne-benchmark-tests">Moderne Benchmark Tests</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./ki_allgemein.html">Grundlagen</a></li><li class="breadcrumb-item"><a href="./ki_philosophische_Sicht.html">Ist das wirklich KI?</a></li></ol></nav></header>
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./ki_allgemein.html">Grundlagen</a></li><li class="breadcrumb-item"><a href="./ki_philosophische_Sicht.html">Ist das wirklich KI?</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">KI aus der Philosophischen Perspektive</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="grundlage" class="level2">
+<h2 class="anchored" data-anchor-id="grundlage">Grundlage</h2>
+<p>KI also Künstliche Intelligenz beinhaltet offensichtlich den Begriff der Intelligenz. Allein dieser ist kein simpler Begriff, was bedeutet Intelligenz? Fangen wir klassisch enzyklopädisch an. Intelligenz <span class="math inline">\(\rightarrow\)</span> <em>inter</em> <em>legere</em> <em>(lat.)</em>, also “zwischen” “lesen/wählen” kann also betrachtet werden als die Fähigkeit des Wählens zwischen Irgendetwas. Intelligenz ist meistens als Problemlösekompetenz beschrieben.</p>
+<p>Aber zurück zum Thema, es geht darum inwiefern eine Maschine intelligent sein kann, hier gibt es <strong>echt</strong> viele Debatten <span class="math inline">\(\dots\)</span> ich hatte schon mindestens 3 Seminare zu Thematiken in diese Richtungen. * Machine Consciousness (Kurzgesagt die Frage, nach dem Bewusstsein von Menschen und Maschinen) * Determinismus vs.&nbsp;freier Wille (Viele sagen, ein Computer ist nicht “Intelligent”, da er niemals frei entscheiden kann) * strong vs.&nbsp;weak AI (auch wenn man einen Computer als “intelligent” betrachten mag, so doch niemals als menschlich intelligent)</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Ein paar weiterführende Links">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Ein paar weiterführende Links
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li><p>Ein geniales Beispiel der Bewusstseinsfrage spielt sich in “Star Trek: The Next Generation” Staffel 2 Episode 9 ab. <span class="citation" data-cites="TNGmeasureofaman">(<a href="#ref-TNGmeasureofaman" role="doc-biblioref">Snodgrass 1989</a>)</span></p>
+<details>
+<summary>
+<p>Hintergrundwissen</p>
+</summary>
+<p>Dazu vielleicht noch ein wenig Hintergrundwissen (falls TNG nicht bekannt). Die Serie spielt im 24.Jh. Data ist ein Androide und der Herr in Blau im Clip hat als Ziel Data auseinanderbauen um weitere wie ihn zu erschaffen. Dies will Data nicht, es geht in diesem “Gerichtsprozess” darum, ob Data einen eigenen Willen äußern kann, oder er sich nicht dem Auseinanderbauen unterziehen muss, da er nicht anderes ist als ein Besitz der Sternenflotte.</p>
+</details></li>
+<li><p>Im Grund könnte man hier auch Filme wie Terminator o.ä. verlinken, die Idee der “Superintelligenz” entspringt der Idee, dass sobald eine KI ein Bewusstsein erringt, sie von nichts mehr aufgehalten werden kann.</p></li>
+<li><p>Die Unterscheidung zwischen <strong>starker und schwacher KI</strong> (Strong vs.&nbsp;Weak AI) ist zentral in der KI-Philosophie und geht ebenfalls auf John Searle zurück.</p></li>
+</ul>
+Eine <strong>schwache KI</strong> (Weak AI, auch als <em>narrow AI</em> oder <em>schwache KI</em> bezeichnet) ist darauf ausgelegt, eine spezifische Aufgabe zu erfüllen. Sie simuliert intelligentes Verhalten, ohne jedoch ein echtes Bewusstsein oder Verständnis zu besitzen. Alle heute existierenden KI-Systeme fallen in diese Kategorie.
+<details>
+<summary>
+Beispiel für schwache KI
+</summary>
+Beispiele hierfür sind KIs, die im Schach, Go oder Starcraft Weltmeister besiegt haben, aber auch Sprachassistenten wie Siri oder eben große Sprachmodelle wie ChatGPT. Sie sind extrem leistungsfähig in ihrem definierten Bereich (z.B. Sprache), aber sie “verstehen” nicht im menschlichen Sinne.
+</details>
+Eine <strong>starke KI</strong> (Strong AI) wäre eine Maschine, die nicht nur Intelligenz simuliert, sondern tatsächlich ein eigenes Bewusstsein, Verstand und Verständnis besitzt – vergleichbar mit einem Menschen. Eine solche KI würde nicht nur Aufgaben lösen, sondern auch subjektive Erfahrungen machen. Dieses Konzept ist rein hypothetisch und wird oft auch als <strong>Künstliche Allgemeine Intelligenz (AGI)</strong> bezeichnet.
+<details>
+<summary>
+Beispiel für starke KI
+</summary>
+<p><em>Man könnte jetzt sagen, aber ChatGPT und Co.&nbsp;sind das doch. NEIN, sind sie nicht.</em> LLMs sind extrem fortgeschrittene schwache KIs. Sie können zwar eine beeindruckende Vielfalt an Aufgaben bewältigen, basieren aber auf Mustererkennung in Daten und besitzen kein Bewusstsein oder echte Intentionalität.</p>
+Eine echte starke KI, die sich ihrer selbst bewusst ist, existiert bisher nur in der Science-Fiction (wie z.B. <code>Data</code> aus Star Trek). Die Entwicklung einer solchen KI würde das Konzept der <strong>Superintelligenz</strong> aufwerfen – eine Intelligenz, die die menschliche in allen Aspekten weit übertrifft.
+</details>
+</div>
+</div>
+</div>
+</section>
+<section id="das-chinese-room-experiment" class="level2">
+<h2 class="anchored" data-anchor-id="das-chinese-room-experiment">Das Chinese-Room-Experiment</h2>
+<p>Das Gedankenexperiment des “Chinesischen Zimmers” wurde 1980 vom Philosophen John Searle vorgestellt <span class="citation" data-cites="searle1980minds">(<a href="#ref-searle1980minds" role="doc-biblioref">Searle 1980</a>)</span>. Es ist das zentrale Argument gegen die Möglichkeit von <strong>starker KI</strong> und fragt, ob eine Maschine wirklich “verstehen” kann oder nur so tut, als ob.</p>
+<p>Stell dir Folgendes vor: 1. Eine Person, die kein Wort Chinesisch spricht, sitzt allein in einem geschlossenen Raum. 2. Durch einen Schlitz werden ihr Zettel mit chinesischen Schriftzeichen (Fragen) gereicht. 3. Im Raum befindet sich ein riesiges Regelbuch auf Deutsch. In diesem Buch steht genau, welche chinesischen Schriftzeichen (Antworten) sie als Reaktion auf die hereingereichten Zeichen (Fragen) nach draußen geben soll. 4. Die Person folgt den Anweisungen, sucht die passenden Symbole und gibt sie als Antwort zurück.</p>
+<p>Für einen Beobachter von außen, der Chinesisch spricht, sieht es so aus, als würde die Person im Raum die Fragen perfekt verstehen und beantworten.</p>
+<p><strong>Searles Schlussfolgerung:</strong> Die Person im Raum hat absolut kein Verständnis für Chinesisch. Sie manipuliert lediglich Symbole basierend auf einem Regelwerk. Searle argumentiert, dass Computer genauso arbeiten. Selbst wenn eine KI perfekte Antworten gibt, bedeutet das nicht, dass sie ein echtes Bewusstsein oder Verständnis hat. Sie simuliert nur Intelligenz.</p>
+</section>
+<section id="turing-test" class="level2">
+<h2 class="anchored" data-anchor-id="turing-test">Turing-Test</h2>
+<p>Der Turing-Test, vorgeschlagen von Alan Turing im Jahr 1950, ist eines der ältesten und berühmtesten Kriterien, um maschinelle Intelligenz zu bewerten <span class="citation" data-cites="turing1950computing">(<a href="#ref-turing1950computing" role="doc-biblioref">Turing 1950</a>)</span>. Die Idee ist ein “Imitationsspiel”:</p>
+<ol type="1">
+<li>Ein menschlicher Fragesteller (C) kommuniziert über Textnachrichten mit zwei ihm unbekannten Gesprächspartnern.</li>
+<li>Einer der Gesprächspartner ist ein Mensch (B), der andere eine Maschine (A).</li>
+<li>Der Fragesteller muss herausfinden, wer von beiden die Maschine ist.</li>
+</ol>
+<p><strong>Wann besteht die Maschine den Test?</strong> Wenn der Fragesteller nach einer angemessenen Zeit nicht zuverlässig sagen kann, wer der Mensch und wer die Maschine ist, hat die Maschine den Turing-Test bestanden. Sie gilt dann als intelligent, weil ihr Verhalten von menschlichem Verhalten nicht zu unterscheiden ist.</p>
+</section>
+<section id="moderne-benchmark-tests" class="level2">
+<h2 class="anchored" data-anchor-id="moderne-benchmark-tests">Moderne Benchmark Tests</h2>
+<p>Der klassische Turing-Test gilt heute in vielen Fällen als überholt, da moderne LLMs ihn oft problemlos bestehen können. Die Fähigkeit, eine menschliche Konversation zu imitieren, ist nicht mehr der alleinige Maßstab für fortgeschrittene KI.</p>
+<div class="callout callout-style-default callout-warning callout-titled" title="Hinweis!">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Hinweis!
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Auch wenn man sich in der wissenschaftlichen Welt sehr einig ist, dass LLms den Turing Test bestehen können, heißt es nicht, dass irgendeine System den erkenntlich bestanden hat!<br>
+Das erschafft dann nämlich ein ganz großes neues Problem wofür Firmen wie Google Philosophen anstellen um es zu verhindern.<br>
+Sollte es so sein, dass eine Maschine den Turing Test bestehe, so wäre sie laut einer sehr anerkannten Theorie intelligent. Das würde aber auch heißen eine Maschine zu nutzen, um z.B. Hausaufgaben etc. zu lösen wäre praktisch Sklaverei, dass klingt absurd, aber was trennt das eine vom Anderen?<br>
+Was macht ein Kinderarbeit Kinderarbeit, warum ist es schlimm wenn Menschen ohne Bezahlung arbeiten?<br>
+Warum sollte es gut sein, dass einem Intelligenten System der freie Wille genommen wird?</p>
+</div>
+</div>
+</div>
+<p>Zurück zum Thema, heutzutage werden daher andere Arten von Zielen versucht zu erreichen:</p>
+<ul>
+<li><p><strong>IMO (Internationale Mathematik-Olympiade):</strong> Lange Zeit galt das Lösen von Problemen auf dem Niveau der IMO als eine große Hürde für KIs. Diese Aufgaben erfordern nicht nur Rechenleistung, sondern auch Kreativität und tiefes logisches Verständnis. Inzwischen gibt es KI-Systeme, die auch hier erstaunliche Leistungen erzielen und Goldmedaillen-Niveau erreichen.</p></li>
+<li><p><strong>MMLU (Massive Multitask Language Understanding):</strong> Dies ist einer der aktuell gängigsten Benchmarks. Anstatt nur Konversation zu testen, prüft MMLU das Wissen und die Problemlösefähigkeiten einer KI in 57 verschiedenen Fachgebieten – darunter Mathematik, US-Geschichte, Jura, Informatik und mehr. Eine hohe Punktzahl im MMLU-Benchmark zeigt, dass ein Modell über ein breites und tiefes “Wissen” verfügt, das weit über das Führen eines einfachen Gesprächs hinausgeht.</p></li>
+</ul>
 
 
 
+</section>
 
-
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-searle1980minds" class="csl-entry" role="listitem">
+Searle, John R. 1980. <span>“Minds, Brains, and Programs.”</span> <em>Behavioral and Brain Sciences</em> 3 (3): 417–24.
+</div>
+<div id="ref-TNGmeasureofaman" class="csl-entry" role="listitem">
+Snodgrass, Melinda M. 1989. <span>“The Measure of a Man.”</span> TV. <a href="https://www.youtube.com/watch?v=ol2WP0hc0NY">https://www.youtube.com/watch?v=ol2WP0hc0NY</a>.
+</div>
+<div id="ref-turing1950computing" class="csl-entry" role="listitem">
+Turing, Alan M. 1950. <span>“Computing Machinery and Intelligence.”</span> <em>Mind</em> 59 (236): 433–60.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right

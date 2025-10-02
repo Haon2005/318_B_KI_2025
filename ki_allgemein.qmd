@@ -1,8 +1,25 @@
 ---
-title: "About"
+title: "KI im Allgemeinen"
 ---
+## Was ist eigentlich eine KI?
 
-Auf dieser Seite findest du eine grobe Zusammenfassung, wie große Sprachmodelle (Large Language Models, LLMs) im Kern funktionieren. Die Überschriften auf dieser Seite werden automatisch in der rechten Sidebar als Inhaltsverzeichnis angezeigt.
+Eine KI ist in der Regel ein Neuronales Netz hoher Komplexität, welches adaptiv neues "Wissen" erarbeiten kann und in den meisten Fällen menschliche Sprache "versteht".
+
+:::{.callout-note title="Neuronale Netze" collapse="true"}
+
+Ich weiß nicht inwiefern dir der Begriff Neuronales Netz etwas sagt.  
+Die **Grundidee** ist an menschlichen Neuronen an
+
+
+<iframe src="Quellen/Lernalgorithmen.pdf" width="100%" height="600px">
+    <p>Ihr Browser unterstützt keine eingebetteten PDFs. Sie können es stattdessen <a href="Quellen/Lernalgorithmen.pdf">hier herunterladen</a>.</p>
+</iframe>
+
+:::
+
+
+
+
 
 # Wie funktionieren große Sprachmodelle (LLMs)?
 

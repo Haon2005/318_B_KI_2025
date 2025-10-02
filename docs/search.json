@@ -1,10 +1,65 @@
 [
   {
+    "objectID": "ki_philosophische_Sicht.html",
+    "href": "ki_philosophische_Sicht.html",
+    "title": "KI aus der Philosophischen Perspektive",
+    "section": "",
+    "text": "KI also Künstliche Intelligenz beinhaltet offensichtlich den Begriff der Intelligenz. Allein dieser ist kein simpler Begriff, was bedeutet Intelligenz? Fangen wir klassisch enzyklopädisch an. Intelligenz \\(\\rightarrow\\) inter legere (lat.), also “zwischen” “lesen/wählen” kann also betrachtet werden als die Fähigkeit des Wählens zwischen Irgendetwas. Intelligenz ist meistens als Problemlösekompetenz beschrieben.\nAber zurück zum Thema, es geht darum inwiefern eine Maschine intelligent sein kann, hier gibt es echt viele Debatten \\(\\dots\\) ich hatte schon mindestens 3 Seminare zu Thematiken in diese Richtungen. * Machine Consciousness (Kurzgesagt die Frage, nach dem Bewusstsein von Menschen und Maschinen) * Determinismus vs. freier Wille (Viele sagen, ein Computer ist nicht “Intelligent”, da er niemals frei entscheiden kann) * strong vs. weak AI (auch wenn man einen Computer als “intelligent” betrachten mag, so doch niemals als menschlich intelligent)\n\n\n\n\n\n\nEin paar weiterführende Links\n\n\n\n\n\n\nEin geniales Beispiel der Bewusstseinsfrage spielt sich in “Star Trek: The Next Generation” Staffel 2 Episode 9 ab. (Snodgrass 1989)\n\n\nHintergrundwissen\n\nDazu vielleicht noch ein wenig Hintergrundwissen (falls TNG nicht bekannt). Die Serie spielt im 24.Jh. Data ist ein Androide und der Herr in Blau im Clip hat als Ziel Data auseinanderbauen um weitere wie ihn zu erschaffen. Dies will Data nicht, es geht in diesem “Gerichtsprozess” darum, ob Data einen eigenen Willen äußern kann, oder er sich nicht dem Auseinanderbauen unterziehen muss, da er nicht anderes ist als ein Besitz der Sternenflotte.\n\nIm Grund könnte man hier auch Filme wie Terminator o.ä. verlinken, die Idee der “Superintelligenz” entspringt der Idee, dass sobald eine KI ein Bewusstsein erringt, sie von nichts mehr aufgehalten werden kann.\nDie Unterscheidung zwischen starker und schwacher KI (Strong vs. Weak AI) ist zentral in der KI-Philosophie und geht ebenfalls auf John Searle zurück.\n\nEine schwache KI (Weak AI, auch als narrow AI oder schwache KI bezeichnet) ist darauf ausgelegt, eine spezifische Aufgabe zu erfüllen. Sie simuliert intelligentes Verhalten, ohne jedoch ein echtes Bewusstsein oder Verständnis zu besitzen. Alle heute existierenden KI-Systeme fallen in diese Kategorie.\n\n\nBeispiel für schwache KI\n\nBeispiele hierfür sind KIs, die im Schach, Go oder Starcraft Weltmeister besiegt haben, aber auch Sprachassistenten wie Siri oder eben große Sprachmodelle wie ChatGPT. Sie sind extrem leistungsfähig in ihrem definierten Bereich (z.B. Sprache), aber sie “verstehen” nicht im menschlichen Sinne.\n\nEine starke KI (Strong AI) wäre eine Maschine, die nicht nur Intelligenz simuliert, sondern tatsächlich ein eigenes Bewusstsein, Verstand und Verständnis besitzt – vergleichbar mit einem Menschen. Eine solche KI würde nicht nur Aufgaben lösen, sondern auch subjektive Erfahrungen machen. Dieses Konzept ist rein hypothetisch und wird oft auch als Künstliche Allgemeine Intelligenz (AGI) bezeichnet.\n\n\nBeispiel für starke KI\n\nMan könnte jetzt sagen, aber ChatGPT und Co. sind das doch. NEIN, sind sie nicht. LLMs sind extrem fortgeschrittene schwache KIs. Sie können zwar eine beeindruckende Vielfalt an Aufgaben bewältigen, basieren aber auf Mustererkennung in Daten und besitzen kein Bewusstsein oder echte Intentionalität.\nEine echte starke KI, die sich ihrer selbst bewusst ist, existiert bisher nur in der Science-Fiction (wie z.B. Data aus Star Trek). Die Entwicklung einer solchen KI würde das Konzept der Superintelligenz aufwerfen – eine Intelligenz, die die menschliche in allen Aspekten weit übertrifft.",
+    "crumbs": [
+      "Grundlagen",
+      "Ist das wirklich KI?"
+    ]
+  },
+  {
+    "objectID": "ki_philosophische_Sicht.html#grundlage",
+    "href": "ki_philosophische_Sicht.html#grundlage",
+    "title": "KI aus der Philosophischen Perspektive",
+    "section": "",
+    "text": "KI also Künstliche Intelligenz beinhaltet offensichtlich den Begriff der Intelligenz. Allein dieser ist kein simpler Begriff, was bedeutet Intelligenz? Fangen wir klassisch enzyklopädisch an. Intelligenz \\(\\rightarrow\\) inter legere (lat.), also “zwischen” “lesen/wählen” kann also betrachtet werden als die Fähigkeit des Wählens zwischen Irgendetwas. Intelligenz ist meistens als Problemlösekompetenz beschrieben.\nAber zurück zum Thema, es geht darum inwiefern eine Maschine intelligent sein kann, hier gibt es echt viele Debatten \\(\\dots\\) ich hatte schon mindestens 3 Seminare zu Thematiken in diese Richtungen. * Machine Consciousness (Kurzgesagt die Frage, nach dem Bewusstsein von Menschen und Maschinen) * Determinismus vs. freier Wille (Viele sagen, ein Computer ist nicht “Intelligent”, da er niemals frei entscheiden kann) * strong vs. weak AI (auch wenn man einen Computer als “intelligent” betrachten mag, so doch niemals als menschlich intelligent)\n\n\n\n\n\n\nEin paar weiterführende Links\n\n\n\n\n\n\nEin geniales Beispiel der Bewusstseinsfrage spielt sich in “Star Trek: The Next Generation” Staffel 2 Episode 9 ab. (Snodgrass 1989)\n\n\nHintergrundwissen\n\nDazu vielleicht noch ein wenig Hintergrundwissen (falls TNG nicht bekannt). Die Serie spielt im 24.Jh. Data ist ein Androide und der Herr in Blau im Clip hat als Ziel Data auseinanderbauen um weitere wie ihn zu erschaffen. Dies will Data nicht, es geht in diesem “Gerichtsprozess” darum, ob Data einen eigenen Willen äußern kann, oder er sich nicht dem Auseinanderbauen unterziehen muss, da er nicht anderes ist als ein Besitz der Sternenflotte.\n\nIm Grund könnte man hier auch Filme wie Terminator o.ä. verlinken, die Idee der “Superintelligenz” entspringt der Idee, dass sobald eine KI ein Bewusstsein erringt, sie von nichts mehr aufgehalten werden kann.\nDie Unterscheidung zwischen starker und schwacher KI (Strong vs. Weak AI) ist zentral in der KI-Philosophie und geht ebenfalls auf John Searle zurück.\n\nEine schwache KI (Weak AI, auch als narrow AI oder schwache KI bezeichnet) ist darauf ausgelegt, eine spezifische Aufgabe zu erfüllen. Sie simuliert intelligentes Verhalten, ohne jedoch ein echtes Bewusstsein oder Verständnis zu besitzen. Alle heute existierenden KI-Systeme fallen in diese Kategorie.\n\n\nBeispiel für schwache KI\n\nBeispiele hierfür sind KIs, die im Schach, Go oder Starcraft Weltmeister besiegt haben, aber auch Sprachassistenten wie Siri oder eben große Sprachmodelle wie ChatGPT. Sie sind extrem leistungsfähig in ihrem definierten Bereich (z.B. Sprache), aber sie “verstehen” nicht im menschlichen Sinne.\n\nEine starke KI (Strong AI) wäre eine Maschine, die nicht nur Intelligenz simuliert, sondern tatsächlich ein eigenes Bewusstsein, Verstand und Verständnis besitzt – vergleichbar mit einem Menschen. Eine solche KI würde nicht nur Aufgaben lösen, sondern auch subjektive Erfahrungen machen. Dieses Konzept ist rein hypothetisch und wird oft auch als Künstliche Allgemeine Intelligenz (AGI) bezeichnet.\n\n\nBeispiel für starke KI\n\nMan könnte jetzt sagen, aber ChatGPT und Co. sind das doch. NEIN, sind sie nicht. LLMs sind extrem fortgeschrittene schwache KIs. Sie können zwar eine beeindruckende Vielfalt an Aufgaben bewältigen, basieren aber auf Mustererkennung in Daten und besitzen kein Bewusstsein oder echte Intentionalität.\nEine echte starke KI, die sich ihrer selbst bewusst ist, existiert bisher nur in der Science-Fiction (wie z.B. Data aus Star Trek). Die Entwicklung einer solchen KI würde das Konzept der Superintelligenz aufwerfen – eine Intelligenz, die die menschliche in allen Aspekten weit übertrifft.",
+    "crumbs": [
+      "Grundlagen",
+      "Ist das wirklich KI?"
+    ]
+  },
+  {
+    "objectID": "ki_philosophische_Sicht.html#das-chinese-room-experiment",
+    "href": "ki_philosophische_Sicht.html#das-chinese-room-experiment",
+    "title": "KI aus der Philosophischen Perspektive",
+    "section": "Das Chinese-Room-Experiment",
+    "text": "Das Chinese-Room-Experiment\nDas Gedankenexperiment des “Chinesischen Zimmers” wurde 1980 vom Philosophen John Searle vorgestellt (Searle 1980). Es ist das zentrale Argument gegen die Möglichkeit von starker KI und fragt, ob eine Maschine wirklich “verstehen” kann oder nur so tut, als ob.\nStell dir Folgendes vor: 1. Eine Person, die kein Wort Chinesisch spricht, sitzt allein in einem geschlossenen Raum. 2. Durch einen Schlitz werden ihr Zettel mit chinesischen Schriftzeichen (Fragen) gereicht. 3. Im Raum befindet sich ein riesiges Regelbuch auf Deutsch. In diesem Buch steht genau, welche chinesischen Schriftzeichen (Antworten) sie als Reaktion auf die hereingereichten Zeichen (Fragen) nach draußen geben soll. 4. Die Person folgt den Anweisungen, sucht die passenden Symbole und gibt sie als Antwort zurück.\nFür einen Beobachter von außen, der Chinesisch spricht, sieht es so aus, als würde die Person im Raum die Fragen perfekt verstehen und beantworten.\nSearles Schlussfolgerung: Die Person im Raum hat absolut kein Verständnis für Chinesisch. Sie manipuliert lediglich Symbole basierend auf einem Regelwerk. Searle argumentiert, dass Computer genauso arbeiten. Selbst wenn eine KI perfekte Antworten gibt, bedeutet das nicht, dass sie ein echtes Bewusstsein oder Verständnis hat. Sie simuliert nur Intelligenz.",
+    "crumbs": [
+      "Grundlagen",
+      "Ist das wirklich KI?"
+    ]
+  },
+  {
+    "objectID": "ki_philosophische_Sicht.html#moderne-benchmark-tests",
+    "href": "ki_philosophische_Sicht.html#moderne-benchmark-tests",
+    "title": "KI aus der Philosophischen Perspektive",
+    "section": "Moderne Benchmark Tests",
+    "text": "Moderne Benchmark Tests\nDer klassische Turing-Test gilt heute in vielen Fällen als überholt, da moderne LLMs ihn oft problemlos bestehen können. Die Fähigkeit, eine menschliche Konversation zu imitieren, ist nicht mehr der alleinige Maßstab für fortgeschrittene KI.\n\n\n\n\n\n\nHinweis!\n\n\n\n\n\nAuch wenn man sich in der wissenschaftlichen Welt sehr einig ist, dass LLms den Turing Test bestehen können, heißt es nicht, dass irgendeine System den erkenntlich bestanden hat!\nDas erschafft dann nämlich ein ganz großes neues Problem wofür Firmen wie Google Philosophen anstellen um es zu verhindern.\nSollte es so sein, dass eine Maschine den Turing Test bestehe, so wäre sie laut einer sehr anerkannten Theorie intelligent. Das würde aber auch heißen eine Maschine zu nutzen, um z.B. Hausaufgaben etc. zu lösen wäre praktisch Sklaverei, dass klingt absurd, aber was trennt das eine vom Anderen?\nWas macht ein Kinderarbeit Kinderarbeit, warum ist es schlimm wenn Menschen ohne Bezahlung arbeiten?\nWarum sollte es gut sein, dass einem Intelligenten System der freie Wille genommen wird?\n\n\n\nZurück zum Thema, heutzutage werden daher andere Arten von Zielen versucht zu erreichen:\n\nIMO (Internationale Mathematik-Olympiade): Lange Zeit galt das Lösen von Problemen auf dem Niveau der IMO als eine große Hürde für KIs. Diese Aufgaben erfordern nicht nur Rechenleistung, sondern auch Kreativität und tiefes logisches Verständnis. Inzwischen gibt es KI-Systeme, die auch hier erstaunliche Leistungen erzielen und Goldmedaillen-Niveau erreichen.\nMMLU (Massive Multitask Language Understanding): Dies ist einer der aktuell gängigsten Benchmarks. Anstatt nur Konversation zu testen, prüft MMLU das Wissen und die Problemlösefähigkeiten einer KI in 57 verschiedenen Fachgebieten – darunter Mathematik, US-Geschichte, Jura, Informatik und mehr. Eine hohe Punktzahl im MMLU-Benchmark zeigt, dass ein Modell über ein breites und tiefes “Wissen” verfügt, das weit über das Führen eines einfachen Gesprächs hinausgeht.",
+    "crumbs": [
+      "Grundlagen",
+      "Ist das wirklich KI?"
+    ]
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Alles Gute",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.",
+    "text": "Ich habe dir hoffentlich bereits alles gute zum beginnenden 60ten Lebensjahr gewünscht, aber hier erneut alles herlich gute zum Geburtstag.\nIch dachte mir einer Person, die sich alles holen kann was sie will kann man am ehesten Zeit schenken. Also dachte ich mir, worüber haben wir schon häufiger geredet, womit wolltest du dich beschäftigen, hast aber vermutlich noch keine Zeit dafür gefunden?\nRichtig AI ach ne KI hmm GPT oder LLM was ist denn da jetzt eigentlich der richtige Begriff, darum und darum was das alles eigentlich ist, was das bedeutet, wie man es definiert und auch was das ganze moralisch ethisch an Problemen darstellt, darum soll es auf dieser kleinen Webseite für dich gehen.\n\n\n\n\n\n\nEin paar Hinweise\n\n\n\n\n\n\nEs wird auf dieser Webseite immer mal wieder ein paar kleine “Callout” Blöcke wie diesen geben, ich werde damit ein wenig versuchen die Webseite lesbarer zu gestalten und evtl. schon vorhandenes Vorwissen in solchen Blöcken zu verstecken, damit falls du das bereits kennst du es leicht ignorieren kannst.\n\n\n\nAuch solche Blöcke wird es teilweise Drücke hier \\(\\leftarrow\\)\n\nDiese Blöcke werde ich auch manchmal nutzen, da sie ein wenig subtiler sind um Inhalte zu verschachteln.\n\nSteuerung der Webseite - Wie oben zu sehen gibt es zum einen … - Platzhalter!\n\n\n\nVon jetzt an also gut Klick und Lern!",
+    "crumbs": [
+      "Begrüßung",
+      "Willkommen & Gratulation"
+    ]
+  },
+  {
+    "objectID": "index.html#alles-gute-zum-geburtstag",
+    "href": "index.html#alles-gute-zum-geburtstag",
+    "title": "Alles Gute",
+    "section": "",
+    "text": "Ich habe dir hoffentlich bereits alles gute zum beginnenden 60ten Lebensjahr gewünscht, aber hier erneut alles herlich gute zum Geburtstag.\nIch dachte mir einer Person, die sich alles holen kann was sie will kann man am ehesten Zeit schenken. Also dachte ich mir, worüber haben wir schon häufiger geredet, womit wolltest du dich beschäftigen, hast aber vermutlich noch keine Zeit dafür gefunden?\nRichtig AI ach ne KI hmm GPT oder LLM was ist denn da jetzt eigentlich der richtige Begriff, darum und darum was das alles eigentlich ist, was das bedeutet, wie man es definiert und auch was das ganze moralisch ethisch an Problemen darstellt, darum soll es auf dieser kleinen Webseite für dich gehen.\n\n\n\n\n\n\nEin paar Hinweise\n\n\n\n\n\n\nEs wird auf dieser Webseite immer mal wieder ein paar kleine “Callout” Blöcke wie diesen geben, ich werde damit ein wenig versuchen die Webseite lesbarer zu gestalten und evtl. schon vorhandenes Vorwissen in solchen Blöcken zu verstecken, damit falls du das bereits kennst du es leicht ignorieren kannst.\n\n\n\nAuch solche Blöcke wird es teilweise Drücke hier \\(\\leftarrow\\)\n\nDiese Blöcke werde ich auch manchmal nutzen, da sie ein wenig subtiler sind um Inhalte zu verschachteln.\n\nSteuerung der Webseite - Wie oben zu sehen gibt es zum einen … - Platzhalter!\n\n\n\nVon jetzt an also gut Klick und Lern!",
     "crumbs": [
       "Begrüßung",
       "Willkommen & Gratulation"
@@ -13,9 +68,20 @@
   {
     "objectID": "ki_allgemein.html",
     "href": "ki_allgemein.html",
-    "title": "About",
+    "title": "KI im Allgemeinen",
     "section": "",
-    "text": "Auf dieser Seite findest du eine grobe Zusammenfassung, wie große Sprachmodelle (Large Language Models, LLMs) im Kern funktionieren. Die Überschriften auf dieser Seite werden automatisch in der rechten Sidebar als Inhaltsverzeichnis angezeigt.",
+    "text": "Eine KI ist in der Regel ein Neuronales Netz hoher Komplexität, welches adaptiv neues “Wissen” erarbeiten kann und in den meisten Fällen menschliche Sprache “versteht”.\n\n\n\n\n\n\nNeuronale Netze\n\n\n\n\n\nIch weiß nicht inwiefern dir der Begriff Neuronales Netz etwas sagt.\nDie Grundidee ist an menschlichen Neuronen an\n\n&lt;p&gt;\nIhr Browser unterstützt keine eingebetteten PDFs. Sie können es stattdessen &lt;a href=\"Quellen/Lernalgorithmen.pdf\"&gt;hier herunterladen&lt;/a&gt;.\n&lt;/p&gt;",
+    "crumbs": [
+      "Grundlagen",
+      "KI im Allgemeinen"
+    ]
+  },
+  {
+    "objectID": "ki_allgemein.html#was-ist-eigentlich-eine-ki",
+    "href": "ki_allgemein.html#was-ist-eigentlich-eine-ki",
+    "title": "KI im Allgemeinen",
+    "section": "",
+    "text": "Eine KI ist in der Regel ein Neuronales Netz hoher Komplexität, welches adaptiv neues “Wissen” erarbeiten kann und in den meisten Fällen menschliche Sprache “versteht”.\n\n\n\n\n\n\nNeuronale Netze\n\n\n\n\n\nIch weiß nicht inwiefern dir der Begriff Neuronales Netz etwas sagt.\nDie Grundidee ist an menschlichen Neuronen an\n\n&lt;p&gt;\nIhr Browser unterstützt keine eingebetteten PDFs. Sie können es stattdessen &lt;a href=\"Quellen/Lernalgorithmen.pdf\"&gt;hier herunterladen&lt;/a&gt;.\n&lt;/p&gt;",
     "crumbs": [
       "Grundlagen",
       "KI im Allgemeinen"
@@ -24,7 +90,7 @@
   {
     "objectID": "ki_allgemein.html#phase-1-das-training",
     "href": "ki_allgemein.html#phase-1-das-training",
-    "title": "About",
+    "title": "KI im Allgemeinen",
     "section": "Phase 1: Das Training",
     "text": "Phase 1: Das Training\nDas Training ist der Prozess, bei dem das Modell lernt. Es ist extrem rechen- und datenintensiv.\n\nVor-Training (Pre-Training)\n\nDatensammlung: Es werden riesige Textmengen (Terabytes an Daten) aus dem Internet, Büchern, Artikeln etc. gesammelt.\nLernziel: Das Modell bekommt eine einfache Aufgabe: “Vorhersage des nächsten Wortes”. Man gibt ihm einen Satzanfang, und es muss das wahrscheinlichste nächste Wort erraten.\nLernprozess: Wenn die Vorhersage falsch ist, passt das Modell seine internen Parameter (Milliarden von “Gewichten”) leicht an, um beim nächsten Mal eine bessere Vorhersage zu treffen. Dieser Prozess wird milliardenfach wiederholt.\n\nDurch diesen Prozess lernt das Modell Grammatik, Faktenwissen, logische Zusammenhänge und sogar bestimmte Argumentationsstile – alles nur durch die statistische Analyse von Wortfolgen.",
     "crumbs": [
@@ -35,12 +101,23 @@
   {
     "objectID": "ki_allgemein.html#phase-2-die-inferenz-antwortgenerierung",
     "href": "ki_allgemein.html#phase-2-die-inferenz-antwortgenerierung",
-    "title": "About",
+    "title": "KI im Allgemeinen",
     "section": "Phase 2: Die Inferenz (Antwortgenerierung)",
     "text": "Phase 2: Die Inferenz (Antwortgenerierung)\nWenn du eine Frage an das LLM stellst (ein “Prompt”), beginnt die Inferenzphase.\n\nPrompt-Verarbeitung: Das Modell analysiert deine Eingabe.\nWort-für-Wort-Generierung: Basierend auf deinem Prompt und dem, was es im Training gelernt hat, berechnet es das wahrscheinlichste erste Wort der Antwort.\nAutoregressiver Prozess: Dieses neu generierte Wort wird an die bisherige Sequenz (dein Prompt + das erste Wort) angehängt. Nun wird das wahrscheinlichste nächste Wort berechnet. Dieser Vorgang wiederholt sich, bis das Modell ein “Ende”-Signal generiert oder die maximale Länge erreicht ist.\n\nEs ist also kein “Nachschlagen” in einer Datenbank, sondern eine kreative, statistische Generierung von Text, Wort für Wort.",
     "crumbs": [
       "Grundlagen",
       "KI im Allgemeinen"
+    ]
+  },
+  {
+    "objectID": "ki_philosophische_Sicht.html#turing-test",
+    "href": "ki_philosophische_Sicht.html#turing-test",
+    "title": "KI aus der Philosophischen Perspektive",
+    "section": "Turing-Test",
+    "text": "Turing-Test\nDer Turing-Test, vorgeschlagen von Alan Turing im Jahr 1950, ist eines der ältesten und berühmtesten Kriterien, um maschinelle Intelligenz zu bewerten (Turing 1950). Die Idee ist ein “Imitationsspiel”:\n\nEin menschlicher Fragesteller (C) kommuniziert über Textnachrichten mit zwei ihm unbekannten Gesprächspartnern.\nEiner der Gesprächspartner ist ein Mensch (B), der andere eine Maschine (A).\nDer Fragesteller muss herausfinden, wer von beiden die Maschine ist.\n\nWann besteht die Maschine den Test? Wenn der Fragesteller nach einer angemessenen Zeit nicht zuverlässig sagen kann, wer der Mensch und wer die Maschine ist, hat die Maschine den Turing-Test bestanden. Sie gilt dann als intelligent, weil ihr Verhalten von menschlichem Verhalten nicht zu unterscheiden ist.",
+    "crumbs": [
+      "Grundlagen",
+      "Ist das wirklich KI?"
     ]
   }
 ]
