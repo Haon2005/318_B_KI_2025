@@ -33,6 +33,17 @@
     ]
   },
   {
+    "objectID": "ki_philosophische_Sicht.html#turing-test",
+    "href": "ki_philosophische_Sicht.html#turing-test",
+    "title": "KI aus der Philosophischen Perspektive",
+    "section": "Turing-Test",
+    "text": "Turing-Test\nDer Turing-Test, vorgeschlagen von Alan Turing im Jahr 1950, ist eines der ältesten und berühmtesten Kriterien, um maschinelle Intelligenz zu bewerten (Turing 1950). Die Idee ist ein “Imitationsspiel”:\n\nEin menschlicher Fragesteller (C) kommuniziert über Textnachrichten mit zwei ihm unbekannten Gesprächspartnern.\nEiner der Gesprächspartner ist ein Mensch (B), der andere eine Maschine (A).\nDer Fragesteller muss herausfinden, wer von beiden die Maschine ist.\n\nWann besteht die Maschine den Test? Wenn der Fragesteller nach einer angemessenen Zeit nicht zuverlässig sagen kann, wer der Mensch und wer die Maschine ist, hat die Maschine den Turing-Test bestanden. Sie gilt dann als intelligent, weil ihr Verhalten von menschlichem Verhalten nicht zu unterscheiden ist.",
+    "crumbs": [
+      "Grundlagen",
+      "Ist das wirklich KI?"
+    ]
+  },
+  {
     "objectID": "ki_philosophische_Sicht.html#moderne-benchmark-tests",
     "href": "ki_philosophische_Sicht.html#moderne-benchmark-tests",
     "title": "KI aus der Philosophischen Perspektive",
@@ -107,17 +118,6 @@
     "crumbs": [
       "Grundlagen",
       "KI im Allgemeinen"
-    ]
-  },
-  {
-    "objectID": "ki_philosophische_Sicht.html#turing-test",
-    "href": "ki_philosophische_Sicht.html#turing-test",
-    "title": "KI aus der Philosophischen Perspektive",
-    "section": "Turing-Test",
-    "text": "Turing-Test\nDer Turing-Test, vorgeschlagen von Alan Turing im Jahr 1950, ist eines der ältesten und berühmtesten Kriterien, um maschinelle Intelligenz zu bewerten (Turing 1950). Die Idee ist ein “Imitationsspiel”:\n\nEin menschlicher Fragesteller (C) kommuniziert über Textnachrichten mit zwei ihm unbekannten Gesprächspartnern.\nEiner der Gesprächspartner ist ein Mensch (B), der andere eine Maschine (A).\nDer Fragesteller muss herausfinden, wer von beiden die Maschine ist.\n\nWann besteht die Maschine den Test? Wenn der Fragesteller nach einer angemessenen Zeit nicht zuverlässig sagen kann, wer der Mensch und wer die Maschine ist, hat die Maschine den Turing-Test bestanden. Sie gilt dann als intelligent, weil ihr Verhalten von menschlichem Verhalten nicht zu unterscheiden ist.",
-    "crumbs": [
-      "Grundlagen",
-      "Ist das wirklich KI?"
     ]
   }
 ]
