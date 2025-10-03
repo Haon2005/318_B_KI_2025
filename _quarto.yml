@@ -11,7 +11,7 @@ website:
     contents:
       - section: "Begrüßung"
         contents:
-          - href: index.qmd
+          - href: begruessung.qmd
             text: "Willkommen & Gratulation"
       - section: "Grundlagen"
         contents:
