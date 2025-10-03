@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -300,7 +320,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">
+  <a href="./index.qmd" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Willkommen &amp; Gratulation</span></a>
   </div>
 </li>
@@ -364,6 +384,23 @@ ul.task-list li input[type="checkbox"] {
 </li>
       </ul>
   </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
+ <span class="menu-text">Vorteile &amp; Risiken</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chancen_risiken.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Chancen &amp; Risiken</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./abschied.html" class="sidebar-item-text sidebar-link">
@@ -380,15 +417,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#was-ist-eigentlich-eine-ki" id="toc-was-ist-eigentlich-eine-ki" class="nav-link active" data-scroll-target="#was-ist-eigentlich-eine-ki">Was ist eigentlich eine KI?</a></li>
-  <li><a href="#wie-funktionieren-große-sprachmodelle-llms" id="toc-wie-funktionieren-große-sprachmodelle-llms" class="nav-link" data-scroll-target="#wie-funktionieren-große-sprachmodelle-llms">Wie funktionieren große Sprachmodelle (LLMs)?</a>
-  <ul class="collapse">
-  <li><a href="#phase-1-das-training" id="toc-phase-1-das-training" class="nav-link" data-scroll-target="#phase-1-das-training">Phase 1: Das Training</a>
-  <ul class="collapse">
-  <li><a href="#vor-training-pre-training" id="toc-vor-training-pre-training" class="nav-link" data-scroll-target="#vor-training-pre-training">Vor-Training (Pre-Training)</a></li>
-  </ul></li>
-  <li><a href="#phase-2-die-inferenz-antwortgenerierung" id="toc-phase-2-die-inferenz-antwortgenerierung" class="nav-link" data-scroll-target="#phase-2-die-inferenz-antwortgenerierung">Phase 2: Die Inferenz (Antwortgenerierung)</a></li>
-  </ul></li>
+  <li><a href="#historie" id="toc-historie" class="nav-link active" data-scroll-target="#historie">Historie</a></li>
+  <li><a href="#einführung" id="toc-einführung" class="nav-link" data-scroll-target="#einführung">Einführung</a></li>
+  <li><a href="#hauptansätze-der-ki" id="toc-hauptansätze-der-ki" class="nav-link" data-scroll-target="#hauptansätze-der-ki">Hauptansätze der KI</a></li>
+  <li><a href="#anwendungsbereiche" id="toc-anwendungsbereiche" class="nav-link" data-scroll-target="#anwendungsbereiche">Anwendungsbereiche</a></li>
+  <li><a href="#aber-auch-gesichtserkennung-o.ä.-arbeitet-mithilfe-von-ki" id="toc-aber-auch-gesichtserkennung-o.ä.-arbeitet-mithilfe-von-ki" class="nav-link" data-scroll-target="#aber-auch-gesichtserkennung-o.ä.-arbeitet-mithilfe-von-ki">Aber auch Gesichtserkennung o.ä. arbeitet mithilfe von KI</a></li>
+  <li><a href="#vertiefungsmöglichkeiten" id="toc-vertiefungsmöglichkeiten" class="nav-link" data-scroll-target="#vertiefungsmöglichkeiten">Vertiefungsmöglichkeiten:</a></li>
   </ul>
 </nav>
     </div>
@@ -415,63 +449,149 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="was-ist-eigentlich-eine-ki" class="level2">
-<h2 class="anchored" data-anchor-id="was-ist-eigentlich-eine-ki">Was ist eigentlich eine KI?</h2>
-<p>Eine KI ist in der Regel ein Neuronales Netz hoher Komplexität, welches adaptiv neues “Wissen” erarbeiten kann und in den meisten Fällen menschliche Sprache “versteht”.</p>
-<div class="callout callout-style-default callout-note callout-titled" title="Neuronale Netze">
+<section id="historie" class="level2">
+<h2 class="anchored" data-anchor-id="historie">Historie</h2>
+<p>Mit KI und LLMs wird seit etwa dem 2ten Weltkrieg geforscht, auch <span class="citation" data-cites="turing1950computing">(<a href="#ref-turing1950computing" role="doc-biblioref">Turing 1950</a>)</span> ist daran beteiligt.<br>
+Über die Jahrzehnte hat sich einiges getan, aber wie den meisten aufgefallen ist ist “plötzlich KI überall”, das lässt sich ein bisschen in dem folgenden Bild erkennen:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Quellen/Historie.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<figcaption>Zeitleiste der KI-Entwicklung</figcaption>
+</figure>
+</div>
+<p>Das liegt vor allem an <span class="citation" data-cites="vaswani2017attention">(<a href="#ref-vaswani2017attention" role="doc-biblioref">Vaswani et al. 2017</a>)</span> in dem verlinkten Paper “Attention is all you need” von 2017, wird ein wichtiger Anstoß gegeben der die Grundlage legt für alle modernen LLMs, das Transformer Modell.</p>
+<details>
+<summary>
+JA die Daten 2015 und 2017 passen nicht klicke hier für mehr Informationen
+</summary>
+Das Paper von <span class="citation" data-cites="vaswani2017attention">(<a href="#ref-vaswani2017attention" role="doc-biblioref">Vaswani et al. 2017</a>)</span> ist zwar nicht Ursprung des Attention Algorithmus, aber es nutzt diese Idee von 2014 um das Transformer Modell zu entwickeln.<br>
+Als kleiner Nebenhinweis “GPT” ist vermutlich ein Begriff, steht für “Generative Pre-trained Transformer”. Daran kann man evtl. erkennen wie wichtig dieses Paper ist. Die relevanteste KI der heutigen Tage hat es im Namen stehen.
+</details>
+</section>
+<section id="einführung" class="level2">
+<h2 class="anchored" data-anchor-id="einführung">Einführung</h2>
+<p>Künstliche Intelligenz (KI) beschreibt Maschinen oder Software welche so gestaltet wurde, dass sie Aufgaben übernehmen, die üblicherweise menschliche Intelligenz erfordern. Dazu gehören Wahrnehmung, Sprachverstehen, Planen, Lernen und Problemlösen.</p>
+<blockquote class="blockquote">
+<p>An AI system is a machine-based system that, for explicit or implicit objectives, infers, from the input it receives, how to generate outputs such as predictions, content, recommendations, or decisions that can influence physical or virtual environments. Different AI systems vary in their levels of autonomy and adaptiveness after deployment.</p>
+<p style="text-align: right;">
+— <span class="citation" data-cites="oecd_ai">(<a href="#ref-oecd_ai" role="doc-biblioref"><span>“OECD AI Principles”</span> 2019</a>)</span>
+</p>
+</blockquote>
+</section>
+<section id="hauptansätze-der-ki" class="level2">
+<h2 class="anchored" data-anchor-id="hauptansätze-der-ki">Hauptansätze der KI</h2>
+<p>Künstliche Intelligenz ist kein monolithisches Feld, sondern unterteilt sich in verschiedene Ansätze und Techniken. Die wichtigsten davon werden hier vorgestellt.</p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" aria-current="page">Symbolische KI</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Maschinelles Lernen (ML)</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Deep Learning</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false">Neuronale Netze</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<p>Symbolische KI (auch „Good Old-Fashioned AI“) basiert auf Regeln, Logik und Wissensrepräsentation. Entwickler definieren explizit das Wissen und die Regeln, nach denen das System Entscheidungen trifft.</p>
+<ul>
+<li><strong>Funktionsweise:</strong> Arbeitet mit Symbolen und logischen “Wenn-Dann”-Regeln.</li>
+<li><strong>Vorteil:</strong> Die Entscheidungen sind transparent und nachvollziehbar.</li>
+<li><strong>Nachteil:</strong> Sehr starr und schlecht skalierbar für komplexe, unstrukturierte Probleme wie Bild- oder Spracherkennung.</li>
+</ul>
+<p>Für weiteres: <span class="citation" data-cites="wiki_symbolicAI">(<a href="#ref-wiki_symbolicAI" role="doc-biblioref"><span>“Symbolic Artificial Intelligence — Wikipedia”</span> 2025</a>)</span></p>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<p>Beim maschinellen Lernen (ML) werden die Regeln nicht fest programmiert. Stattdessen lernt ein Algorithmus aus Daten, Muster zu erkennen und Vorhersagen zu treffen. Es ist der am weitesten verbreitete Ansatz in der modernen KI.</p>
+<p>Man unterscheidet hauptsächlich drei Arten:</p>
+<ul>
+<li><strong>Überwachtes Lernen (Supervised Learning):</strong> Das Modell lernt von Daten, die bereits mit der richtigen Antwort (“Label”) versehen sind (z.B. Bilder von Katzen mit dem Label “Katze”).</li>
+<li><strong>Unüberwachtes Lernen (Unsupervised Learning):</strong> Das Modell findet eigenständig Muster und Strukturen in ungelabelten Daten (z.B. Kundensegmentierung).</li>
+<li><strong>Verstärkendes Lernen (Reinforcement Learning):</strong> Ein “Agent” lernt durch Versuch und Irrtum, indem er für gute Aktionen belohnt und für schlechte bestraft wird (z.B. beim Training einer KI für ein Brettspiel).</li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled" title="Ein kleiner Grundriss (Ein Vortrag, den ich dazu mal gehalten habe)">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Neuronale Netze
+Ein kleiner Grundriss (Ein Vortrag, den ich dazu mal gehalten habe)
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>Ich weiß nicht inwiefern dir der Begriff Neuronales Netz etwas sagt.<br>
-Die <strong>Grundidee</strong> ist an menschlichen Neuronen an</p>
-<iframe src="Quellen/Lernalgorithmen.pdf" width="100%" height="600px">
+<object data="Quellen/Lernalgorithmen.pdf" type="application/pdf" width="100%" height="600px">
 <p>
 Ihr Browser unterstützt keine eingebetteten PDFs. Sie können es stattdessen <a href="Quellen/Lernalgorithmen.pdf">hier herunterladen</a>.
 </p>
-</iframe>
+</object>
+<p>Bei Fragen zu dem Vortrag, frag mich gerne :D</p>
+</div>
+</div>
+</div>
+<p>Für weiteres: (<span class="citation" data-cites="sep_ml">(<a href="#ref-sep_ml" role="doc-biblioref">Kochenderfer et al. 2020</a>)</span>,<span class="citation" data-cites="wiki_machinelearning">(<a href="#ref-wiki_machinelearning" role="doc-biblioref"><span>“Machine Learning — Wikipedia”</span> 2025</a>)</span>)</p>
+</div>
+<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
+<p>Deep Learning ist ein Teilgebiet des maschinellen Lernens, das besonders <strong>tiefe</strong> (<em>im Sinne von viele Lagen hintereinander</em>) neuronale Netze verwendet. Diese Tiefe ermöglicht es dem Modell, sehr komplexe und hierarchische Merkmale aus den Daten zu lernen.</p>
+<ul>
+<li><strong>Merkmalshierarchie:</strong> Die ersten Schichten erkennen einfache Merkmale (z.B. Kanten in einem Bild), während tiefere Schichten diese zu komplexeren Konzepten (z.B. Augen, Gesichter) zusammensetzen.</li>
+<li><strong>Anwendungen:</strong> Fast alle modernen Durchbrüche wie Bilderkennung, Sprachübersetzung (Google Translate) und selbstfahrende Autos basieren auf Deep Learning. LLMs sind ebenfalls eine Form des Deep Learning.</li>
+</ul>
+<p>Für weiteres: (<span class="citation" data-cites="lecun2015deep">(<a href="#ref-lecun2015deep" role="doc-biblioref">LeCun, Bengio, and Hinton 2015</a>)</span>,<span class="citation" data-cites="wiki_deeplearning">(<a href="#ref-wiki_deeplearning" role="doc-biblioref"><span>“Deep Learning — Wikipedia”</span> 2025</a>)</span>)</p>
+</div>
+<div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
+<p>Neuronale Netze sind das Herzstück des Deep Learning. Sie sind von der Struktur des menschlichen Gehirns inspiriert und bestehen aus miteinander verbundenen “Neuronen”, die in Schichten (Layern) angeordnet sind.</p>
+<ul>
+<li><strong>Aufbau:</strong> Jedes Neuron empfängt Signale, verarbeitet sie und gibt ein eigenes Signal an die nächste Schicht weiter. Die Verbindungen zwischen den Neuronen haben “Gewichte”, die im Lernprozess angepasst werden.</li>
+<li><strong>Funktion:</strong> Durch die Anpassung dieser Gewichte lernt das Netz, komplexe Muster in den Daten zu erkennen – zum Beispiel die Pixelmuster, die eine Katze auf einem Bild ausmachen.</li>
+</ul>
+<p>Ein fantastisches Video, das die Grundlagen visuell erklärt, ist von <strong>3Blue1Brown</strong>: <span class="citation" data-cites="youtube3blue1brownNN">(<a href="#ref-youtube3blue1brownNN" role="doc-biblioref">Sanderson 2017</a>)</span></p>
 </div>
 </div>
 </div>
 </section>
-<section id="wie-funktionieren-große-sprachmodelle-llms" class="level1">
-<h1>Wie funktionieren große Sprachmodelle (LLMs)?</h1>
-<p>Große Sprachmodelle wie GPT-4, Llama oder Claude sind komplexe neuronale Netze, die darauf trainiert wurden, menschliche Sprache zu verstehen und zu generieren. Ihr “Wissen” basiert auf den Mustern, die sie in riesigen Mengen von Textdaten aus dem Internet und Büchern gelernt haben. Der Prozess lässt sich grob in zwei Phasen unterteilen: Training und Inferenz.</p>
-<section id="phase-1-das-training" class="level2">
-<h2 class="anchored" data-anchor-id="phase-1-das-training">Phase 1: Das Training</h2>
-<p>Das Training ist der Prozess, bei dem das Modell lernt. Es ist extrem rechen- und datenintensiv.</p>
-<section id="vor-training-pre-training" class="level3">
-<h3 class="anchored" data-anchor-id="vor-training-pre-training">Vor-Training (Pre-Training)</h3>
-<ol type="1">
-<li><strong>Datensammlung:</strong> Es werden riesige Textmengen (Terabytes an Daten) aus dem Internet, Büchern, Artikeln etc. gesammelt.</li>
-<li><strong>Lernziel:</strong> Das Modell bekommt eine einfache Aufgabe: “Vorhersage des nächsten Wortes”. Man gibt ihm einen Satzanfang, und es muss das wahrscheinlichste nächste Wort erraten.</li>
-<li><strong>Lernprozess:</strong> Wenn die Vorhersage falsch ist, passt das Modell seine internen Parameter (Milliarden von “Gewichten”) leicht an, um beim nächsten Mal eine bessere Vorhersage zu treffen. Dieser Prozess wird milliardenfach wiederholt.</li>
-</ol>
-<p>Durch diesen Prozess lernt das Modell Grammatik, Faktenwissen, logische Zusammenhänge und sogar bestimmte Argumentationsstile – alles nur durch die statistische Analyse von Wortfolgen.</p>
+<section id="anwendungsbereiche" class="level2">
+<h2 class="anchored" data-anchor-id="anwendungsbereiche">Anwendungsbereiche</h2>
+<p>Nachdem hoffentlich ein wenig klar geworden ist, wie KI funktioniert ein bisschen dazu, wie sie meist verwendet wird.</p>
+<p>Meist Bekannt ist die Variante mit Large-Language-Models (LLMs).</p>
 </section>
+<section id="aber-auch-gesichtserkennung-o.ä.-arbeitet-mithilfe-von-ki" class="level2">
+<h2 class="anchored" data-anchor-id="aber-auch-gesichtserkennung-o.ä.-arbeitet-mithilfe-von-ki">Aber auch Gesichtserkennung o.ä. arbeitet mithilfe von KI</h2>
 </section>
-<section id="phase-2-die-inferenz-antwortgenerierung" class="level2">
-<h2 class="anchored" data-anchor-id="phase-2-die-inferenz-antwortgenerierung">Phase 2: Die Inferenz (Antwortgenerierung)</h2>
-<p>Wenn du eine Frage an das LLM stellst (ein “Prompt”), beginnt die Inferenzphase.</p>
-<ol type="1">
-<li><strong>Prompt-Verarbeitung:</strong> Das Modell analysiert deine Eingabe.</li>
-<li><strong>Wort-für-Wort-Generierung:</strong> Basierend auf deinem Prompt und dem, was es im Training gelernt hat, berechnet es das wahrscheinlichste erste Wort der Antwort.</li>
-<li><strong>Autoregressiver Prozess:</strong> Dieses neu generierte Wort wird an die bisherige Sequenz (dein Prompt + das erste Wort) angehängt. Nun wird das wahrscheinlichste <em>nächste</em> Wort berechnet. Dieser Vorgang wiederholt sich, bis das Modell ein “Ende”-Signal generiert oder die maximale Länge erreicht ist.</li>
-</ol>
-<p>Es ist also kein “Nachschlagen” in einer Datenbank, sondern eine kreative, statistische Generierung von Text, Wort für Wort.</p>
+<section id="vertiefungsmöglichkeiten" class="level2">
+<h2 class="anchored" data-anchor-id="vertiefungsmöglichkeiten">Vertiefungsmöglichkeiten:</h2>
+<p>Und auch an sich für ein paar SEHR gut zusammenfassende You-Tube Videos (die an unterschiedlichen Unis von Dozenten empfohlen werden): Einmal im Allgemeinen der Kanal <strong>3blue1brown</strong> -Video zu Neuronalen Netzen: [https://www.youtube.com/watch?v=aircAruvnKk] -Video dazu wie ein Neuronales Netz lernen: [https://www.youtube.com/watch?v=IHZwWFHWa-w] -Video zum Attention Mechanismus [https://www.youtube.com/watch?v=LPZh9BOjkQs]</p>
+<p>Oder (<span class="citation" data-cites="oecd_ai">(<a href="#ref-oecd_ai" role="doc-biblioref"><span>“OECD AI Principles”</span> 2019</a>)</span>,<span class="citation" data-cites="hai_aiindex">(<a href="#ref-hai_aiindex" role="doc-biblioref"><span>“AI Index Report — Stanford HAI”</span> 2025</a>)</span>)</p>
+
 
 
 </section>
-</section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-hai_aiindex" class="csl-entry" role="listitem">
+<span>“AI Index Report — Stanford HAI.”</span> 2025. <a href="https://aiindex.stanford.edu/" class="uri">https://aiindex.stanford.edu/</a>.
+</div>
+<div id="ref-wiki_deeplearning" class="csl-entry" role="listitem">
+<span>“Deep Learning — Wikipedia.”</span> 2025. <a href="https://en.wikipedia.org/wiki/Deep_learning" class="uri">https://en.wikipedia.org/wiki/Deep_learning</a>.
+</div>
+<div id="ref-sep_ml" class="csl-entry" role="listitem">
+Kochenderfer, M. J. et al. 2020. <span>“Machine Learning — Stanford Encyclopedia of Philosophy.”</span> <a href="https://plato.stanford.edu/entries/learning-machine/" class="uri">https://plato.stanford.edu/entries/learning-machine/</a>.
+</div>
+<div id="ref-lecun2015deep" class="csl-entry" role="listitem">
+LeCun, Yann, Yoshua Bengio, and Geoffrey Hinton. 2015. <span>“Deep Learning.”</span> <em>Nature</em> 521 (7553): 436–44. <a href="https://doi.org/10.1038/nature14539">https://doi.org/10.1038/nature14539</a>.
+</div>
+<div id="ref-wiki_machinelearning" class="csl-entry" role="listitem">
+<span>“Machine Learning — Wikipedia.”</span> 2025. <a href="https://en.wikipedia.org/wiki/Machine_learning" class="uri">https://en.wikipedia.org/wiki/Machine_learning</a>.
+</div>
+<div id="ref-oecd_ai" class="csl-entry" role="listitem">
+<span>“OECD AI Principles.”</span> 2019. <a href="https://oecd.ai/en/ai-principles" class="uri">https://oecd.ai/en/ai-principles</a>.
+</div>
+<div id="ref-youtube3blue1brownNN" class="csl-entry" role="listitem">
+Sanderson, Grant. 2017. <span>“But What Is a Neural Network?”</span> YouTube video. <a href="https://www.youtube.com/watch?v=aircAruvnKk">https://www.youtube.com/watch?v=aircAruvnKk</a>.
+</div>
+<div id="ref-wiki_symbolicAI" class="csl-entry" role="listitem">
+<span>“Symbolic Artificial Intelligence — Wikipedia.”</span> 2025. <a href="https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence" class="uri">https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence</a>.
+</div>
+<div id="ref-turing1950computing" class="csl-entry" role="listitem">
+Turing, Alan M. 1950. <span>“Computing Machinery and Intelligence.”</span> <em>Mind</em> 59 (236): 433–60.
+</div>
+<div id="ref-vaswani2017attention" class="csl-entry" role="listitem">
+Vaswani, Ashish, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Łukasz Kaiser, and Illia Polosukhin. 2017. <span>“Attention Is All You Need.”</span> In <em>Advances in Neural Information Processing Systems (NeurIPS)</em>. Vol. 30.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right

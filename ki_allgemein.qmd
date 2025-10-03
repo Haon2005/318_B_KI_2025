@@ -1,48 +1,104 @@
 ---
 title: "KI im Allgemeinen"
+bibliography: literatur.bib
 ---
-## Was ist eigentlich eine KI?
+## Historie
 
-Eine KI ist in der Regel ein Neuronales Netz hoher Komplexität, welches adaptiv neues "Wissen" erarbeiten kann und in den meisten Fällen menschliche Sprache "versteht".
+Mit KI und LLMs wird seit etwa dem 2ten Weltkrieg geforscht, auch [@turing1950computing] ist daran beteiligt.  
+Über die Jahrzehnte hat sich einiges getan, aber wie den meisten aufgefallen ist ist "plötzlich KI überall", das lässt sich ein bisschen in dem folgenden Bild erkennen:
 
-:::{.callout-note title="Neuronale Netze" collapse="true"}
+![Zeitleiste der KI-Entwicklung](Quellen/Historie.png){width="100%"}
 
-Ich weiß nicht inwiefern dir der Begriff Neuronales Netz etwas sagt.  
-Die **Grundidee** ist an menschlichen Neuronen an
+Das liegt vor allem an [@vaswani2017attention] in dem verlinkten Paper "Attention is all you need" von 2017, wird ein wichtiger Anstoß gegeben der die Grundlage legt für alle modernen LLMs, das Transformer Modell.
 
+<details>
+<summary> JA die Daten 2015 und 2017 passen nicht klicke hier für mehr Informationen</summary>
+Das Paper von [@vaswani2017attention] ist zwar nicht Ursprung des Attention Algorithmus, aber es nutzt diese Idee von 2014 um das Transformer Modell zu entwickeln.  
+Als kleiner Nebenhinweis "GPT" ist vermutlich ein Begriff, steht für "Generative Pre-trained Transformer".
+Daran kann man evtl. erkennen wie wichtig dieses Paper ist. Die relevanteste KI der heutigen Tage hat es im Namen stehen.
+</details>
 
-<iframe src="Quellen/Lernalgorithmen.pdf" width="100%" height="600px">
+## Einführung
+
+Künstliche Intelligenz (KI) beschreibt Maschinen oder Software welche so gestaltet wurde, dass sie Aufgaben übernehmen, die üblicherweise menschliche Intelligenz erfordern. Dazu gehören Wahrnehmung, Sprachverstehen, Planen, Lernen und Problemlösen.
+
+> An AI system is a machine-based system that, for explicit or implicit objectives, infers, from the input it receives, how to generate outputs such as predictions, content, recommendations, or decisions that can influence physical or virtual environments. Different AI systems vary in their levels of autonomy and adaptiveness after deployment.
+>
+> <p style="text-align: right;">--- [@oecd_ai]</p>
+
+## Hauptansätze der KI
+
+Künstliche Intelligenz ist kein monolithisches Feld, sondern unterteilt sich in verschiedene Ansätze und Techniken. Die wichtigsten davon werden hier vorgestellt.
+
+::: panel-tabset
+### Symbolische KI
+
+Symbolische KI (auch „Good Old-Fashioned AI“) basiert auf Regeln, Logik und Wissensrepräsentation. Entwickler definieren explizit das Wissen und die Regeln, nach denen das System Entscheidungen trifft.
+
+-   **Funktionsweise:** Arbeitet mit Symbolen und logischen "Wenn-Dann"-Regeln.
+-   **Vorteil:** Die Entscheidungen sind transparent und nachvollziehbar.
+-   **Nachteil:** Sehr starr und schlecht skalierbar für komplexe, unstrukturierte Probleme wie Bild- oder Spracherkennung.
+
+Für weiteres: [@wiki_symbolicAI]
+
+### Maschinelles Lernen (ML)
+
+Beim maschinellen Lernen (ML) werden die Regeln nicht fest programmiert. Stattdessen lernt ein Algorithmus aus Daten, Muster zu erkennen und Vorhersagen zu treffen. Es ist der am weitesten verbreitete Ansatz in der modernen KI.
+
+Man unterscheidet hauptsächlich drei Arten:
+
+-   **Überwachtes Lernen (Supervised Learning):** Das Modell lernt von Daten, die bereits mit der richtigen Antwort ("Label") versehen sind (z.B. Bilder von Katzen mit dem Label "Katze").
+-   **Unüberwachtes Lernen (Unsupervised Learning):** Das Modell findet eigenständig Muster und Strukturen in ungelabelten Daten (z.B. Kundensegmentierung).
+-   **Verstärkendes Lernen (Reinforcement Learning):** Ein "Agent" lernt durch Versuch und Irrtum, indem er für gute Aktionen belohnt und für schlechte bestraft wird (z.B. beim Training einer KI für ein Brettspiel).
+
+:::{.callout-note title="Ein kleiner Grundriss (Ein Vortrag, den ich dazu mal gehalten habe)" collapse="true"}
+
+<object data="Quellen/Lernalgorithmen.pdf" type="application/pdf" width="100%" height="600px">
     <p>Ihr Browser unterstützt keine eingebetteten PDFs. Sie können es stattdessen <a href="Quellen/Lernalgorithmen.pdf">hier herunterladen</a>.</p>
-</iframe>
+</object>
+
+Bei Fragen zu dem Vortrag, frag mich gerne :D
 
 :::
 
+Für weiteres: ([@sep_ml],[@wiki_machinelearning])
+
+### Deep Learning
+
+Deep Learning ist ein Teilgebiet des maschinellen Lernens, das besonders **tiefe** (*im Sinne von viele Lagen hintereinander*) neuronale Netze verwendet. Diese Tiefe ermöglicht es dem Modell, sehr komplexe und hierarchische Merkmale aus den Daten zu lernen.
+
+-   **Merkmalshierarchie:** Die ersten Schichten erkennen einfache Merkmale (z.B. Kanten in einem Bild), während tiefere Schichten diese zu komplexeren Konzepten (z.B. Augen, Gesichter) zusammensetzen.
+-   **Anwendungen:** Fast alle modernen Durchbrüche wie Bilderkennung, Sprachübersetzung (Google Translate) und selbstfahrende Autos basieren auf Deep Learning. LLMs sind ebenfalls eine Form des Deep Learning.
+
+Für weiteres: ([@lecun2015deep],[@wiki_deeplearning])
+
+### Neuronale Netze
+
+Neuronale Netze sind das Herzstück des Deep Learning. Sie sind von der Struktur des menschlichen Gehirns inspiriert und bestehen aus miteinander verbundenen "Neuronen", die in Schichten (Layern) angeordnet sind.
+
+-   **Aufbau:** Jedes Neuron empfängt Signale, verarbeitet sie und gibt ein eigenes Signal an die nächste Schicht weiter. Die Verbindungen zwischen den Neuronen haben "Gewichte", die im Lernprozess angepasst werden.
+-   **Funktion:** Durch die Anpassung dieser Gewichte lernt das Netz, komplexe Muster in den Daten zu erkennen – zum Beispiel die Pixelmuster, die eine Katze auf einem Bild ausmachen.
+
+Ein fantastisches Video, das die Grundlagen visuell erklärt, ist von **3Blue1Brown**: [@youtube3blue1brownNN]
+:::
+
+## Anwendungsbereiche
+
+Nachdem hoffentlich ein wenig klar geworden ist, wie KI funktioniert ein bisschen dazu, wie sie meist verwendet wird. 
+
+Meist Bekannt ist die Variante mit Large-Language-Models (LLMs). 
+
+Aber auch Gesichtserkennung o.ä. arbeitet mithilfe von KI
+---
 
 
+## Vertiefungsmöglichkeiten:  
+Und auch an sich für ein paar SEHR gut zusammenfassende You-Tube Videos (die an unterschiedlichen Unis von Dozenten empfohlen werden):  
+Einmal im Allgemeinen der Kanal **3blue1brown** 
+Aber auch die folgenden Spezifischen Videos:   
+- [Video zu Neuronalen Netzen:](https://www.youtube.com/watch?v=aircAruvnKk)
+- [Video dazu wie ein Neuronales Netz lernen:](https://www.youtube.com/watch?v=IHZwWFHWa-w)
+- [Video zum Attention Mechanismus:](https://www.youtube.com/watch?v=LPZh9BOjkQs)
 
-
-# Wie funktionieren große Sprachmodelle (LLMs)?
-
-Große Sprachmodelle wie GPT-4, Llama oder Claude sind komplexe neuronale Netze, die darauf trainiert wurden, menschliche Sprache zu verstehen und zu generieren. Ihr "Wissen" basiert auf den Mustern, die sie in riesigen Mengen von Textdaten aus dem Internet und Büchern gelernt haben. Der Prozess lässt sich grob in zwei Phasen unterteilen: Training und Inferenz.
-
-## Phase 1: Das Training
-
-Das Training ist der Prozess, bei dem das Modell lernt. Es ist extrem rechen- und datenintensiv.
-
-### Vor-Training (Pre-Training)
-
-1.  **Datensammlung:** Es werden riesige Textmengen (Terabytes an Daten) aus dem Internet, Büchern, Artikeln etc. gesammelt.
-2.  **Lernziel:** Das Modell bekommt eine einfache Aufgabe: "Vorhersage des nächsten Wortes". Man gibt ihm einen Satzanfang, und es muss das wahrscheinlichste nächste Wort erraten.
-3.  **Lernprozess:** Wenn die Vorhersage falsch ist, passt das Modell seine internen Parameter (Milliarden von "Gewichten") leicht an, um beim nächsten Mal eine bessere Vorhersage zu treffen. Dieser Prozess wird milliardenfach wiederholt.
-
-Durch diesen Prozess lernt das Modell Grammatik, Faktenwissen, logische Zusammenhänge und sogar bestimmte Argumentationsstile – alles nur durch die statistische Analyse von Wortfolgen.
-
-## Phase 2: Die Inferenz (Antwortgenerierung)
-
-Wenn du eine Frage an das LLM stellst (ein "Prompt"), beginnt die Inferenzphase.
-
-1.  **Prompt-Verarbeitung:** Das Modell analysiert deine Eingabe.
-2.  **Wort-für-Wort-Generierung:** Basierend auf deinem Prompt und dem, was es im Training gelernt hat, berechnet es das wahrscheinlichste erste Wort der Antwort.
-3.  **Autoregressiver Prozess:** Dieses neu generierte Wort wird an die bisherige Sequenz (dein Prompt + das erste Wort) angehängt. Nun wird das wahrscheinlichste *nächste* Wort berechnet. Dieser Vorgang wiederholt sich, bis das Modell ein "Ende"-Signal generiert oder die maximale Länge erreicht ist.
-
-Es ist also kein "Nachschlagen" in einer Datenbank, sondern eine kreative, statistische Generierung von Text, Wort für Wort.
+Oder ([@oecd_ai],[@hai_aiindex])
+ 

@@ -21,7 +21,7 @@ Aber zurück zum Thema, es geht darum inwiefern eine Maschine intelligent sein k
 - Ein geniales Beispiel der Bewusstseinsfrage spielt sich in "Star Trek: The Next Generation" Staffel 2 Episode 9 ab. [@TNGmeasureofaman]
 <details>
 <summary>Hintergrundwissen</summary>
-Dazu vielleicht noch ein wenig Hintergrundwissen (falls TNG nicht bekannt). Die Serie spielt im 24.Jh. Data ist ein Androide und der Herr in Blau im Clip hat als Ziel Data auseinanderbauen um weitere wie ihn zu erschaffen. Dies will Data nicht, es geht in diesem "Gerichtsprozess" darum, ob Data einen eigenen Willen äußern kann, oder er sich nicht dem Auseinanderbauen unterziehen muss, da er nicht anderes ist als ein Besitz der Sternenflotte.
+Dazu vielleicht noch ein wenig Hintergrundwissen (falls TNG nicht bekannt). Die Serie spielt im 24.Jh. Data ist ein Androide und der Herr in Blau im Clip hat als Ziel Data auseinander zu bauen um weitere wie ihn zu erschaffen. Dies will Data nicht, es geht in diesem "Gerichtsprozess" darum, ob Data einen eigenen Willen äußern kann, oder er sich nicht dem Auseinanderbauen unterziehen muss, da er nicht anderes ist als ein Besitz der Sternenflotte.
 </details>
 
 - Im Grund könnte man hier auch Filme wie Terminator o.ä. verlinken, die Idee der "Superintelligenz" entspringt der Idee, dass sobald eine KI ein Bewusstsein erringt, sie von nichts mehr aufgehalten werden kann. 
@@ -46,7 +46,8 @@ Eine echte starke KI, die sich ihrer selbst bewusst ist, existiert bisher nur in
 ## Das Chinese-Room-Experiment
 Das Gedankenexperiment des "Chinesischen Zimmers" wurde 1980 vom Philosophen John Searle vorgestellt [@searle1980minds]. Es ist das zentrale Argument gegen die Möglichkeit von **starker KI** und fragt, ob eine Maschine wirklich "verstehen" kann oder nur so tut, als ob.
 
-Stell dir Folgendes vor:
+Stell dir Folgendes vor:  
+
 1.  Eine Person, die kein Wort Chinesisch spricht, sitzt allein in einem geschlossenen Raum.
 2.  Durch einen Schlitz werden ihr Zettel mit chinesischen Schriftzeichen (Fragen) gereicht.
 3.  Im Raum befindet sich ein riesiges Regelbuch auf Deutsch. In diesem Buch steht genau, welche chinesischen Schriftzeichen (Antworten) sie als Reaktion auf die hereingereichten Zeichen (Fragen) nach draußen geben soll.
@@ -81,4 +82,19 @@ Zurück zum Thema, heutzutage werden daher andere Arten von Zielen versucht zu e
 
 *   **IMO (Internationale Mathematik-Olympiade):** Lange Zeit galt das Lösen von Problemen auf dem Niveau der IMO als eine große Hürde für KIs. Diese Aufgaben erfordern nicht nur Rechenleistung, sondern auch Kreativität und tiefes logisches Verständnis. Inzwischen gibt es KI-Systeme, die auch hier erstaunliche Leistungen erzielen und Goldmedaillen-Niveau erreichen.
 
+
 *   **MMLU (Massive Multitask Language Understanding):** Dies ist einer der aktuell gängigsten Benchmarks. Anstatt nur Konversation zu testen, prüft MMLU das Wissen und die Problemlösefähigkeiten einer KI in 57 verschiedenen Fachgebieten – darunter Mathematik, US-Geschichte, Jura, Informatik und mehr. Eine hohe Punktzahl im MMLU-Benchmark zeigt, dass ein Modell über ein breites und tiefes "Wissen" verfügt, das weit über das Führen eines einfachen Gesprächs hinausgeht.
+
+![Eine Übersicht über Fähigkeit von LLM Anfang 2025](Quellen/x1.png){width="100%"}
+
+Hierbei ist **wichtig** zu beachten, die Modelle die ein wenig aktueller sind, als die unten aufgelisteten haben alle beim IMO Test inzwischen auch 100% erreicht.
+
+
+## Zusammenfassung
+
+Aus der Philosophischen Perspektive wird KI im Allgemeinen nicht als Intelligenz oder als bei Bewusstsein bezeichnet, hier vertrauen die meisten der Technischen Sicht und gehen davon aus, dass ein Programm egal wie komplex es ist kein Bewusstsein als solches entwickeln kann.  
+
+Es ist jedoch leider auch strittig was überhaupt ein Bewusstsein ausmacht (Siehe den Star Trek Clip).  
+Vor 50-100 Jahren ging man offiziell davon aus, dass Tiere keinen Schmerz fühlen können und deswegen bei Operationen nicht betäubt werden müssen, sie haben ja kein Bewusstsein.  
+Das sie mindestens irgendeine Form von Verstand haben ist inzwischen klar, aber ab wann ein Verstand, oder Bewusstsein schützenswert ist, ist weiterhin sehr umstritten (Siehe die Behandlung von Affen). Daher wird wohl selbst, falls es unstrittig bewusste KI geben sollte, nicht dazu kommen, dass diese verboten wird.  
+*Und hoffentlich auch nicht dazu, dass sie uns als Superintelligenz direkt ausrottet :P*
