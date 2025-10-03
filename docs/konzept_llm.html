@@ -300,7 +300,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.qmd" class="sidebar-item-text sidebar-link">
+  <a href="./begruessung.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Willkommen &amp; Gratulation</span></a>
   </div>
 </li>
@@ -398,7 +398,8 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#was-ist-ein-llm" id="toc-was-ist-ein-llm" class="nav-link active" data-scroll-target="#was-ist-ein-llm">Was ist ein LLM?</a></li>
-  <li><a href="#w" id="toc-w" class="nav-link" data-scroll-target="#w">W</a></li>
+  <li><a href="#wie-funktioniert-ein-llm" id="toc-wie-funktioniert-ein-llm" class="nav-link" data-scroll-target="#wie-funktioniert-ein-llm">Wie funktioniert ein LLM</a></li>
+  <li><a href="#weiterführende-quellen" id="toc-weiterführende-quellen" class="nav-link" data-scroll-target="#weiterführende-quellen">Weiterführende Quellen</a></li>
   </ul>
 </nav>
     </div>
@@ -428,9 +429,31 @@ ul.task-list li input[type="checkbox"] {
 <p><em>Besser als ich es erklären kann, wird es im Zweifel <a href="https://www.youtube.com/watch?v=LPZh9BOjkQs">hier</a> von <strong>3blue1brown</strong> auf Youtube erklärt, aber ich werde mich mal dran versuchen.</em></p>
 <section id="was-ist-ein-llm" class="level2">
 <h2 class="anchored" data-anchor-id="was-ist-ein-llm">Was ist ein LLM?</h2>
+<p>Ein Large Language Model (LLM), ein großes Sprachmodell zu Deutsch, ist eine Art von künstlicher Intelligenz, die darauf trainiert ist, menschliche Sprache zu verstehen und zu erzeugen. Man kann es sich als ein extrem großes neuronales Netz vorstellen, das mit einer gigantischen Menge an Textdaten (wie Büchern und großen Teilen des Internets) trainiert wurde. Das Hauptziel eines LLM ist es, auf eine Texteingabe (einen “Prompt”) eine sinnvolle und kontextbezogene textliche Antwort zu generieren. Bekannte Beispiele sind die Modelle der GPT-Reihe (die hinter ChatGPT stehen), Googles Gemini oder Metas Llama.</p>
 </section>
-<section id="w" class="level2">
-<h2 class="anchored" data-anchor-id="w">W</h2>
+<section id="wie-funktioniert-ein-llm" class="level2">
+<h2 class="anchored" data-anchor-id="wie-funktioniert-ein-llm">Wie funktioniert ein LLM</h2>
+<p>Die Funktionsweise eines LLM lässt sich vereinfacht in zwei Hauptphasen unterteilen: das <strong>Training</strong> und die <strong>Anwendung</strong> (auch Inferenz genannt).</p>
+<ol type="1">
+<li><strong>Phase 1: Das Training (Lernphase)</strong>
+<ul>
+<li><strong>Daten:</strong> Das Modell wird mit riesigen Mengen an Texten gefüttert.</li>
+<li><strong>Ziel:</strong> Die Kernaufgabe während des Trainings ist simpel, aber wirkungsvoll: <strong>“Sage das nächste Wort voraus.”</strong> Das Modell bekommt einen Satzanfang und versucht, das wahrscheinlichste nächste Wort zu erraten.</li>
+<li><strong>Lernprozess:</strong> Bei jeder falschen Vorhersage passt es seine internen Parameter an. Durch milliardenfache Wiederholung lernt es so Grammatik, Fakten, Zusammenhänge und sogar Argumentationsstile. Es entwickelt ein statistisches “Verständnis” von Sprache.</li>
+</ul></li>
+<li><strong>Phase 2: Die Anwendung (Inferenz)</strong>
+<ul>
+<li><strong>Eingabe:</strong> Du gibst eine Frage oder einen Befehl ein (der “Prompt”).</li>
+<li><strong>Generierung:</strong> Basierend auf deinem Prompt und seinem Training berechnet das LLM das wahrscheinlichste erste Wort der Antwort.</li>
+<li><strong>Wort für Wort:</strong> Dieses neue Wort wird an die bisherige Konversation angehängt, und der Prozess wiederholt sich: Das Modell berechnet das nächste wahrscheinlichste Wort, dann das übernächste und so weiter, bis eine vollständige Antwort entstanden ist.</li>
+</ul></li>
+</ol>
+<p>Es ist also kein einfaches Nachschlagen in einer Datenbank, sondern ein kreativer, statistischer Prozess der Texterzeugung.</p>
+<p>Um die Funktionsweise besser zu verstehen, solltest du dir die nächsten Kapitel durchlesen. Dort wird erklärt, wie ein LLM Wörter überhaupt mathematisch versteht (<strong>Vektor-Embedding</strong>) und wie es im Detail aufgebaut ist.</p>
+</section>
+<section id="weiterführende-quellen" class="level2">
+<h2 class="anchored" data-anchor-id="weiterführende-quellen">Weiterführende Quellen</h2>
+<p>Eine komprimierte Übersicht über Large Language Models wird angeboten von <span class="citation" data-cites="naveed2024comprehensiveoverviewlargelanguage">[@naveed2024comprehensiveoverviewlargelanguage]</span></p>
 
 
 </section>
