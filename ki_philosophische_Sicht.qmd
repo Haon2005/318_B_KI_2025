@@ -6,8 +6,9 @@ bibliography: literatur.bib
 ## Grundlage
 
 KI also Künstliche Intelligenz beinhaltet offensichtlich den Begriff der Intelligenz. Allein dieser ist kein simpler Begriff, was bedeutet Intelligenz?
-Fangen wir klassisch enzyklopädisch an. 
-Intelligenz $\rightarrow$ *inter* *legere* *(lat.)*, also "zwischen" "lesen/wählen" kann also betrachtet werden als die Fähigkeit des Wählens zwischen Irgendetwas. 
+Fangen wir klassisch enzyklopädisch an.  
+Intelligenz $\rightarrow$ *inter* *legere* *(lat.)*  
+also "zwischen" "lesen/wählen" kann also betrachtet werden als die Fähigkeit des Wählens zwischen Irgendetwas. 
 Intelligenz ist meistens als Problemlösekompetenz beschrieben.
 
 Aber zurück zum Thema, es geht darum inwiefern eine Maschine intelligent sein kann, hier gibt es **echt** viele Debatten $\dots$ ich hatte schon mindestens 3 Seminare zu Thematiken in diese Richtungen. 
@@ -33,6 +34,7 @@ Eine **schwache KI** (Weak AI, auch als *narrow AI* oder *schwache KI* bezeichne
 <summary> Beispiel für schwache KI</summary>
 Beispiele hierfür sind KIs, die im Schach, Go oder Starcraft Weltmeister besiegt haben, aber auch Sprachassistenten wie Siri oder eben große Sprachmodelle wie ChatGPT. Sie sind extrem leistungsfähig in ihrem definierten Bereich (z.B. Sprache), aber sie "verstehen" nicht im menschlichen Sinne.
 </details>
+
 Eine **starke KI** (Strong AI) wäre eine Maschine, die nicht nur Intelligenz simuliert, sondern tatsächlich ein eigenes Bewusstsein, Verstand und Verständnis besitzt – vergleichbar mit einem Menschen. Eine solche KI würde nicht nur Aufgaben lösen, sondern auch subjektive Erfahrungen machen. Dieses Konzept ist rein hypothetisch und wird oft auch als **Künstliche Allgemeine Intelligenz (AGI)** bezeichnet.
 <details>
 <summary>Beispiel für starke KI</summary>
@@ -86,6 +88,7 @@ Zurück zum Thema, heutzutage werden daher andere Arten von Zielen versucht zu e
 *   **MMLU (Massive Multitask Language Understanding):** Dies ist einer der aktuell gängigsten Benchmarks. Anstatt nur Konversation zu testen, prüft MMLU das Wissen und die Problemlösefähigkeiten einer KI in 57 verschiedenen Fachgebieten – darunter Mathematik, US-Geschichte, Jura, Informatik und mehr. Eine hohe Punktzahl im MMLU-Benchmark zeigt, dass ein Modell über ein breites und tiefes "Wissen" verfügt, das weit über das Führen eines einfachen Gesprächs hinausgeht.
 
 ![Eine Übersicht über Fähigkeit von LLM Anfang 2025](Quellen/x1.png){width="100%"}
+
 
 Hierbei ist **wichtig** zu beachten, die Modelle die ein wenig aktueller sind, als die unten aufgelisteten haben alle beim IMO Test inzwischen auch 100% erreicht.
 

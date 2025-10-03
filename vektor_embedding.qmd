@@ -1,0 +1,98 @@
+---
+title: "Vektor-Embedding"
+filters:
+    - pyodide
+---
+
+Erstmal ein kleiner Gag um darauf hinzuweisen, wie gut Sortieralgorithmen bereits funktionieren (nicht KI).  
+
+Ein beliebtes Spiel in meiner Schulzeit war der [Akinator](https://de.akinator.com/theme-selection:)  
+Spiele gerne mal ein paar Runden und überlege dabei, wie das System wohl funktioninert!
+<details>
+<summary> Spielregeln </summary>
+Das Spiel ist recht Simpel, in die Richtung Wer Bin ich.  
+Du überlegst dir entweder ein Tier oder eine Figur.  
+Dabei ist es egal ob es fiktive oder reale Figuren/Tiere sind, solange sie auf die eine oder andere Art und Weise bekannt sind.  
+Das Spiel wird nun in möglichst wenigen Fragen versuchen zu Erfragen was du dir vorgestellt hast.  
+Viel Spaß! :D
+</details>
+
+## Wie funktioniert das?
+
+Jeder Figur wird ein Vektor zugeordnet, die Einträge stehen für bestimmte Eigenschaften. 
+
+Das heißt ein Vektor könnte z.B. so aussehen.
+$$(Größe, Haarfarbe, real/fiktiv, Alter, ...)$$  
+Man sieht schnell die Einträge können unterschiedliche Formen/Definitionen haben, aber das Prinzip ist schnell verstanden.  
+
+:::{.callout title="Umsetzung mit Python" collapse="true"}
+Im folgenden ein Beispiel Code, mit dem du ein bisschen die Grundidee von Vektor-Embedding testen kannst.  
+Du kannst den Code ausführen nachdem du deine Werte eingegeben hast mit dem Run Symbol oben rechts.  
+Du kannst auch gerne weitere Personen zum `variablen`-Dictionary hinzufügen, um zu sehen, wie sich die Ergebnisse ändern!
+```{pyodide-python}
+import numpy as np
+# ==============================================================================
+# 1. DEINE DATEN HIER EINTRAGEN
+# ==============================================================================
+# Trage deine Werte für die 7 Merkmale in die eckigen Klammern bei 'Du' ein.
+# Merkmale: [Alter, Geschlecht (m=1, w=0), Wohnort (Bochum=1, sonst=0),
+#            Hobby (Sport=1, Musik=0.5, Kunst=0), Augen (braun=1, blau=0.5, grün=0),
+#            Haare (blond=1, braun=0.5, schwarz=0), Größe in m]
+
+variablen = {
+    # Beispiel: 'Du': np.array([59, 1, 1, 0.5, 0.5, 0.5, 1.80]),
+    'Du': np.array([0, 0, 0, 0, 0, 0, 0]), # <-- HIER ÄNDERN
+
+    # --- Vergleichspersonen ---
+    'Anna': np.array([16, 0, 1, 0.5, 1, 0.5, 1.65]),
+    'Ben': np.array([17, 1, 1, 1, 0.5, 1, 1.80]),
+    'Tom': np.array([17, 1, 0, 0.5, 0, 0, 1.77])
+}
+# 2. AUSWERTUNG (Dieser Teil muss nicht verändert werden)
+referenz_name = 'Du'
+if np.all(variablen[referenz_name] == 0):
+    print("Bitte trage zuerst deine Werte oben im Skript bei 'Du' ein und führe den Code dann erneut aus.")
+else:
+    # --- Daten-Normalisierung (damit alle Werte fair verglichen werden) ---
+    all_values = np.array(list(variablen.values()))
+    min_vals = all_values.min(axis=0)
+    max_vals = all_values.max(axis=0)
+    range_vals = max_vals - min_vals
+    range_vals[range_vals == 0] = 1 # Verhindert Division durch Null
+    norm_vars = {name: (val - min_vals) / range_vals for name, val in variablen.items()}
+    
+    # --- Berechnungen ---
+    ref_vektor = norm_vars[referenz_name]
+    distances_to_you = []
+    for name, vec in norm_vars.items():
+        if name != referenz_name:
+            dist = np.linalg.norm(ref_vektor - vec)
+            distances_to_you.append((dist, name))
+    
+    distances_to_you.sort(key=lambda x: x[0])
+    most_similar_to_you = distances_to_you[0]
+    least_similar_to_you = distances_to_you[-1]
+    
+    # --- Ausgabe ---
+    print(f"--- Persönliche Auswertung für '{referenz_name}' ---")
+    print(f"Am ähnlichsten ist dir: '{most_similar_to_you[1]}' (Abstand: {most_similar_to_you[0]:.2f})")
+    print(f"Am unähnlichsten ist dir: '{least_similar_to_you[1]}' (Abstand: {least_similar_to_you[0]:.2f})")
+```
+
+:::
+
+## Vom Menschen zum Wort: Vektoren in Sprachmodellen
+
+Das Grundprinzip ist nun hoffentlich klar: Alles Mögliche ist mithilfe von vielen Eigenschaften als Vektor darstellbar und damit mathematisch vergleichbar. Ein Large Language Model (LLM) macht im Prinzip genau das – nur wendet es dieses Konzept auf Sprache an.
+
+Statt ganzer Wörter zerlegt ein LLM Text in kleinere Einheiten, sogenannte **Tokens** (diese sind so gewählt, dass sie einmalig sind). Ein Token kann ein ganzes Wort, ein Wortteil (wie "-ung") oder ein Satzzeichen sein. Jedes dieser Tokens wird in einen Vektor umgewandelt.
+
+Die wahre Magie moderner LLMs (wie sie seit den Transformer-Modellen existieren) liegt darin, **Kontext** zu verstehen. Betrachten wir zwei Sätze:
+
+1.  "A **bat** is flying around." (Eine Fledermaus fliegt herum.)
+2.  "I hit the ball with a **bat**." (Ich habe den Ball mit einem Schläger geschlagen.)
+
+Ältere Systeme, wie die Online-Übersetzer der 2010er Jahre, hätten für "bat" in beiden Fällen denselben Vektor verwendet und oft falsche Übersetzungen geliefert. Ein modernes LLM hingegen analysiert die umliegenden Wörter ("flying", "hit the ball") und erzeugt für "bat" in jedem Satz einen unterschiedlichen Vektor. Der Vektor für "Fledermaus" liegt im Vektorraum dann näher an "Tier" und "fliegen", während der Vektor für "Schläger" näher an "Sport" und "schlagen" liegt.
+
+Diese Fähigkeit, Wörter im Kontext zu verstehen, ist der entscheidende Durchbruch, der die heutigen beeindruckenden KI-Leistungen erst möglich macht. Wenn ein LLM dann Text erzeugt, wählt es auf Basis des bisherigen Kontexts das Token aus, dessen Vektor mathematisch am besten als Nächstes passt.  
+[Wie diese Wahl funktioniert werden wird in Unterkapitel](deterministisch_vs_probabilistisch.qmd) genauer betrachten.

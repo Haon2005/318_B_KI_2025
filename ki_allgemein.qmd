@@ -8,6 +8,7 @@ Mit KI und LLMs wird seit etwa dem 2ten Weltkrieg geforscht, auch [@turing1950co
 Über die Jahrzehnte hat sich einiges getan, aber wie den meisten aufgefallen ist ist "plötzlich KI überall", das lässt sich ein bisschen in dem folgenden Bild erkennen:
 
 ![Zeitleiste der KI-Entwicklung](Quellen/Historie.png){width="100%"}
+[@wang2024historydevelopmentprincipleslarge]
 
 Das liegt vor allem an [@vaswani2017attention] in dem verlinkten Paper "Attention is all you need" von 2017, wird ein wichtiger Anstoß gegeben der die Grundlage legt für alle modernen LLMs, das Transformer Modell.
 
