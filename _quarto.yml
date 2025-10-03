@@ -27,8 +27,6 @@ website:
             text: "Vektor-Embedding"
           - href: deterministisch_vs_probabilistisch.qmd
             text: "Deterministisch vs. Probabilistisch"
-          - href: aufbau_llm.qmd
-            text: "Aufbau eines LLMs"
       - section: "Vorteile & Risiken"
         contents:
           - href: chancen_risiken.qmd

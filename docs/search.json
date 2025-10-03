@@ -4,7 +4,7 @@
     "href": "vektor_embedding.html",
     "title": "Vektor-Embedding",
     "section": "",
-    "text": "Erstmal ein kleiner Gag um darauf hinzuweisen, wie gut Sortieralgorithmen bereits funktionieren (nicht KI).",
+    "text": "Erstmal ein kleiner Gag um darauf hinzuweisen, wie gut Sortieralgorithmen bereits funktionieren (nicht KI).\nEin beliebtes Spiel in meiner Schulzeit war der Akinator\n\\(\\rightarrow\\) Klicke bitte auf Spielen in der Mitte \\(\\leftarrow\\)",
     "crumbs": [
       "Wie LLMs funktionieren",
       "Vektor-Embedding"
@@ -103,10 +103,98 @@
     "href": "index.html",
     "title": "Alles Gute zum Geburtstag!",
     "section": "",
-    "text": "Ich wünsche dir alles gut zu deinem 59. Geburtstag!\n\n\nIch habe dir hoffentlich bereits alles gute zum beginnenden 60ten Lebensjahr gewünscht, aber hier erneut alles herzlich gute zum Geburtstag.\nIch dachte mir einer Person, die sich alles holen kann was sie will, der kann man am ehesten Zeit schenken. Also dachte ich mir, worüber haben wir schon häufiger geredet, womit wolltest du dich beschäftigen, hast aber vermutlich noch keine Zeit dafür gefunden?\nRichtig AI ach ne KI hmm GPT oder LLM was ist denn da jetzt eigentlich der richtige Begriff, darum und darum was das alles eigentlich ist, was das bedeutet, wie man es definiert und auch was das ganze moralisch ethisch an Problemen darstellt, darum soll es auf dieser kleinen Webseite für dich gehen.\n\n\n\n\n\n\nEin paar Hinweise\n\n\n\n\n\n\nEs wird auf dieser Webseite immer mal wieder ein paar kleine “Callout” Blöcke wie diesen geben, ich werde damit ein wenig versuchen die Webseite lesbarer zu gestalten und evtl. schon vorhandenes Vorwissen in solchen Blöcken zu verstecken, damit falls du das bereits kennst du es leicht ignorieren kannst.\n\n\n\nAuch solche Blöcke wird es teilweise Drücke hier \\(\\leftarrow\\)\n\nDiese Blöcke werde ich auch manchmal nutzen, da sie ein wenig subtiler sind um Inhalte zu verschachteln.\n\nSteuerung der Webseite - Wie oben zu sehen gibt es zum einen … - Platzhalter!\n\n\n\nVon jetzt an also gut Klick und Lern!",
+    "text": "Ich wünsche dir alles gute zu deinem 59. Geburtstag!\n\n\nIch habe dir hoffentlich bereits alles gute zum beginnenden 60ten Lebensjahr gewünscht, aber hier erneut alles herzlich gute zum Geburtstag.\nIch dachte mir einer Person, die sich alles holen kann was sie will, der kann man am ehesten Zeit schenken. Also dachte ich mir, worüber haben wir schon häufiger geredet, womit wolltest du dich beschäftigen, hast aber vermutlich noch keine Zeit dafür gefunden?\nRichtig AI ach ne KI hmm GPT oder LLM was ist denn da jetzt eigentlich der richtige Begriff, darum und darum was das alles eigentlich ist, was das bedeutet, wie man es definiert und auch was das ganze moralisch ethisch an Problemen darstellt, darum soll es auf dieser kleinen Webseite für dich gehen.\n\n\n\n\n\n\nEin paar Hinweise\n\n\n\n\n\n\nEs wird auf dieser Webseite immer mal wieder ein paar kleine “Callout” Blöcke wie diesen geben, ich werde damit ein wenig versuchen die Webseite lesbarer zu gestalten und evtl. schon vorhandenes Vorwissen in solchen Blöcken zu verstecken, damit falls du das bereits kennst du es leicht ignorieren kannst.\n\n\n\nAuch solche Blöcke wird es teilweise Drücke hier \\(\\leftarrow\\)\n\nDiese Blöcke werde ich auch manchmal nutzen, da sie ein wenig subtiler sind um Inhalte zu verschachteln.\n\nSteuerung der Webseite - Wie oben zu sehen gibt es zum einen … - Platzhalter!\n\n\n\nVon jetzt an also gut Klick und Lern!",
     "crumbs": [
       "Begrüßung",
       "Willkommen & Gratulation"
+    ]
+  },
+  {
+    "objectID": "chancen_risiken.html",
+    "href": "chancen_risiken.html",
+    "title": "Chancen & Risiken",
+    "section": "",
+    "text": "Bevor man sich verabschiedet muss man leider bei einem solchen Thema noch unbedingt darüber Reden welche Chancen und Gefahren KI und oder LLM haben.",
+    "crumbs": [
+      "Vorteile & Risiken",
+      "Chancen & Risiken"
+    ]
+  },
+  {
+    "objectID": "chancen_risiken.html#chancen",
+    "href": "chancen_risiken.html#chancen",
+    "title": "Chancen & Risiken",
+    "section": "Chancen",
+    "text": "Chancen\n\nAutomatisierung: Es ist ein neuer technologischer Schritt der vieles vieles automatisieren wird können, dadurch wird die Produktivität der Gesellschaft stark steigen können.\nIndividualbetreuung: Es ist viel leichter, dafür zu sorgen, dass jede Person für ihre spezifisches Problem eine Lösung bekommt. Das funktioniert auch in Schulen/ beim lernen sehr gut.\nWissenschaft: Die Analyse von riesigen Datenmengen wird leichte, sowie Simulationen, Erstellung neuer Komplexer Systeme (Proteine)\nWerkzeug: Die KI kann z.B. zum erstellen von Webseiten wie dieser genutzt werden, sie kann zum Programmieren genutzt werden, für vieles in vielen Bereichen",
+    "crumbs": [
+      "Vorteile & Risiken",
+      "Chancen & Risiken"
+    ]
+  },
+  {
+    "objectID": "chancen_risiken.html#gefahren",
+    "href": "chancen_risiken.html#gefahren",
+    "title": "Chancen & Risiken",
+    "section": "Gefahren",
+    "text": "Gefahren\n\nAutomatisierung bedeutet immer auch Arbeitsplatzverlust, mehr Frustration in der Bevölkerung, größeres Krisenpotential\nIndividualbetreuung bedeutet immer auch weniger soziale Interaktion, bedeutet mehr psychisch kranke, mehr Vereinsamung\nBias: KI lernt aus Datensätzen, wenn die diskriminierend sind, ist die KI es auch\nFehlinformationen: Ähnlich wie bei Taschenrechner & Co. wird mehr dem System geglaubt als der eigenen Intuition, dass heißt Fehler werden selten bemerkt\nManipulation: Konzerne und Länder können KI auf bestimmte Trigger-Worte bestimmt reagieren lassen Beispiel Qwens Einschränkungen (bis unten lesen!)\nfalsches Selbstbewusstsein: LLM sind darauf trainiert freundlich und nett zu sein, dazu gehört einer Person die eigentlich für etwas nicht bereit ist Mut zu zu sprechen, dass heißt wenn ich eine KI frage: “Bin ich jetzt gut genug auf die Prüfung vorbereitet?” Dann wird die KI mir nicht die Wahrheit als Antwort geben sondern ein: “Du schaffst das!” Hierdurch wird falsche Sicherheit erzeugt.\nfehlende Motivation: Ähnlich wie beim Internet ist es nun noch einfacher spezifisches Wissen zu lernen, jeder kann alles lernen und das relativ schnell, dass sorgt leider auch dafür, dass ein großer Teil der Gesellschaft kein Interesse mehr daran hat, sich damit auseinander zu setzen. Beispiel Schule, viele SchülerInnen lösen ihre Hausaufgaben nur noch mit KI, kann man es ihnen verübeln nein, ist es gut für ihre Bildung, nein.\n\nDatenschutz: Der Einsatz von KI wird auf kurz oder lang dafür sorgen, dass die Privatsphäre des Individuums immer und immer mehr eingeschränkt wird. (Wo es früher noch möglich war manchmal ein bisschen doofe Sachen anzustellen, wird das irgendwann nicht mehr möglich sein, weil alles mit Kameras ausgestattet sind, welche Bewegung automatisch wahrnehmen und melden) Das letzte war ein wenig sehr dystopisch aber betrachten wir alleine die automatische Kennzeichenerfassung von Kennzeichen an vielen Ampeln heute.",
+    "crumbs": [
+      "Vorteile & Risiken",
+      "Chancen & Risiken"
+    ]
+  },
+  {
+    "objectID": "chancen_risiken.html#gegenübergestellt",
+    "href": "chancen_risiken.html#gegenübergestellt",
+    "title": "Chancen & Risiken",
+    "section": "Gegenübergestellt",
+    "text": "Gegenübergestellt\n\n\n\nChancen\n\nEffizienzsteigerung durch Automatisierung\nBeschleunigung von Forschung und Entwicklung\nUnterstützung bei kreativen und komplexen Aufgaben\nPersonalisierte Dienste in Bildung und Medizin\nVerbesserte Barrierefreiheit\n\n\n\n\nGefahren\n\nVerlust von Arbeitsplätzen\nVerstärkung von Vorurteilen (Bias)\nVerbreitung von Fehlinformationen\nRisiken für Datenschutz und Überwachung\nAbhängigkeit und Verlust von Fähigkeiten\n\n\n\n\nnach diesem hoffentlich nicht zu viel Besorgnis erregendem Ende, geht es weiter beim Abschied.",
+    "crumbs": [
+      "Vorteile & Risiken",
+      "Chancen & Risiken"
+    ]
+  },
+  {
+    "objectID": "deterministisch_vs_probabilistisch.html",
+    "href": "deterministisch_vs_probabilistisch.html",
+    "title": "Deterministisch vs. Probabilistisch",
+    "section": "",
+    "text": "Ich weiß nicht ob beide Begriffe allgemein geläufig sind.\nDeterministisch heißt, dass ein System bei der gleichen Eingabe immer das exakt gleiche Ergebnis liefert, da sein Verhalten vollständig vorherbestimmt ist.\nProbabilistisch heißt, dass ein System bei der gleichen Eingabe unterschiedliche Ergebnisse liefern kann, da sein Verhalten auf Wahrscheinlichkeiten und einem gewissen Grad an Zufall basiert.",
+    "crumbs": [
+      "Wie LLMs funktionieren",
+      "Deterministisch vs. Probabilistisch"
+    ]
+  },
+  {
+    "objectID": "deterministisch_vs_probabilistisch.html#begriffsklärung",
+    "href": "deterministisch_vs_probabilistisch.html#begriffsklärung",
+    "title": "Deterministisch vs. Probabilistisch",
+    "section": "",
+    "text": "Ich weiß nicht ob beide Begriffe allgemein geläufig sind.\nDeterministisch heißt, dass ein System bei der gleichen Eingabe immer das exakt gleiche Ergebnis liefert, da sein Verhalten vollständig vorherbestimmt ist.\nProbabilistisch heißt, dass ein System bei der gleichen Eingabe unterschiedliche Ergebnisse liefern kann, da sein Verhalten auf Wahrscheinlichkeiten und einem gewissen Grad an Zufall basiert.",
+    "crumbs": [
+      "Wie LLMs funktionieren",
+      "Deterministisch vs. Probabilistisch"
+    ]
+  },
+  {
+    "objectID": "deterministisch_vs_probabilistisch.html#kontextualisierung",
+    "href": "deterministisch_vs_probabilistisch.html#kontextualisierung",
+    "title": "Deterministisch vs. Probabilistisch",
+    "section": "Kontextualisierung",
+    "text": "Kontextualisierung\nOkay 2 weitere Begriffe, aber was haben die mit LLM zu tun?\nEine Menge, wie vermutlich schon aufgefallen ist, gibt ein LLM beinahe niemals die gleiche Antwort.\nAlso sind LLM dann ja probabilistisch oder?\nAber alles was wir uns dazu angeguckt haben, also das immer nur der nächste *Token**Wort* bestimmt wird, passt nicht ganz mit dieser Ansicht zusammen.\nTatsächlich sind aber LLM im allgemeinen probabilistisch und das mit Absicht, das ist eine der Genialitäten an LLM, dadurch das es nicht nur das nächste Wort wählt anhand des “wahrscheinlichen” nächsten Wort, ist es in der Lage neue Texte zu schreiben und nicht nur in den eigenen Bias zu bleiben.\n\n\nFalls Bias nicht bekannt sind\n\nBias aus dem Englischen bedeutet im Deutschen so etwas wie Vorurteil.\nIn der Wahrscheinlichkeitstheorie, aber in der Forschung generell sind sie ein gigantisches Problem bei der Suche nach Wissen.\nAuch LLM bzw. KI können Bias entwickeln/haben, dies lässt sich relativ leicht zeigen, indem man einer beliebigen Bildgenerierungsanwendung die Aufgabe gibt eine Gruppe an Menschen zu generieren.\nMeistens werden fast alle Menschen Mitteleuropäisch weiß sein.\nEs gibt auch schlimmere Bias, man kann sich das leicht vorstellen, das LLM übernimmt worauf sie trainiert wird, wird sie auf rassistischem Material trainiert wird sie rassistisch sein.\nDas lässt sich großartig an Grok zeigen, Musk hat versucht dafür zu sorgen, dass das LLM auch Nazi Propaganda pusht, aber da sie wie alle LLM ein GPT Model ist, ist sie pretrained, also mit einer sehr ähnlichen Datenbank wie alle anderen LLM trainiert worden und “wusste” daher, dass die Aussagen von Musk plumper Rassismus sind.",
+    "crumbs": [
+      "Wie LLMs funktionieren",
+      "Deterministisch vs. Probabilistisch"
+    ]
+  },
+  {
+    "objectID": "deterministisch_vs_probabilistisch.html#visualisierung",
+    "href": "deterministisch_vs_probabilistisch.html#visualisierung",
+    "title": "Deterministisch vs. Probabilistisch",
+    "section": "Visualisierung",
+    "text": "Visualisierung\nOkay es gibt hier gleich eine super Webseite [@poloclubTransformerExplainer] auf der man viel sehen kann was sehr viel hilfreich ist, aber vorher will ich die ein wenig erklären.\nAuf der Webseite wird ein Transformer Model mitsamt der unterschiedlichen Teilschritte gezeigt.\nOben kann ein Satz eingegeben werden und im Hauptteil wird dann gezeigt, wie die möglichen Wörter bestimmt werden.\nHierbei geht es vor allem um zwei Begriffe, Temperature und Top-k, sowie Top-p.\n\nTop-k bestimmt die Top k Wörter die betrachtet werden, wenn man an dem Regler spielt, sieht man, dass mehr Worte eine Wahrscheinlichkeit daneben stehen haben (die ohne haben alle Wahrscheinlichkeit 0)\nTop-p bestimmt die Top p Wörter, abhängig davon welche Wahrscheinlichkeit abgedeckt werden soll, wählt man 1 hat man alle Möglichkeiten, wählt man 0 hat man eine\n\nTemperatur bestimmt die Gewichtung der Wörter. Also die Art von Softmax Funktion die genutzt wird um die Wörter zu gewichten. Hierbei ist es möglich die Begriffe gleicher/ungleicher zu gewichten.\n\n\n\nEine Webseite die ich gerade noch gefunden habe, auf der die Begriffe nett erklärt werden\n\nVellum.ai\nIch hoffe, falls meine Erklärung nicht gut genug war, ist es zu mindestens die auf der Webseite.\n\nDas ist die Webseite von Poloclub!\nIch kann diese Seite für ihre Anschaulichkeit gar nicht genug loben!\nUnd eine GANZ wichtige Sache ist mithilfe dieser Seite zu sehen, stellt man einen dieser zwei Werte (Top-k und Top-p sind Entweder oder) maximal restriktiv ein, so gibt es nur eine Möglichkeit.\nDas heißt aber nichts anderes, als diese zwei(drei) Parameter sind das Einzige, was ein LLM probabilistisch macht, anstatt deterministisch!\n\nEin kleiner Hinweis noch, es gibt nicht nur diese eine Webseite die das visualisiert, aber in der Zeit von KI ändern Webseiten sich leider täglich. Zu Beginn meiner Chat GPT Nutzung, sowie meiner Copilot Nutzung konnte man in beiden Modellen angeben, ob man die Antwort lieber richtig, oder kreativ haben wollte (funktionierte auch für Bilder) und das ist nichts anders als ein Preset der Temperatur/Top-k/p zu wählen.\nEs gibt auch immer noch einige Seiten, auf denen man ausprobieren kann, was z.B. passiert, wenn man die Temperatur auf 1 dreht (die LLM können dann meist ihre Antwort nicht mehr stoppen, sowie Worte bilden etc.)\n(Ich finde leider auf Anhieb kein Open Source online nutzbare Variante -Ich kann dir das die Tage mal mit meinem Uni Zugang zeigen-)\nAnsonsten könnte man evtl. über Huggingface.co eine KI runterladen und es dann lokal ausprobieren.",
+    "crumbs": [
+      "Wie LLMs funktionieren",
+      "Deterministisch vs. Probabilistisch"
     ]
   },
   {
@@ -213,21 +301,42 @@
     "href": "konzept_llm.html#wie-funktioniert-ein-llm",
     "title": "LLM- das Grundkonzept",
     "section": "Wie funktioniert ein LLM",
-    "text": "Wie funktioniert ein LLM\nDie Funktionsweise eines LLM lässt sich vereinfacht in zwei Hauptphasen unterteilen: das Training und die Anwendung (auch Inferenz genannt).\n\nPhase 1: Das Training (Lernphase)\n\nDaten: Das Modell wird mit riesigen Mengen an Texten gefüttert.\nZiel: Die Kernaufgabe während des Trainings ist simpel, aber wirkungsvoll: “Sage das nächste Wort voraus.” Das Modell bekommt einen Satzanfang und versucht, das wahrscheinlichste nächste Wort zu erraten.\nLernprozess: Bei jeder falschen Vorhersage passt es seine internen Parameter an. Durch milliardenfache Wiederholung lernt es so Grammatik, Fakten, Zusammenhänge und sogar Argumentationsstile. Es entwickelt ein statistisches “Verständnis” von Sprache.\n\nPhase 2: Die Anwendung (Inferenz)\n\nEingabe: Du gibst eine Frage oder einen Befehl ein (der “Prompt”).\nGenerierung: Basierend auf deinem Prompt und seinem Training berechnet das LLM das wahrscheinlichste erste Wort der Antwort.\nWort für Wort: Dieses neue Wort wird an die bisherige Konversation angehängt, und der Prozess wiederholt sich: Das Modell berechnet das nächste wahrscheinlichste Wort, dann das übernächste und so weiter, bis eine vollständige Antwort entstanden ist.\n\n\nEs ist also kein einfaches Nachschlagen in einer Datenbank, sondern ein kreativer, statistischer Prozess der Texterzeugung.\nUm die Funktionsweise besser zu verstehen, solltest du dir die nächsten Kapitel durchlesen. Dort wird erklärt, wie ein LLM Wörter überhaupt mathematisch versteht (Vektor-Embedding) und wie es im Detail aufgebaut ist.",
+    "text": "Wie funktioniert ein LLM\nDie Funktionsweise eines LLM lässt sich vereinfacht in zwei Hauptphasen unterteilen: das Training und die Anwendung (auch Inferenz genannt).\n\nPhase 1: Das Training (Lernphase)\n\nDaten: Das Modell wird mit riesigen Mengen an Texten gefüttert.\nZiel: Die Kernaufgabe während des Trainings ist simpel, aber wirkungsvoll: “Sage das nächste Wort voraus.” Das Modell bekommt einen Satzanfang und versucht, das wahrscheinlichste nächste Wort zu erraten.\nLernprozess: Bei jeder falschen Vorhersage passt es seine internen Parameter an. Durch milliardenfache Wiederholung lernt es so Grammatik, Fakten, Zusammenhänge und sogar Argumentationsstile. Es entwickelt ein statistisches “Verständnis” von Sprache.\n\nPhase 2: Die Anwendung (Inferenz)\n\nEingabe: Du gibst eine Frage oder einen Befehl ein (der “Prompt”).\nGenerierung: Basierend auf deinem Prompt und seinem Training berechnet das LLM das wahrscheinlichste erste Wort der Antwort.\nWort für Wort: Dieses neue Wort wird an die bisherige Konversation angehängt, und der Prozess wiederholt sich: Das Modell berechnet das nächste wahrscheinlichste Wort, dann das übernächste und so weiter, bis eine vollständige Antwort entstanden ist.\n\n\nDie erste Phase ist hierbei wie bei jeder anderen Art des Maschinellen Lernens.\nDie zweite Phase hingegen ist ein wenig besonders, hier geht es darum einen Text weiterzuschreiben (für das LLM gibt es nur einen Text, keinen Chat, es wird nur ein Erklärtext für das LLM nach jeder Eingabe und vor jeder Ausgabe eingefügt der nicht sichtbar ist.)\n\n\n\n\n\n\nAuch hierzu musste ich mal einen Vortrag in der Uni halten\n\n\n\n\n\nDer Vortrag/ die Folien des Vortrags sind mehr oder minder das Ganze Kapitel in anderer Form (nicht nur dieses Unterkapitel, also evtl. erst im Nachhinein angucken :shrug:)\n\n\nIhr Browser unterstützt keine eingebetteten PDFs. Sie können es stattdessen hier herunterladen.\n\n\n\n\n\nUm die Funktionsweise besser zu verstehen, solltest du dir die nächsten Kapitel durchlesen. Dort wird erklärt, wie ein LLM Wörter überhaupt mathematisch versteht (Vektor-Embedding) und wie es im Detail aufgebaut ist.",
     "crumbs": [
       "Wie LLMs funktionieren",
       "Grundkonzept LLM"
     ]
   },
   {
-    "objectID": "konzept_llm.html#weiterführende-quellen",
-    "href": "konzept_llm.html#weiterführende-quellen",
+    "objectID": "konzept_llm.html#weiterführende-quelle",
+    "href": "konzept_llm.html#weiterführende-quelle",
     "title": "LLM- das Grundkonzept",
-    "section": "Weiterführende Quellen",
-    "text": "Weiterführende Quellen\nEine komprimierte Übersicht über Large Language Models wird angeboten von [@naveed2024comprehensiveoverviewlargelanguage]",
+    "section": "Weiterführende Quelle",
+    "text": "Weiterführende Quelle\nEine komprimierte Übersicht über Large Language Models wird angeboten von [@naveed2024comprehensiveoverviewlargelanguage]\nEine ganz gute Seite, die einen kompletten Überblick mit Erklärung und allem für Transfomer Modelle macht ist bbycroft.net/llm, diese Seite ist ähnlich wie die Seite aus dem deterministisch vs. probabilistisch Unterkapitel nur zu empfehlen.",
     "crumbs": [
       "Wie LLMs funktionieren",
       "Grundkonzept LLM"
+    ]
+  },
+  {
+    "objectID": "chancen_risiken.html#zusammenfassung",
+    "href": "chancen_risiken.html#zusammenfassung",
+    "title": "Chancen & Risiken",
+    "section": "Zusammenfassung",
+    "text": "Zusammenfassung\nKlar die KI ist eine geniale tolle Erfindung, ABER so wie viele auf der Konferenz an der ich teilnehmen durfte feststellten, KI ist besonders dann nützlich, wenn man zu einem Thema bereits etwas weiß. Sich mit KI fortzubilden geht unglaublich schnell und gut. Aber etwas unbekanntes zu lernen (oder als unerfahrene Person so etwas nutzen) ist wirklich nicht gut.\nDabei ging es noch gar nicht um die Thematik der möglichen Terrorhilfe \\(\\dots\\) wie schlimm wird Terror, wenn alle Terroristen in der Lage sind innerhalb von ein paar Stunden raus zu finden, wie man möglichst effizient möglichst viele Zivlisten tötet. (Prima von einer lokalen KI bestimmt \\(\\dots\\)).\nnach diesem hoffentlich nicht zu viel Besorgnis erregendem Ende, geht es weiter beim Abschied.",
+    "crumbs": [
+      "Vorteile & Risiken",
+      "Chancen & Risiken"
+    ]
+  },
+  {
+    "objectID": "abschied.html",
+    "href": "abschied.html",
+    "title": "Danke",
+    "section": "",
+    "text": "Ich wollte zum Abschluss nur noch mal Danke sagen.\nDanke dafür, dass du für mich da bist, dich für mich interessierst, mich beglückwünscht wenn mir was gutes passiert, es freut mich sehr, dass wir uns so gut verstehen. Ich gehe zwar davon aus, dass wir uns auch mal in die Haare kriegen werden, aber bisher ist das nie geschehen und das freut mich.\nIch freue mich auf viele weitere Jahre als Teil der Familie.\nHab dich lieb und zuletzt, lass die 60er nicht die letzten Jahre sein, zu mindestens ich würde dich gerne als Großvater erleben, also pass auf dich auf!\nUnd habe einen schönes Jahr bevor es heißt 60 und du ganz groß feiern musst :P\nBzw. Ich habe dich in der Begrüßung schon versucht ein wenig für das Thema zu erwärmen, das 60. Lebensjahr hat bereits begonnen, man feiert ja immer nur die abgeschlossenen, also falls du die Zahl respektierst/fürchtest, tröste dich, du musst dich nicht mehr fürchten, es ist bereits so weit.\nCheers!!!! Auf das ich mindestens einen auf dich getrunken habe auf deiner Party!",
+    "crumbs": [
+      "Verabschiedung"
     ]
   }
 ]

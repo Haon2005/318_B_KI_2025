@@ -1,0 +1,30 @@
+---
+title: Chancen & Risiken
+---
+
+Bevor man sich verabschiedet muss man leider bei einem solchen Thema noch unbedingt darüber Reden welche Chancen und Gefahren KI und oder LLM haben.  
+
+## Chancen
+
+- **Automatisierung:** Es ist ein neuer technologischer Schritt der vieles vieles automatisieren wird können, dadurch wird die Produktivität der Gesellschaft stark steigen können.
+- **Individualbetreuung:** Es ist viel leichter, dafür zu sorgen, dass jede Person für ihre spezifisches Problem eine Lösung bekommt. Das funktioniert auch in Schulen/ beim lernen sehr gut.
+- **Wissenschaft:** Die Analyse von riesigen Datenmengen wird leichte, sowie Simulationen, Erstellung neuer Komplexer Systeme (Proteine)
+- **Werkzeug:** Die KI kann z.B. zum erstellen von Webseiten wie dieser genutzt werden, sie kann zum Programmieren genutzt werden, für vieles in vielen Bereichen
+
+## Gefahren
+
+- **Automatisierung** bedeutet immer auch Arbeitsplatzverlust, mehr Frustration in der Bevölkerung, größeres Krisenpotential
+- **Individualbetreuung** bedeutet immer auch weniger soziale Interaktion, bedeutet mehr psychisch kranke, mehr Vereinsamung
+- **Bias:** KI lernt aus Datensätzen, wenn die diskriminierend sind, ist die KI es auch
+- **Fehlinformationen:** Ähnlich wie bei Taschenrechner & Co. wird mehr dem System geglaubt als der eigenen Intuition, dass heißt Fehler werden selten bemerkt
+- **Manipulation:** Konzerne und Länder können KI auf bestimmte Trigger-Worte bestimmt reagieren lassen [Beispiel Qwens Einschränkungen (bis unten lesen!)](https://huggingface.co/blog/leonardlin/chinese-llm-censorship-analysis)
+- **falsches Selbstbewusstsein:** LLM sind darauf trainiert freundlich und nett zu sein, dazu gehört einer Person die eigentlich für etwas nicht bereit ist Mut zu zu sprechen, dass heißt wenn ich eine KI frage: "Bin ich jetzt gut genug auf die Prüfung vorbereitet?" Dann wird die KI mir nicht die Wahrheit als Antwort geben sondern ein: "Du schaffst das!" Hierdurch wird falsche Sicherheit erzeugt.
+- **fehlende Motivation:** Ähnlich wie beim Internet ist es nun noch einfacher spezifisches Wissen zu lernen, jeder kann alles lernen und das relativ schnell, dass sorgt leider auch dafür, dass ein großer Teil der Gesellschaft kein Interesse mehr daran hat, sich damit auseinander zu setzen. Beispiel Schule, viele SchülerInnen lösen ihre Hausaufgaben nur noch mit KI, kann man es ihnen verübeln nein, ist es gut für ihre Bildung, nein.  
+- **Datenschutz:** Der Einsatz von KI wird auf kurz oder lang dafür sorgen, dass die Privatsphäre des Individuums immer und immer mehr eingeschränkt wird. (Wo es früher noch möglich war manchmal ein bisschen doofe Sachen anzustellen, wird das irgendwann nicht mehr möglich sein, weil alles mit Kameras ausgestattet sind, welche Bewegung automatisch wahrnehmen und melden)
+Das letzte war ein wenig sehr dystopisch aber betrachten wir alleine die automatische Kennzeichenerfassung von Kennzeichen an vielen Ampeln heute. 
+
+## Zusammenfassung
+Klar die KI ist eine geniale tolle Erfindung, ABER so wie viele auf der Konferenz an der ich teilnehmen durfte feststellten, KI ist besonders dann nützlich, wenn man zu einem Thema bereits etwas weiß. Sich mit KI fortzubilden geht unglaublich schnell und gut. Aber etwas unbekanntes zu lernen (oder als unerfahrene Person so etwas nutzen) ist wirklich nicht gut.  
+Dabei ging es noch gar nicht um die Thematik der möglichen Terrorhilfe $\dots$ wie schlimm wird Terror, wenn alle Terroristen in der Lage sind innerhalb von ein paar Stunden raus zu finden, wie man möglichst effizient möglichst viele Zivlisten tötet. (Prima von einer lokalen KI bestimmt $\dots$).
+
+nach diesem hoffentlich nicht zu viel Besorgnis erregendem Ende, geht es weiter beim [Abschied](abschied.qmd).

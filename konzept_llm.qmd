@@ -21,9 +21,21 @@ Die Funktionsweise eines LLM lässt sich vereinfacht in zwei Hauptphasen unterte
     -   **Generierung:** Basierend auf deinem Prompt und seinem Training berechnet das LLM das wahrscheinlichste erste Wort der Antwort.
     -   **Wort für Wort:** Dieses neue Wort wird an die bisherige Konversation angehängt, und der Prozess wiederholt sich: Das Modell berechnet das nächste wahrscheinlichste Wort, dann das übernächste und so weiter, bis eine vollständige Antwort entstanden ist.
 
-Es ist also kein einfaches Nachschlagen in einer Datenbank, sondern ein kreativer, statistischer Prozess der Texterzeugung.
+Die erste Phase ist hierbei wie bei jeder anderen Art des Maschinellen Lernens.  
+Die zweite Phase hingegen ist ein wenig besonders, hier geht es darum einen Text weiterzuschreiben (für das LLM gibt es nur einen Text, keinen Chat, es wird nur ein Erklärtext für das LLM nach jeder Eingabe und vor jeder Ausgabe eingefügt der nicht sichtbar ist.) 
+
+:::{.callout-tip title="Auch hierzu musste ich mal einen Vortrag in der Uni halten" collapse="true"}
+
+Der Vortrag/ die Folien des Vortrags sind mehr oder minder das Ganze Kapitel in anderer Form (nicht nur dieses Unterkapitel, also evtl. erst im Nachhinein angucken :shrug:)
+
+<object data="Quellen/Grundlagen Large Language Models.pdf" type="application/pdf" width="100%" height="600px">
+    <p>Ihr Browser unterstützt keine eingebetteten PDFs. Sie können es stattdessen <a href="Quellen/Grundlagen Large Language Models.pdf">hier herunterladen</a>.</p>
+</object>
+
+:::
 
 Um die Funktionsweise besser zu verstehen, solltest du dir die nächsten Kapitel durchlesen. Dort wird erklärt, wie ein LLM Wörter überhaupt mathematisch versteht (**Vektor-Embedding**) und wie es im Detail aufgebaut ist.
 
-## Weiterführende Quellen
-Eine komprimierte Übersicht über Large Language Models wird angeboten von [@naveed2024comprehensiveoverviewlargelanguage]
+## Weiterführende Quelle
+Eine komprimierte Übersicht über Large Language Models wird angeboten von [@naveed2024comprehensiveoverviewlargelanguage]  
+Eine ganz gute Seite, die einen kompletten Überblick mit Erklärung und allem für Transfomer Modelle macht ist [bbycroft.net/llm](https://bbycroft.net/llm), diese Seite ist ähnlich wie die Seite aus dem deterministisch vs. probabilistisch Unterkapitel nur zu empfehlen.  

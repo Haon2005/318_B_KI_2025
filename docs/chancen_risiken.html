@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>chancen_risiken – Geburtstagsgeschenk 2025</title>
+<title>Chancen &amp; Risiken – Geburtstagsgeschenk 2025</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -72,6 +72,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -356,12 +385,6 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Deterministisch vs.&nbsp;Probabilistisch</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./aufbau_llm.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Aufbau eines LLMs</span></a>
-  </div>
-</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
@@ -392,18 +415,72 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#chancen" id="toc-chancen" class="nav-link active" data-scroll-target="#chancen">Chancen</a></li>
+  <li><a href="#gefahren" id="toc-gefahren" class="nav-link" data-scroll-target="#gefahren">Gefahren</a></li>
+  <li><a href="#zusammenfassung" id="toc-zusammenfassung" class="nav-link" data-scroll-target="#zusammenfassung">Zusammenfassung</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./chancen_risiken.html">Vorteile &amp; Risiken</a></li><li class="breadcrumb-item"><a href="./chancen_risiken.html">Chancen &amp; Risiken</a></li></ol></nav></header>
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./chancen_risiken.html">Vorteile &amp; Risiken</a></li><li class="breadcrumb-item"><a href="./chancen_risiken.html">Chancen &amp; Risiken</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">Chancen &amp; Risiken</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
 
 
+</header>
 
 
+<p>Bevor man sich verabschiedet muss man leider bei einem solchen Thema noch unbedingt darüber Reden welche Chancen und Gefahren KI und oder LLM haben.</p>
+<section id="chancen" class="level2">
+<h2 class="anchored" data-anchor-id="chancen">Chancen</h2>
+<ul>
+<li><strong>Automatisierung:</strong> Es ist ein neuer technologischer Schritt der vieles vieles automatisieren wird können, dadurch wird die Produktivität der Gesellschaft stark steigen können.</li>
+<li><strong>Individualbetreuung:</strong> Es ist viel leichter, dafür zu sorgen, dass jede Person für ihre spezifisches Problem eine Lösung bekommt. Das funktioniert auch in Schulen/ beim lernen sehr gut.</li>
+<li><strong>Wissenschaft:</strong> Die Analyse von riesigen Datenmengen wird leichte, sowie Simulationen, Erstellung neuer Komplexer Systeme (Proteine)</li>
+<li><strong>Werkzeug:</strong> Die KI kann z.B. zum erstellen von Webseiten wie dieser genutzt werden, sie kann zum Programmieren genutzt werden, für vieles in vielen Bereichen</li>
+</ul>
+</section>
+<section id="gefahren" class="level2">
+<h2 class="anchored" data-anchor-id="gefahren">Gefahren</h2>
+<ul>
+<li><strong>Automatisierung</strong> bedeutet immer auch Arbeitsplatzverlust, mehr Frustration in der Bevölkerung, größeres Krisenpotential</li>
+<li><strong>Individualbetreuung</strong> bedeutet immer auch weniger soziale Interaktion, bedeutet mehr psychisch kranke, mehr Vereinsamung</li>
+<li><strong>Bias:</strong> KI lernt aus Datensätzen, wenn die diskriminierend sind, ist die KI es auch</li>
+<li><strong>Fehlinformationen:</strong> Ähnlich wie bei Taschenrechner &amp; Co.&nbsp;wird mehr dem System geglaubt als der eigenen Intuition, dass heißt Fehler werden selten bemerkt</li>
+<li><strong>Manipulation:</strong> Konzerne und Länder können KI auf bestimmte Trigger-Worte bestimmt reagieren lassen <a href="https://huggingface.co/blog/leonardlin/chinese-llm-censorship-analysis">Beispiel Qwens Einschränkungen (bis unten lesen!)</a></li>
+<li><strong>falsches Selbstbewusstsein:</strong> LLM sind darauf trainiert freundlich und nett zu sein, dazu gehört einer Person die eigentlich für etwas nicht bereit ist Mut zu zu sprechen, dass heißt wenn ich eine KI frage: “Bin ich jetzt gut genug auf die Prüfung vorbereitet?” Dann wird die KI mir nicht die Wahrheit als Antwort geben sondern ein: “Du schaffst das!” Hierdurch wird falsche Sicherheit erzeugt.</li>
+<li><strong>fehlende Motivation:</strong> Ähnlich wie beim Internet ist es nun noch einfacher spezifisches Wissen zu lernen, jeder kann alles lernen und das relativ schnell, dass sorgt leider auch dafür, dass ein großer Teil der Gesellschaft kein Interesse mehr daran hat, sich damit auseinander zu setzen. Beispiel Schule, viele SchülerInnen lösen ihre Hausaufgaben nur noch mit KI, kann man es ihnen verübeln nein, ist es gut für ihre Bildung, nein.<br>
+</li>
+<li><strong>Datenschutz:</strong> Der Einsatz von KI wird auf kurz oder lang dafür sorgen, dass die Privatsphäre des Individuums immer und immer mehr eingeschränkt wird. (Wo es früher noch möglich war manchmal ein bisschen doofe Sachen anzustellen, wird das irgendwann nicht mehr möglich sein, weil alles mit Kameras ausgestattet sind, welche Bewegung automatisch wahrnehmen und melden) Das letzte war ein wenig sehr dystopisch aber betrachten wir alleine die automatische Kennzeichenerfassung von Kennzeichen an vielen Ampeln heute.</li>
+</ul>
+</section>
+<section id="zusammenfassung" class="level2">
+<h2 class="anchored" data-anchor-id="zusammenfassung">Zusammenfassung</h2>
+<p>Klar die KI ist eine geniale tolle Erfindung, ABER so wie viele auf der Konferenz an der ich teilnehmen durfte feststellten, KI ist besonders dann nützlich, wenn man zu einem Thema bereits etwas weiß. Sich mit KI fortzubilden geht unglaublich schnell und gut. Aber etwas unbekanntes zu lernen (oder als unerfahrene Person so etwas nutzen) ist wirklich nicht gut.<br>
+Dabei ging es noch gar nicht um die Thematik der möglichen Terrorhilfe <span class="math inline">\(\dots\)</span> wie schlimm wird Terror, wenn alle Terroristen in der Lage sind innerhalb von ein paar Stunden raus zu finden, wie man möglichst effizient möglichst viele Zivlisten tötet. (Prima von einer lokalen KI bestimmt <span class="math inline">\(\dots\)</span>).</p>
+<p>nach diesem hoffentlich nicht zu viel Besorgnis erregendem Ende, geht es weiter beim <a href="./abschied.html">Abschied</a>.</p>
+
+
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

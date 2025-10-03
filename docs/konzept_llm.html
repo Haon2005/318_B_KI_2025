@@ -356,12 +356,6 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Deterministisch vs.&nbsp;Probabilistisch</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./aufbau_llm.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Aufbau eines LLMs</span></a>
-  </div>
-</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
@@ -399,7 +393,7 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#was-ist-ein-llm" id="toc-was-ist-ein-llm" class="nav-link active" data-scroll-target="#was-ist-ein-llm">Was ist ein LLM?</a></li>
   <li><a href="#wie-funktioniert-ein-llm" id="toc-wie-funktioniert-ein-llm" class="nav-link" data-scroll-target="#wie-funktioniert-ein-llm">Wie funktioniert ein LLM</a></li>
-  <li><a href="#weiterführende-quellen" id="toc-weiterführende-quellen" class="nav-link" data-scroll-target="#weiterführende-quellen">Weiterführende Quellen</a></li>
+  <li><a href="#weiterführende-quelle" id="toc-weiterführende-quelle" class="nav-link" data-scroll-target="#weiterführende-quelle">Weiterführende Quelle</a></li>
   </ul>
 </nav>
     </div>
@@ -448,12 +442,35 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Wort für Wort:</strong> Dieses neue Wort wird an die bisherige Konversation angehängt, und der Prozess wiederholt sich: Das Modell berechnet das nächste wahrscheinlichste Wort, dann das übernächste und so weiter, bis eine vollständige Antwort entstanden ist.</li>
 </ul></li>
 </ol>
-<p>Es ist also kein einfaches Nachschlagen in einer Datenbank, sondern ein kreativer, statistischer Prozess der Texterzeugung.</p>
+<p>Die erste Phase ist hierbei wie bei jeder anderen Art des Maschinellen Lernens.<br>
+Die zweite Phase hingegen ist ein wenig besonders, hier geht es darum einen Text weiterzuschreiben (für das LLM gibt es nur einen Text, keinen Chat, es wird nur ein Erklärtext für das LLM nach jeder Eingabe und vor jeder Ausgabe eingefügt der nicht sichtbar ist.)</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Auch hierzu musste ich mal einen Vortrag in der Uni halten">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Auch hierzu musste ich mal einen Vortrag in der Uni halten
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Der Vortrag/ die Folien des Vortrags sind mehr oder minder das Ganze Kapitel in anderer Form (nicht nur dieses Unterkapitel, also evtl. erst im Nachhinein angucken :shrug:)</p>
+<object data="Quellen/Grundlagen Large Language Models.pdf" type="application/pdf" width="100%" height="600px">
+<p>
+Ihr Browser unterstützt keine eingebetteten PDFs. Sie können es stattdessen <a href="Quellen/Grundlagen Large Language Models.pdf">hier herunterladen</a>.
+</p>
+</object>
+</div>
+</div>
+</div>
 <p>Um die Funktionsweise besser zu verstehen, solltest du dir die nächsten Kapitel durchlesen. Dort wird erklärt, wie ein LLM Wörter überhaupt mathematisch versteht (<strong>Vektor-Embedding</strong>) und wie es im Detail aufgebaut ist.</p>
 </section>
-<section id="weiterführende-quellen" class="level2">
-<h2 class="anchored" data-anchor-id="weiterführende-quellen">Weiterführende Quellen</h2>
-<p>Eine komprimierte Übersicht über Large Language Models wird angeboten von <span class="citation" data-cites="naveed2024comprehensiveoverviewlargelanguage">[@naveed2024comprehensiveoverviewlargelanguage]</span></p>
+<section id="weiterführende-quelle" class="level2">
+<h2 class="anchored" data-anchor-id="weiterführende-quelle">Weiterführende Quelle</h2>
+<p>Eine komprimierte Übersicht über Large Language Models wird angeboten von <span class="citation" data-cites="naveed2024comprehensiveoverviewlargelanguage">[@naveed2024comprehensiveoverviewlargelanguage]</span><br>
+Eine ganz gute Seite, die einen kompletten Überblick mit Erklärung und allem für Transfomer Modelle macht ist <a href="https://bbycroft.net/llm">bbycroft.net/llm</a>, diese Seite ist ähnlich wie die Seite aus dem deterministisch vs.&nbsp;probabilistisch Unterkapitel nur zu empfehlen.</p>
 
 
 </section>

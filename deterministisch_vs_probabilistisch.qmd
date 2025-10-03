@@ -1,0 +1,66 @@
+---
+title: Deterministisch vs. Probabilistisch
+---
+
+## Begriffsklärung
+
+Ich weiß nicht ob beide Begriffe allgemein geläufig sind.  
+**Deterministisch** heißt, dass ein System bei der gleichen Eingabe immer das exakt gleiche Ergebnis liefert, da sein Verhalten *vollständig vorherbestimmt* ist.
+
+**Probabilistisch** heißt, dass ein System bei der gleichen Eingabe unterschiedliche Ergebnisse liefern kann, da sein Verhalten auf Wahrscheinlichkeiten und einem *gewissen Grad an Zufall* basiert.
+
+## Kontextualisierung
+Okay 2 weitere Begriffe, aber was haben die mit LLM zu tun?  
+Eine Menge, wie vermutlich schon aufgefallen ist, gibt ein LLM beinahe niemals die gleiche Antwort.  
+Also sind LLM dann ja probabilistisch oder?  
+Aber alles was wir uns dazu angeguckt haben, also das immer nur der nächste *Token**Wort* bestimmt wird, passt nicht ganz mit dieser Ansicht zusammen.  
+
+Tatsächlich sind aber LLM im allgemeinen probabilistisch und das mit Absicht, das ist eine der Genialitäten an LLM, dadurch das es nicht nur das nächste Wort wählt anhand des "wahrscheinlichen" nächsten Wort, ist es in der Lage neue Texte zu schreiben und nicht nur in den eigenen Bias zu bleiben.
+
+<details>
+<summary> Falls Bias nicht bekannt sind </summary>
+Bias aus dem Englischen bedeutet im Deutschen so etwas wie Vorurteil.  
+In der Wahrscheinlichkeitstheorie, aber in der Forschung generell sind sie ein gigantisches Problem bei der Suche nach Wissen.  
+Auch LLM bzw. KI können Bias entwickeln/haben, dies lässt sich relativ leicht zeigen, indem man einer beliebigen Bildgenerierungsanwendung die Aufgabe gibt eine Gruppe an Menschen zu generieren.  
+Meistens werden fast alle Menschen Mitteleuropäisch weiß sein.  
+Es gibt auch schlimmere Bias, man kann sich das leicht vorstellen, das LLM übernimmt worauf sie trainiert wird, wird sie auf rassistischem Material trainiert wird sie rassistisch sein.  
+Das lässt sich großartig an Grok zeigen, Musk hat versucht dafür zu sorgen, dass das LLM auch Nazi Propaganda pusht, aber da sie wie alle LLM ein GPT Model ist, ist sie pretrained, also mit einer sehr ähnlichen Datenbank wie alle anderen LLM trainiert worden und "wusste" daher, dass die Aussagen von Musk plumper Rassismus sind.
+</details>
+
+## Visualisierung
+Okay es gibt hier gleich eine super Webseite [@poloclubTransformerExplainer] auf der man viel sehen kann was sehr viel hilfreich ist, aber vorher will ich die ein wenig erklären.  
+Auf der Webseite wird ein Transformer Model mitsamt der unterschiedlichen Teilschritte gezeigt.   
+Oben kann ein Satz eingegeben werden und im Hauptteil wird dann gezeigt, wie die möglichen Wörter bestimmt werden.  
+
+Hierbei geht es vor allem um zwei Begriffe, **Temperature** und **Top-k**, sowie **Top-p**.  
+
+- **Top-k** bestimmt die Top k Wörter die betrachtet werden, wenn man an dem Regler spielt, sieht man, dass mehr Worte eine Wahrscheinlichkeit daneben stehen haben (die ohne haben alle Wahrscheinlichkeit 0)
+- **Top-p** bestimmt die Top p Wörter, abhängig davon welche Wahrscheinlichkeit abgedeckt werden soll, wählt man 1 hat man alle Möglichkeiten, wählt man 0 hat man eine  
+- **Temperatur** bestimmt die Gewichtung der Wörter. Also die Art von *Softmax* Funktion die genutzt wird um die Wörter zu gewichten. Hierbei ist es möglich die Begriffe gleicher/ungleicher zu gewichten.   
+
+<details>
+<summary> Eine Webseite die ich gerade noch gefunden habe, auf der die Begriffe nett erklärt werden </summary>
+
+[Vellum.ai](https://www.vellum.ai/llm-parameters/temperature?utm_source=duckduckgo&utm_medium=organic)
+
+Ich hoffe, falls meine Erklärung nicht gut genug war, ist es zu mindestens die auf der Webseite.
+
+</summary>
+
+[Das ist die Webseite von Poloclub!](poloclub.github.io/transformer-explainer/)  
+*Ich kann diese Seite für ihre Anschaulichkeit gar nicht genug loben!*
+
+Und eine GANZ wichtige Sache ist mithilfe dieser Seite zu sehen, stellt man einen dieser zwei Werte (Top-k und Top-p sind Entweder oder) maximal restriktiv ein, so gibt es nur **eine** Möglichkeit.  
+Das heißt aber nichts anderes, als diese zwei(drei) Parameter sind **das Einzige**, was ein LLM probabilistisch macht, anstatt deterministisch!  
+
+---
+Ein kleiner Hinweis noch, es gibt nicht nur diese eine Webseite die das visualisiert, aber in der Zeit von KI ändern Webseiten sich leider täglich. Zu Beginn meiner Chat GPT Nutzung, sowie meiner Copilot Nutzung konnte man in beiden Modellen angeben, ob man die Antwort lieber richtig, oder kreativ haben wollte (funktionierte auch für Bilder) und das ist nichts anders als ein Preset der Temperatur/Top-k/p zu wählen.  
+
+Es gibt auch immer noch einige Seiten, auf denen man ausprobieren kann, was z.B. passiert, wenn man die Temperatur auf 1 dreht (die LLM können dann meist ihre Antwort nicht mehr stoppen, sowie Worte bilden etc.)  
+(Ich finde leider auf Anhieb kein Open Source online nutzbare Variante -Ich kann dir das die Tage mal mit meinem Uni Zugang zeigen-)  
+Ansonsten könnte man evtl. über [Huggingface.co](https://huggingface.co/) eine KI runterladen und es dann lokal ausprobieren.  
+
+
+
+
+

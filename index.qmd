@@ -2,7 +2,7 @@
 title: "Alles Gute zum Geburtstag!"
 ---
 
-![Ich wünsche dir alles gut zu deinem 59. Geburtstag!](Quellen/59.png){width="100%"}
+![Ich wünsche dir alles gute zu deinem 59. Geburtstag!](Quellen/59.png){width="100%"}
 
 Ich habe dir hoffentlich bereits alles gute zum beginnenden 60ten Lebensjahr gewünscht, aber hier erneut alles herzlich gute zum Geburtstag. 
 

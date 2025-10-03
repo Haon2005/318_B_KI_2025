@@ -6,7 +6,9 @@ filters:
 
 Erstmal ein kleiner Gag um darauf hinzuweisen, wie gut Sortieralgorithmen bereits funktionieren (nicht KI).  
 
-Ein beliebtes Spiel in meiner Schulzeit war der [Akinator](https://de.akinator.com/theme-selection:)  
+Ein beliebtes Spiel in meiner Schulzeit war der [Akinator](https://de.akinator.com)  
+$\rightarrow$ Klicke bitte auf Spielen in der Mitte $\leftarrow$  
+
 Spiele gerne mal ein paar Runden und überlege dabei, wie das System wohl funktioninert!
 <details>
 <summary> Spielregeln </summary>
