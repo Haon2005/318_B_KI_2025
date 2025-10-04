@@ -1,1 +1,52 @@
 /* css styles */
+
+/* --- Bild in der Navigationsleiste --- */
+/* Fügt das Bild über der Standard-Hintergrundfarbe der Navbar hinzu */
+.navbar {
+    background-image: url('Quellen/59.png');
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: contain; /* Stellt sicher, dass das ganze Bild sichtbar ist */
+}
+
+/* --- Pyodide Code Block Farben --- */
+
+/* Hintergrund für den Code-Editor (Light & Dark Mode) */
+.quarto-light .monaco-editor .lines-content.monaco-editor-background,
+.quarto-dark .monaco-editor .lines-content.monaco-editor-background {
+  background-color: #fff3e0 !important; /* Helles Orange */
+}
+
+/* Hintergrund für den Ausgabebereich (Light & Dark Mode) */
+.quarto-light .qpyodide-output-code-area.has-content,
+.quarto-dark .qpyodide-output-code-area.has-content {
+  background-color: #ffe0b2; /* Kräftigeres Orange */
+  color: #333; /* Dunkle Textfarbe für Lesbarkeit */
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ffcc80;
+}
+
+/* --- 404 Page Styling --- */
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 80vh;
+}
+
+.not-found-image {
+  max-width: 400px;
+  margin-bottom: 2rem;
+}
+
+.glowing-text {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+  /* Der Leuchteffekt wird durch mehrere Text-Schatten erzeugt */
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa,
+    0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
+}

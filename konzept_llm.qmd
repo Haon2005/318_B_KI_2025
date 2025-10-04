@@ -1,5 +1,6 @@
 ---
 title: "LLM- das Grundkonzept"
+bibliography: literatur.bib
 ---
 
 _Besser als ich es erklären kann, wird es im Zweifel [hier](https://www.youtube.com/watch?v=LPZh9BOjkQs) von **3blue1brown** auf Youtube erklärt, aber ich werde mich mal dran versuchen._
@@ -37,5 +38,5 @@ Der Vortrag/ die Folien des Vortrags sind mehr oder minder das Ganze Kapitel in 
 Um die Funktionsweise besser zu verstehen, solltest du dir die nächsten Kapitel durchlesen. Dort wird erklärt, wie ein LLM Wörter überhaupt mathematisch versteht (**Vektor-Embedding**) und wie es im Detail aufgebaut ist.
 
 ## Weiterführende Quelle
-Eine komprimierte Übersicht über Large Language Models wird angeboten von [@naveed2024comprehensiveoverviewlargelanguage]  
+Eine komprimierte Übersicht über Large Language Models findet man bei [@naveed2024comprehensiveoverviewlargelanguage]
 Eine ganz gute Seite, die einen kompletten Überblick mit Erklärung und allem für Transfomer Modelle macht ist [bbycroft.net/llm](https://bbycroft.net/llm), diese Seite ist ähnlich wie die Seite aus dem deterministisch vs. probabilistisch Unterkapitel nur zu empfehlen.  

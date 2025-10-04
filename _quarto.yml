@@ -5,6 +5,11 @@ project:
 website:
   reader-mode: true
   title: "Geburtstagsgeschenk 2025"
+  navbar:
+    right:
+      - icon: github
+        href: "https://github.com/Haon2005/318_B_KI_2025"
+        aria-label: "GitHub"
   sidebar:
     style: "floating"
     search: true

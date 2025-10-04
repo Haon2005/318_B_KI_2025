@@ -4,23 +4,34 @@ title: "Alles Gute zum Geburtstag!"
 
 ![Ich wünsche dir alles gute zu deinem 59. Geburtstag!](Quellen/59.png){width="100%"}
 
-Ich habe dir hoffentlich bereits alles gute zum beginnenden 60ten Lebensjahr gewünscht, aber hier erneut alles herzlich gute zum Geburtstag. 
+Ich habe dir hoffentlich bereits alles Gute zum beginnenden 60ten Lebensjahr gewünscht, aber hier erneut alles herzlich Gute zum Geburtstag.
 
-Ich dachte mir einer Person, die sich alles holen kann was sie will, der kann man am ehesten Zeit schenken. Also dachte ich mir, worüber haben wir schon häufiger geredet, womit wolltest du dich beschäftigen, hast aber vermutlich noch keine Zeit dafür gefunden?
+Ich dachte mir, einer Person, die sich alles holen kann was sie will, der kann man am ehesten Zeit schenken. Also dachte ich mir, worüber haben wir schon häufiger geredet, womit wolltest du dich beschäftigen, hast aber vermutlich noch keine Zeit dafür gefunden?
 
-Richtig AI ach ne KI hmm GPT oder LLM was ist denn da jetzt eigentlich der richtige Begriff, darum und darum was das alles eigentlich ist, was das bedeutet, wie man es definiert und auch was das ganze moralisch ethisch an Problemen darstellt, darum soll es auf dieser kleinen Webseite für dich gehen. 
+Richtig AI ach ne KI hmm GPT oder LLM was ist denn da jetzt eigentlich der richtige Begriff... Darum und was das Alles eigentlich ist, was das bedeutet, wie man es definiert und auch was das ganze moralisch ethisch an Problemen darstellt, darum soll es auf dieser kleinen Webseite für dich gehen.
 
-:::{.callout-important title="Ein paar Hinweise" collapse="true"}
-- Es wird auf dieser Webseite immer mal wieder ein paar kleine "Callout" Blöcke wie diesen geben, ich werde damit ein wenig versuchen die Webseite lesbarer zu gestalten und evtl. schon vorhandenes Vorwissen in solchen Blöcken zu verstecken, damit falls du das bereits kennst du es leicht ignorieren kannst.
+:::{.callout-important title="Ein paar Hinweise zur Bedienung" collapse="true"}
 
-<details>
-<summary> Auch solche Blöcke wird es teilweise Drücke hier $\leftarrow$</summary>
-Diese Blöcke werde ich auch manchmal nutzen, da sie ein wenig subtiler sind um Inhalte zu verschachteln.
-</details>
+**Inhaltsblöcke**  
 
-**Steuerung der Webseite**
-- Wie oben zu sehen gibt es zum einen ...
-- Platzhalter!
+- **Callout-Blöcke:** Blöcke wie diesen hier werde ich nutzen, um wichtige Informationen, Tipps oder Warnungen für dich hervorzuheben.  
+- **Ausklappbare Blöcke:** Manchmal werde ich Zusatzinformationen in solchen Blöcken verstecken, um den Text für dich übersichtlich zu halten:  
+  <details>
+  <summary>Klicke hier, um den versteckten Inhalt zu sehen.</summary>
+  Diese Blöcke nutze ich, um Inhalte zu verschachteln, die du nicht sofort lesen musst.
+  </details>
+
+**Symbole in der Navigationsleiste (oben rechts)**    
+
+- **GitHub-Symbol (<i class="bi bi-github"></i>):** Führt dich zum Quellcode dieser Webseite, falls du neugierig bist, wie ich sie für dich gebaut habe.  
+- **Design-Umschalter (Sonne/Mond):** Mit diesem Schalter kannst du zwischen dem hellen und dunklen Design wechseln, ganz wie es dir gefällt.
+- **Lupe (<i class="bi bi-search"></i>):** Die Lupe, ist eine klassische Suchfunktion um die gesamte Webseite nach Begriffen zu durchsuchen.
+- **Das Andere** Blendet die linke und rechte Seitenleiste aus, um dir ein ablenkungsfreies Leseerlebnis zu  ermöglichen.
+
+**Besonderheit auf der "Vektor-Embedding"-Seite**    
+
+- Dort habe ich ein interaktives Python-Beispiel für dich vorbereitet. Oben auf der Seite erscheint eventuell eine **Eingabeaufforderung für einen API-Schlüssel**. **Diese kannst du komplett ignorieren.** Sie gehört zu einer Zusatzfunktion, die für das Beispiel nicht benötigt wird. Du kannst die Eingabefelder über das kleine **Zahnrad-Symbol** (<i class="bi bi-gear"></i>) daneben einfach ausblenden.
+
 :::
 
 Von jetzt an also gut [Klick und Lern!](ki_allgemein.qmd)

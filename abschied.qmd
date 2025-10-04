@@ -1,5 +1,6 @@
 ---
 title: Danke
+bibliography: literatur.bib
 ---
 
 Ich wollte zum Abschluss nur noch mal Danke sagen.  
@@ -16,3 +17,20 @@ Bzw. Ich habe dich in der Begrüßung schon versucht ein wenig für das Thema zu
 
 Cheers!!!!
 Auf das ich mindestens einen auf dich getrunken habe auf deiner Party!
+
+
+:::{.callout-tip title="eine Kleine Kurzzusammenfassung" collapse="true"}
+
+Mir ist beim drüber lesen aufgefallen, dass die wirklich wichtigen Links ein wenig untergehen.  
+Also wenn du das Ganze nochmal aus Profi- Sicht, oder besser visualisiert sehen willst:
+
+**Die wichtigsten Links**  
+
+- [Übersicht über die Funktion](poloclub.github.io/transformer-explainer/)
+- [Tatsächliche Übersicht + Erklärungen](bbycroft.net/llm)
+- [Tolle Videos dazu (Playlist)](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
+- [Das Paper was alles ins Rollen gebracht hat](https://arxiv.org/abs/1706.03762)
+- [Meine Präsentation zu Maschinellem Lernen](Quellen/Lernalgorithmen.pdf)
+- [Meine Präsentation zu LLM](Quellen/Grundlagen%20Large%20Language%20Models.pdf)
+
+:::

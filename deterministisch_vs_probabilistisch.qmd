@@ -1,5 +1,6 @@
 ---
 title: Deterministisch vs. Probabilistisch
+bibliography: literatur.bib
 ---
 
 ## Begriffsklärung
@@ -32,6 +33,9 @@ Okay es gibt hier gleich eine super Webseite [@poloclubTransformerExplainer] auf
 Auf der Webseite wird ein Transformer Model mitsamt der unterschiedlichen Teilschritte gezeigt.   
 Oben kann ein Satz eingegeben werden und im Hauptteil wird dann gezeigt, wie die möglichen Wörter bestimmt werden.  
 
+[Das ist die Webseite von Poloclub!](poloclub.github.io/transformer-explainer/)
+*Ich kann diese Seite für ihre Anschaulichkeit gar nicht genug loben!* 
+
 Hierbei geht es vor allem um zwei Begriffe, **Temperature** und **Top-k**, sowie **Top-p**.  
 
 - **Top-k** bestimmt die Top k Wörter die betrachtet werden, wenn man an dem Regler spielt, sieht man, dass mehr Worte eine Wahrscheinlichkeit daneben stehen haben (die ohne haben alle Wahrscheinlichkeit 0)
@@ -46,9 +50,6 @@ Hierbei geht es vor allem um zwei Begriffe, **Temperature** und **Top-k**, sowie
 Ich hoffe, falls meine Erklärung nicht gut genug war, ist es zu mindestens die auf der Webseite.
 
 </summary>
-
-[Das ist die Webseite von Poloclub!](poloclub.github.io/transformer-explainer/)  
-*Ich kann diese Seite für ihre Anschaulichkeit gar nicht genug loben!*
 
 Und eine GANZ wichtige Sache ist mithilfe dieser Seite zu sehen, stellt man einen dieser zwei Werte (Top-k und Top-p sind Entweder oder) maximal restriktiv ein, so gibt es nur **eine** Möglichkeit.  
 Das heißt aber nichts anderes, als diese zwei(drei) Parameter sind **das Einzige**, was ein LLM probabilistisch macht, anstatt deterministisch!  

@@ -45,11 +45,11 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap-dark-08799928d293638fe9563d5c5a2794e5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <link href="site_libs/bootstrap/bootstrap-72b10730c1ee6527289f76fc36b831bd.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "sidebar",
+  "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "start",
-  "type": "textbox",
+  "panel-placement": "end",
+  "type": "overlay",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
@@ -72,40 +72,11 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-sidebar floating quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-sidebar floating nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -280,6 +251,36 @@ window.Quarto = {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Geburtstagsgeschenk 2025</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/Haon2005/318_B_KI_2025"> <i class="bi bi-github" role="img" aria-label="GitHub">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
@@ -295,22 +296,9 @@ window.Quarto = {
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header">
-    <div class="sidebar-title mb-0 py-0">
-      <a href="./">Geburtstagsgeschenk 2025</a> 
-        <div class="sidebar-tools-main">
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
-  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
-  <div class="quarto-reader-toggle-btn">
-  <i class="bi"></i>
-  </div>
-</a>
-</div>
-    </div>
-      </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Search"></div>
@@ -447,31 +435,46 @@ window.Quarto = {
 <figcaption>Ich wünsche dir alles gute zu deinem 59. Geburtstag!</figcaption>
 </figure>
 </div>
-<p>Ich habe dir hoffentlich bereits alles gute zum beginnenden 60ten Lebensjahr gewünscht, aber hier erneut alles herzlich gute zum Geburtstag.</p>
-<p>Ich dachte mir einer Person, die sich alles holen kann was sie will, der kann man am ehesten Zeit schenken. Also dachte ich mir, worüber haben wir schon häufiger geredet, womit wolltest du dich beschäftigen, hast aber vermutlich noch keine Zeit dafür gefunden?</p>
-<p>Richtig AI ach ne KI hmm GPT oder LLM was ist denn da jetzt eigentlich der richtige Begriff, darum und darum was das alles eigentlich ist, was das bedeutet, wie man es definiert und auch was das ganze moralisch ethisch an Problemen darstellt, darum soll es auf dieser kleinen Webseite für dich gehen.</p>
-<div class="callout callout-style-default callout-important callout-titled" title="Ein paar Hinweise">
+<p>Ich habe dir hoffentlich bereits alles Gute zum beginnenden 60ten Lebensjahr gewünscht, aber hier erneut alles herzlich Gute zum Geburtstag.</p>
+<p>Ich dachte mir, einer Person, die sich alles holen kann was sie will, der kann man am ehesten Zeit schenken. Also dachte ich mir, worüber haben wir schon häufiger geredet, womit wolltest du dich beschäftigen, hast aber vermutlich noch keine Zeit dafür gefunden?</p>
+<p>Richtig AI ach ne KI hmm GPT oder LLM was ist denn da jetzt eigentlich der richtige Begriff… Darum und was das Alles eigentlich ist, was das bedeutet, wie man es definiert und auch was das ganze moralisch ethisch an Problemen darstellt, darum soll es auf dieser kleinen Webseite für dich gehen.</p>
+<div class="callout callout-style-default callout-important callout-titled" title="Ein paar Hinweise zur Bedienung">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Ein paar Hinweise
+Ein paar Hinweise zur Bedienung
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
+<p><strong>Inhaltsblöcke</strong></p>
 <ul>
-<li>Es wird auf dieser Webseite immer mal wieder ein paar kleine “Callout” Blöcke wie diesen geben, ich werde damit ein wenig versuchen die Webseite lesbarer zu gestalten und evtl. schon vorhandenes Vorwissen in solchen Blöcken zu verstecken, damit falls du das bereits kennst du es leicht ignorieren kannst.</li>
-</ul>
+<li><strong>Callout-Blöcke:</strong> Blöcke wie diesen hier werde ich nutzen, um wichtige Informationen, Tipps oder Warnungen für dich hervorzuheben.<br>
+</li>
+<li><strong>Ausklappbare Blöcke:</strong> Manchmal werde ich Zusatzinformationen in solchen Blöcken verstecken, um den Text für dich übersichtlich zu halten:<br>
+
 <details>
 <summary>
-Auch solche Blöcke wird es teilweise Drücke hier <span class="math inline">\(\leftarrow\)</span>
+Klicke hier, um den versteckten Inhalt zu sehen.
 </summary>
-Diese Blöcke werde ich auch manchmal nutzen, da sie ein wenig subtiler sind um Inhalte zu verschachteln.
-</details>
-<p><strong>Steuerung der Webseite</strong> - Wie oben zu sehen gibt es zum einen … - Platzhalter!</p>
+Diese Blöcke nutze ich, um Inhalte zu verschachteln, die du nicht sofort lesen musst.
+</details></li>
+</ul>
+<p><strong>Symbole in der Navigationsleiste (oben rechts)</strong></p>
+<ul>
+<li><strong>GitHub-Symbol (<i class="bi bi-github"></i>):</strong> Führt dich zum Quellcode dieser Webseite, falls du neugierig bist, wie ich sie für dich gebaut habe.<br>
+</li>
+<li><strong>Design-Umschalter (Sonne/Mond):</strong> Mit diesem Schalter kannst du zwischen dem hellen und dunklen Design wechseln, ganz wie es dir gefällt.</li>
+<li><strong>Lupe (<i class="bi bi-search"></i>):</strong> Die Lupe, ist eine klassische Suchfunktion um die gesamte Webseite nach Begriffen zu durchsuchen.</li>
+<li><strong>Das Andere</strong> Blendet die linke und rechte Seitenleiste aus, um dir ein ablenkungsfreies Leseerlebnis zu ermöglichen.</li>
+</ul>
+<p><strong>Besonderheit auf der “Vektor-Embedding”-Seite</strong></p>
+<ul>
+<li>Dort habe ich ein interaktives Python-Beispiel für dich vorbereitet. Oben auf der Seite erscheint eventuell eine <strong>Eingabeaufforderung für einen API-Schlüssel</strong>. <strong>Diese kannst du komplett ignorieren.</strong> Sie gehört zu einer Zusatzfunktion, die für das Beispiel nicht benötigt wird. Du kannst die Eingabefelder über das kleine <strong>Zahnrad-Symbol</strong> (<i class="bi bi-gear"></i>) daneben einfach ausblenden.</li>
+</ul>
 </div>
 </div>
 </div>
