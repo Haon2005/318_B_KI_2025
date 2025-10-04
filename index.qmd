@@ -2,13 +2,13 @@
 title: "Alles Gute zum Geburtstag!"
 ---
 
-![Ich wünsche dir alles gute zu deinem 59. Geburtstag!](Quellen/59.png){width="100%"}
+![Ich wünsche dir alles Gute zu deinem 59. Geburtstag!](Quellen/59.png){width="100%"}
 
 Ich habe dir hoffentlich bereits alles Gute zum beginnenden 60ten Lebensjahr gewünscht, aber hier erneut alles herzlich Gute zum Geburtstag.
 
-Ich dachte mir, einer Person, die sich alles holen kann was sie will, der kann man am ehesten Zeit schenken. Also dachte ich mir, worüber haben wir schon häufiger geredet, womit wolltest du dich beschäftigen, hast aber vermutlich noch keine Zeit dafür gefunden?
+Ich dachte mir, einer Person, die sich alles holen kann, was sie will, kann man am ehesten Zeit schenken. Also dachte ich mir, worüber haben wir schon häufiger geredet, womit wolltest du dich beschäftigen, hast aber vermutlich noch keine Zeit dafür gefunden?
 
-Richtig AI ach ne KI hmm GPT oder LLM was ist denn da jetzt eigentlich der richtige Begriff... Darum und was das Alles eigentlich ist, was das bedeutet, wie man es definiert und auch was das ganze moralisch ethisch an Problemen darstellt, darum soll es auf dieser kleinen Webseite für dich gehen.
+Richtig: AI, ach nein, KI? Oder doch GPT oder LLM? Was ist denn da jetzt eigentlich der richtige Begriff? Darum, was das alles eigentlich ist, was es bedeutet, wie man es definiert und auch welche moralisch-ethischen Probleme es mit sich bringt – darum soll es auf dieser kleinen Webseite für dich gehen.
 
 :::{.callout-important title="Ein paar Hinweise zur Bedienung" collapse="true"}
 
@@ -25,8 +25,8 @@ Richtig AI ach ne KI hmm GPT oder LLM was ist denn da jetzt eigentlich der richt
 
 - **GitHub-Symbol (<i class="bi bi-github"></i>):** Führt dich zum Quellcode dieser Webseite, falls du neugierig bist, wie ich sie für dich gebaut habe.  
 - **Design-Umschalter (Sonne/Mond):** Mit diesem Schalter kannst du zwischen dem hellen und dunklen Design wechseln, ganz wie es dir gefällt.
-- **Lupe (<i class="bi bi-search"></i>):** Die Lupe, ist eine klassische Suchfunktion um die gesamte Webseite nach Begriffen zu durchsuchen.
-- **Das Andere** Blendet die linke und rechte Seitenleiste aus, um dir ein ablenkungsfreies Leseerlebnis zu  ermöglichen.
+- **Lupe (<i class="bi bi-search"></i>):** Die Lupe ist die klassische Suchfunktion, um die gesamte Webseite nach Begriffen zu durchsuchen.
+- **Lesemodus-Umschalter:** Blendet die linke und rechte Seitenleiste aus, um dir ein ablenkungsfreies Leseerlebnis zu ermöglichen.
 
 **Besonderheit auf der "Vektor-Embedding"-Seite**    
 

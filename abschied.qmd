@@ -4,19 +4,19 @@ bibliography: literatur.bib
 ---
 
 Ich wollte zum Abschluss nur noch mal Danke sagen.  
-Danke dafür, dass du für mich da bist, dich für mich interessierst, mich beglückwünscht wenn mir was gutes passiert, es freut mich sehr, dass wir uns so gut verstehen.
+Danke dafür, dass du für mich da bist, dich für mich interessierst und mich beglückwünschst, wenn mir etwas Gutes passiert. Es freut mich sehr, dass wir uns so gut verstehen.
 Ich gehe zwar davon aus, dass wir uns auch mal in die Haare kriegen werden, aber bisher ist das nie geschehen und das freut mich.  
 
 Ich freue mich auf viele weitere Jahre als Teil der Familie.  
 
-Hab dich lieb und zuletzt, lass die 60er nicht die letzten Jahre sein, zu mindestens ich würde dich gerne als Großvater erleben, also pass auf dich auf!  
+Hab dich lieb und zuletzt, lass die 60er nicht die letzten Jahre sein, zumindest würde ich dich gerne als Großvater erleben, also pass auf dich auf!  
 
-Und habe einen schönes Jahr bevor es heißt 60 und du ganz groß feiern musst :P  
+Und habe ein schönes Jahr, bevor es heißt 60 und du ganz groß feiern musst :P  
 
 Bzw. Ich habe dich in der Begrüßung schon versucht ein wenig für das Thema zu erwärmen, das 60. Lebensjahr hat bereits begonnen, man feiert ja immer nur die abgeschlossenen, also falls du die Zahl respektierst/fürchtest, tröste dich, du musst dich nicht mehr fürchten, es ist bereits so weit.  
 
 Cheers!!!!
-Auf das ich mindestens einen auf dich getrunken habe auf deiner Party!
+Auf dass ich mindestens einen auf dich getrunken habe auf deiner Party!
 
 
 :::{.callout-tip title="eine Kleine Kurzzusammenfassung" collapse="true"}
@@ -26,9 +26,9 @@ Also wenn du das Ganze nochmal aus Profi- Sicht, oder besser visualisiert sehen 
 
 **Die wichtigsten Links**  
 
-- [Übersicht über die Funktion](poloclub.github.io/transformer-explainer/)
-- [Tatsächliche Übersicht + Erklärungen](bbycroft.net/llm)
-- [Tolle Videos dazu (Playlist)](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
+- [Übersicht über die Funktion](https://poloclub.github.io/transformer-explainer/)  
+- [Tatsächliche Übersicht + Erklärungen](https://bbycroft.net/llm)  
+- [Tolle Videos dazu (Playlist)](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)  
 - [Das Paper was alles ins Rollen gebracht hat](https://arxiv.org/abs/1706.03762)
 - [Meine Präsentation zu Maschinellem Lernen](Quellen/Lernalgorithmen.pdf)
 - [Meine Präsentation zu LLM](Quellen/Grundlagen%20Large%20Language%20Models.pdf)

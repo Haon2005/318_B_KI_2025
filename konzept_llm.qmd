@@ -1,12 +1,12 @@
 ---
-title: "LLM- das Grundkonzept"
+title: "LLM – Das Grundkonzept"
 bibliography: literatur.bib
 ---
 
-_Besser als ich es erklären kann, wird es im Zweifel [hier](https://www.youtube.com/watch?v=LPZh9BOjkQs) von **3blue1brown** auf Youtube erklärt, aber ich werde mich mal dran versuchen._
+_Besser als ich es erklären kann, wird es im Zweifel [hier](https://www.youtube.com/watch?v=LPZh9BOjkQs) von **3blue1brown** auf YouTube erklärt, aber ich werde mich mal dran versuchen._
 
 ## Was ist ein LLM?
-Ein Large Language Model (LLM), ein großes Sprachmodell zu Deutsch, ist eine Art von künstlicher Intelligenz, die darauf trainiert ist, menschliche Sprache zu verstehen und zu erzeugen. Man kann es sich als ein extrem großes neuronales Netz vorstellen, das mit einer gigantischen Menge an Textdaten (wie Büchern und großen Teilen des Internets) trainiert wurde.
+Ein Large Language Model (LLM), auf Deutsch ein großes Sprachmodell, ist eine Art von künstlicher Intelligenz, die darauf trainiert ist, menschliche Sprache zu verstehen und zu erzeugen. Man kann es sich als ein extrem großes neuronales Netz vorstellen, das mit einer gigantischen Menge an Textdaten (wie Büchern und großen Teilen des Internets) trainiert wurde.
 Das Hauptziel eines LLM ist es, auf eine Texteingabe (einen "Prompt") eine sinnvolle und kontextbezogene textliche Antwort zu generieren. Bekannte Beispiele sind die Modelle der GPT-Reihe (die hinter ChatGPT stehen), Googles Gemini oder Metas Llama.
 
 ## Wie funktioniert ein LLM
@@ -23,11 +23,11 @@ Die Funktionsweise eines LLM lässt sich vereinfacht in zwei Hauptphasen unterte
     -   **Wort für Wort:** Dieses neue Wort wird an die bisherige Konversation angehängt, und der Prozess wiederholt sich: Das Modell berechnet das nächste wahrscheinlichste Wort, dann das übernächste und so weiter, bis eine vollständige Antwort entstanden ist.
 
 Die erste Phase ist hierbei wie bei jeder anderen Art des Maschinellen Lernens.  
-Die zweite Phase hingegen ist ein wenig besonders, hier geht es darum einen Text weiterzuschreiben (für das LLM gibt es nur einen Text, keinen Chat, es wird nur ein Erklärtext für das LLM nach jeder Eingabe und vor jeder Ausgabe eingefügt der nicht sichtbar ist.) 
+Die zweite Phase hingegen ist besonders: Hier geht es darum, einen Text weiterzuschreiben. Für das LLM gibt es nämlich keinen "Chat", sondern nur einen einzigen, fortlaufenden Text. Unsichtbar für den Nutzer wird nach jeder Eingabe und vor jeder Ausgabe ein interner Erklärtext eingefügt, der dem Modell den Kontext gibt.
 
 :::{.callout-tip title="Auch hierzu musste ich mal einen Vortrag in der Uni halten" collapse="true"}
 
-Der Vortrag/ die Folien des Vortrags sind mehr oder minder das Ganze Kapitel in anderer Form (nicht nur dieses Unterkapitel, also evtl. erst im Nachhinein angucken :shrug:)
+Der Vortrag bzw. die Folien des Vortrags sind mehr oder weniger das ganze Kapitel in anderer Form (nicht nur dieses Unterkapitel, also evtl. erst im Nachhinein angucken :shrug:).
 
 <object data="Quellen/Grundlagen Large Language Models.pdf" type="application/pdf" width="100%" height="600px">
     <p>Ihr Browser unterstützt keine eingebetteten PDFs. Sie können es stattdessen <a href="Quellen/Grundlagen Large Language Models.pdf">hier herunterladen</a>.</p>
@@ -39,4 +39,4 @@ Um die Funktionsweise besser zu verstehen, solltest du dir die nächsten Kapitel
 
 ## Weiterführende Quelle
 Eine komprimierte Übersicht über Large Language Models findet man bei [@naveed2024comprehensiveoverviewlargelanguage]
-Eine ganz gute Seite, die einen kompletten Überblick mit Erklärung und allem für Transfomer Modelle macht ist [bbycroft.net/llm](https://bbycroft.net/llm), diese Seite ist ähnlich wie die Seite aus dem deterministisch vs. probabilistisch Unterkapitel nur zu empfehlen.  
+Eine sehr gute Seite, die einen kompletten Überblick über Transformer-Modelle inklusive Erklärungen bietet, ist [bbycroft.net/llm](https://bbycroft.net/llm). Diese Seite ist, ähnlich wie die aus dem Kapitel "Deterministisch vs. Probabilistisch", sehr zu empfehlen.

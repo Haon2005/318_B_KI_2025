@@ -9,13 +9,13 @@ Erstmal ein kleiner Gag um darauf hinzuweisen, wie gut Sortieralgorithmen bereit
 Ein beliebtes Spiel in meiner Schulzeit war der [Akinator](https://de.akinator.com)  
 $\rightarrow$ Klicke bitte auf Spielen in der Mitte $\leftarrow$  
 
-Spiele gerne mal ein paar Runden und überlege dabei, wie das System wohl funktioninert!
+Spiele gerne mal ein paar Runden und überlege dabei, wie das System wohl funktioniert!
 <details>
 <summary> Spielregeln </summary>
-Das Spiel ist recht Simpel, in die Richtung Wer Bin ich.  
+Das Spiel ist recht simpel, in die Richtung "Wer bin ich?".
 Du überlegst dir entweder ein Tier oder eine Figur.  
 Dabei ist es egal ob es fiktive oder reale Figuren/Tiere sind, solange sie auf die eine oder andere Art und Weise bekannt sind.  
-Das Spiel wird nun in möglichst wenigen Fragen versuchen zu Erfragen was du dir vorgestellt hast.  
+Das Spiel wird nun in möglichst wenigen Fragen versuchen zu erfragen, was du dir vorgestellt hast.
 Viel Spaß! :D
 </details>
 
@@ -29,7 +29,7 @@ Man sieht schnell die Einträge können unterschiedliche Formen/Definitionen hab
 
 :::{.callout title="Umsetzung mit Python" collapse="true"}
 Im folgenden ein Beispiel Code, mit dem du ein bisschen die Grundidee von Vektor-Embedding testen kannst.  
-Du kannst den Code ausführen nachdem du deine Werte eingegeben hast mit dem Run Symbol oben rechts.  
+Du kannst den Code ausführen, nachdem du deine Werte eingegeben hast, mit dem Run-Symbol oben rechts.
 Du kannst auch gerne weitere Personen zum `variablen`-Dictionary hinzufügen, um zu sehen, wie sich die Ergebnisse ändern!
 ```{pyodide-python}
 import numpy as np
@@ -97,4 +97,4 @@ Die wahre Magie moderner LLMs (wie sie seit den Transformer-Modellen existieren)
 Ältere Systeme, wie die Online-Übersetzer der 2010er Jahre, hätten für "bat" in beiden Fällen denselben Vektor verwendet und oft falsche Übersetzungen geliefert. Ein modernes LLM hingegen analysiert die umliegenden Wörter ("flying", "hit the ball") und erzeugt für "bat" in jedem Satz einen unterschiedlichen Vektor. Der Vektor für "Fledermaus" liegt im Vektorraum dann näher an "Tier" und "fliegen", während der Vektor für "Schläger" näher an "Sport" und "schlagen" liegt.
 
 Diese Fähigkeit, Wörter im Kontext zu verstehen, ist der entscheidende Durchbruch, der die heutigen beeindruckenden KI-Leistungen erst möglich macht. Wenn ein LLM dann Text erzeugt, wählt es auf Basis des bisherigen Kontexts das Token aus, dessen Vektor mathematisch am besten als Nächstes passt.  
-[Wie diese Wahl funktioniert werden wird in Unterkapitel](deterministisch_vs_probabilistisch.qmd) genauer betrachten.
+Wie diese Wahl im Detail funktioniert, werden wir im nächsten Kapitel genauer betrachten: [Deterministisch vs. Probabilistisch](deterministisch_vs_probabilistisch.qmd).

@@ -4,28 +4,28 @@ bibliography: literatur.bib
 ---
 ## Historie
 
-Mit KI und LLMs wird seit etwa dem 2ten Weltkrieg geforscht, auch [@turing1950computing] ist daran beteiligt.  
-Über die Jahrzehnte hat sich einiges getan, aber wie den meisten aufgefallen ist ist "plötzlich KI überall", das lässt sich ein bisschen in dem folgenden Bild erkennen:
+Mit KI und LLMs wird seit etwa dem Zweiten Weltkrieg geforscht, auch [@turing1950computing] ist daran beteiligt.
+Über die Jahrzehnte hat sich einiges getan, aber wie den meisten aufgefallen ist, ist "plötzlich KI überall". Das lässt sich gut in dem folgenden Bild erkennen:
 
 ![Zeitleiste der KI-Entwicklung](Quellen/Historie.png){width="100%"}
 [@wang2024historydevelopmentprincipleslarge]
 
-Das liegt vor allem an [@vaswani2017attention] in dem verlinkten Paper "Attention is all you need" von 2017, wird ein wichtiger Anstoß gegeben der die Grundlage legt für alle modernen LLMs, das Transformer Modell.
+Wie im Bild auch zu sehen ist, geht ab der Erfindung des **Transformer-Modells** alles sehr schnell. Das relevante Paper wurde von [@vaswani2017attention] veröffentlicht.
 
 <details>
-<summary> JA die Daten 2015 und 2017 passen nicht klicke hier für mehr Informationen</summary>
-Das Paper von [@vaswani2017attention] ist zwar nicht Ursprung des Attention Algorithmus, aber es nutzt diese Idee von 2014 um das Transformer Modell zu entwickeln.  
-Als kleiner Nebenhinweis "GPT" ist vermutlich ein Begriff, steht für "Generative Pre-trained Transformer".
-Daran kann man evtl. erkennen wie wichtig dieses Paper ist. Die relevanteste KI der heutigen Tage hat es im Namen stehen.
+<summary>Warum passen die Jahreszahlen 2015 und 2017 nicht zusammen? Klicke hier!</summary>
+Das Paper von [@vaswani2017attention] ist zwar nicht der Ursprung des Attention-Algorithmus, aber es nutzt diese Idee von 2014, um das Transformer-Modell zu entwickeln.
+Als kleiner Nebenhinweis "GPT" ist vermutlich ein Begriff, steht für "Generative Pre-trained Transformer".  
+Daran kann man erkennen, wie wichtig dieses Paper ist:   Die relevanteste KI unserer Zeit trägt es im Namen.
 </details>
 
 ## Einführung
 
-Künstliche Intelligenz (KI) beschreibt Maschinen oder Software welche so gestaltet wurde, dass sie Aufgaben übernehmen, die üblicherweise menschliche Intelligenz erfordern. Dazu gehören Wahrnehmung, Sprachverstehen, Planen, Lernen und Problemlösen.
+Künstliche Intelligenz (KI) beschreibt Maschinen oder Software, die so gestaltet wurde, dass sie Aufgaben übernimmt, die üblicherweise menschliche Intelligenz erfordern. Dazu gehören Wahrnehmung, Sprachverstehen, Planen, Lernen und Problemlösen.
 
 > An AI system is a machine-based system that, for explicit or implicit objectives, infers, from the input it receives, how to generate outputs such as predictions, content, recommendations, or decisions that can influence physical or virtual environments. Different AI systems vary in their levels of autonomy and adaptiveness after deployment.
 >
-> <p style="text-align: right;">--- [@oecd_ai]</p>
+> <p style="text-align: right;">— [@oecd_ai]</p>
 
 ## Hauptansätze der KI
 
@@ -62,16 +62,16 @@ Bei Fragen zu dem Vortrag, frag mich gerne :D
 
 :::
 
-Für weiteres: ([@sep_ml],[@wiki_machinelearning])
+Für weiteres: [@sep_ml; @wiki_machinelearning]
 
 ### Deep Learning
 
-Deep Learning ist ein Teilgebiet des maschinellen Lernens, das besonders **tiefe** (*im Sinne von viele Lagen hintereinander*) neuronale Netze verwendet. Diese Tiefe ermöglicht es dem Modell, sehr komplexe und hierarchische Merkmale aus den Daten zu lernen.
+Deep Learning ist ein Teilgebiet des maschinellen Lernens, das besonders **tiefe** (*im Sinne von vielen Lagen hintereinander*) neuronale Netze verwendet. Diese Tiefe ermöglicht es dem Modell, sehr komplexe und hierarchische Merkmale aus den Daten zu lernen.
 
 -   **Merkmalshierarchie:** Die ersten Schichten erkennen einfache Merkmale (z.B. Kanten in einem Bild), während tiefere Schichten diese zu komplexeren Konzepten (z.B. Augen, Gesichter) zusammensetzen.
 -   **Anwendungen:** Fast alle modernen Durchbrüche wie Bilderkennung, Sprachübersetzung (Google Translate) und selbstfahrende Autos basieren auf Deep Learning. LLMs sind ebenfalls eine Form des Deep Learning.
 
-Für weiteres: ([@lecun2015deep],[@wiki_deeplearning])
+Für weiteres: [@lecun2015deep; @wiki_deeplearning]
 
 ### Neuronale Netze
 
@@ -84,22 +84,16 @@ Ein fantastisches Video, das die Grundlagen visuell erklärt, ist von **3Blue1Br
 :::
 
 ## Anwendungsbereiche
-
-Nachdem hoffentlich ein wenig klar geworden ist, wie KI funktioniert ein bisschen dazu, wie sie meist verwendet wird. 
-
-Meist Bekannt ist die Variante mit Large-Language-Models (LLMs). 
-
-Aber auch Gesichtserkennung o.ä. arbeitet mithilfe von KI
----
-
+Nachdem nun klarer ist, was KI ist und welche Ansätze es gibt, hier ein kurzer Blick auf die Anwendungsbereiche. Am bekanntesten sind derzeit sicherlich die **Large Language Models (LLMs)** wie ChatGPT. Aber KI steckt auch in vielen anderen Technologien, wie zum Beispiel in der **Gesichtserkennung** auf dem Smartphone oder in Überwachungskameras.
 
 ## Vertiefungsmöglichkeiten:  
-Und auch an sich für ein paar SEHR gut zusammenfassende You-Tube Videos (die an unterschiedlichen Unis von Dozenten empfohlen werden):  
-Einmal im Allgemeinen der Kanal **3blue1brown** 
-Aber auch die folgenden Spezifischen Videos:   
-- [Video zu Neuronalen Netzen:](https://www.youtube.com/watch?v=aircAruvnKk)
-- [Video dazu wie ein Neuronales Netz lernen:](https://www.youtube.com/watch?v=IHZwWFHWa-w)
-- [Video zum Attention Mechanismus:](https://www.youtube.com/watch?v=LPZh9BOjkQs)
+Für alle, die tiefer einsteigen wollen, hier ein paar Empfehlungen. Diese YouTube-Videos werden oft auch von Dozenten an Universitäten empfohlen:
 
-Oder ([@oecd_ai],[@hai_aiindex])
+- Der Kanal **3Blue1Brown** ist generell eine Goldgrube für visuelle Erklärungen zu Mathe und Informatik.
+- Spezifische Videos zum Thema:
+  - [Was ist ein neuronales Netz?](https://www.youtube.com/watch?v=aircAruvnKk)
+  - [Wie neuronale Netze lernen](https://www.youtube.com/watch?v=IHZwWFHWa-w)
+  - [Der Attention-Mechanismus (Grundlage für Transformer)](https://www.youtube.com/watch?v=LPZh9BOjkQs)
+
+Weitere Berichte und Prinzipien finden sich bei der OECD und Stanford: [@oecd_ai; @hai_aiindex]
  

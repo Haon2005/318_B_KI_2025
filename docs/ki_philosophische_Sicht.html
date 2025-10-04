@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.33">
+<meta name="generator" content="quarto-1.8.24">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -52,18 +52,19 @@ div.csl-indent {
 <meta name="quarto:offset" content="./">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-bc185b5c5bdbcb35c2eb49d8a876ef70.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b651517ce65839d647a86e2780455cfb.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-72b10730c1ee6527289f76fc36b831bd.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-08799928d293638fe9563d5c5a2794e5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-72b10730c1ee6527289f76fc36b831bd.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-870b6070356b2f6ba798b4fc2bd491a6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-24772959a0e306aba8d7698078628ce7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-870b6070356b2f6ba798b4fc2bd491a6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -106,7 +107,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -303,6 +304,8 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Geburtstagsgeschenk 2025</span>
     </a>
@@ -348,6 +351,10 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+      <a href="./index.html" class="sidebar-logo-link">
+      </a>
+      </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Search"></div>
@@ -490,17 +497,16 @@ window.Quarto = {
 
 <section id="grundlage" class="level2">
 <h2 class="anchored" data-anchor-id="grundlage">Grundlage</h2>
-<p>KI also Künstliche Intelligenz beinhaltet offensichtlich den Begriff der Intelligenz. Allein dieser ist kein simpler Begriff, was bedeutet Intelligenz? Fangen wir klassisch enzyklopädisch an.<br>
-Intelligenz <span class="math inline">\(\rightarrow\)</span> <em>inter</em> <em>legere</em> <em>(lat.)</em><br>
-also “zwischen” “lesen/wählen” kann also betrachtet werden als die Fähigkeit des Wählens zwischen Irgendetwas. Intelligenz ist meistens als Problemlösekompetenz beschrieben.</p>
-<p>Aber zurück zum Thema, es geht darum inwiefern eine Maschine intelligent sein kann, hier gibt es <strong>echt</strong> viele Debatten <span class="math inline">\(\dots\)</span> ich hatte schon mindestens 3 Seminare zu Thematiken in diese Richtungen. * Machine Consciousness (Kurzgesagt die Frage, nach dem Bewusstsein von Menschen und Maschinen) * Determinismus vs.&nbsp;freier Wille (Viele sagen, ein Computer ist nicht “Intelligent”, da er niemals frei entscheiden kann) * strong vs.&nbsp;weak AI (auch wenn man einen Computer als “intelligent” betrachten mag, so doch niemals als menschlich intelligent)</p>
+<p>KI, also Künstliche Intelligenz, beinhaltet offensichtlich den Begriff der Intelligenz. Allein dieser Begriff ist nicht einfach zu fassen: Was bedeutet Intelligenz? Fangen wir klassisch enzyklopädisch an: Intelligenz <span class="math inline">\(\rightarrow\)</span> <em>inter</em> <em>legere</em> <em>(lat.)</em><br>
+also “zwischen” “lesen/wählen”, kann also als die Fähigkeit betrachtet werden, zwischen verschiedenen Optionen zu wählen. Intelligenz ist meistens als Problemlösekompetenz beschrieben.</p>
+<p>Aber zurück zum Thema: Es geht darum, inwiefern eine Maschine intelligent sein kann. Hier gibt es viele Debatten – ich hatte schon mindestens drei Seminare zu Thematiken in diese Richtung: * Machine Consciousness (Kurzgesagt die Frage, nach dem Bewusstsein von Menschen und Maschinen) * Determinismus vs.&nbsp;freier Wille (Viele sagen, ein Computer ist nicht “Intelligent”, da er niemals frei entscheiden kann) * strong vs.&nbsp;weak AI (auch wenn man einen Computer als “intelligent” betrachten mag, so doch niemals als menschlich intelligent)</p>
 <div class="callout callout-style-default callout-tip callout-titled" title="Ein paar weiterführende Links">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Ein paar weiterführende Links
+<span class="screen-reader-only">Tip</span>Ein paar weiterführende Links
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
@@ -512,9 +518,9 @@ Ein paar weiterführende Links
 <summary>
 <p>Hintergrundwissen</p>
 </summary>
-<p>Dazu vielleicht noch ein wenig Hintergrundwissen (falls TNG nicht bekannt). Die Serie spielt im 24.Jh. Data ist ein Androide und der Herr in Blau im Clip hat als Ziel Data auseinander zu bauen um weitere wie ihn zu erschaffen. Dies will Data nicht, es geht in diesem “Gerichtsprozess” darum, ob Data einen eigenen Willen äußern kann, oder er sich nicht dem Auseinanderbauen unterziehen muss, da er nicht anderes ist als ein Besitz der Sternenflotte.</p>
+<p>Dazu vielleicht noch ein wenig Hintergrundwissen (falls TNG nicht bekannt): Die Serie spielt im 24. Jahrhundert. Data ist ein Androide, und der Herr in Blau im Clip hat zum Ziel, Data auseinanderzubauen, um weitere wie ihn zu erschaffen. Dies will Data nicht. Es geht in diesem “Gerichtsprozess” darum, ob Data einen eigenen Willen äußern kann oder ob er sich dem Auseinanderbauen unterziehen muss, da er nichts anderes als ein Besitz der Sternenflotte ist.</p>
 </details></li>
-<li><p>Im Grund könnte man hier auch Filme wie Terminator o.ä. verlinken, die Idee der “Superintelligenz” entspringt der Idee, dass sobald eine KI ein Bewusstsein erringt, sie von nichts mehr aufgehalten werden kann.</p></li>
+<li><p>Im Grunde könnte man hier auch Filme wie Terminator o.ä. verlinken. Die Idee der “Superintelligenz” entspringt der Vorstellung, dass eine KI, sobald sie ein Bewusstsein erlangt, von nichts mehr aufgehalten werden kann.</p></li>
 <li><p>Die Unterscheidung zwischen <strong>starker und schwacher KI</strong> (Strong vs.&nbsp;Weak AI) ist zentral in der KI-Philosophie und geht ebenfalls auf John Searle zurück.</p></li>
 </ul>
 Eine <strong>schwache KI</strong> (Weak AI, auch als <em>narrow AI</em> oder <em>schwache KI</em> bezeichnet) ist darauf ausgelegt, eine spezifische Aufgabe zu erfüllen. Sie simuliert intelligentes Verhalten, ohne jedoch ein echtes Bewusstsein oder Verständnis zu besitzen. Alle heute existierenden KI-Systeme fallen in diese Kategorie.
@@ -530,7 +536,7 @@ Eine <strong>starke KI</strong> (Strong AI) wäre eine Maschine, die nicht nur I
 Beispiel für starke KI
 </summary>
 <p><em>Man könnte jetzt sagen, aber ChatGPT und Co.&nbsp;sind das doch. NEIN, sind sie nicht.</em> LLMs sind extrem fortgeschrittene schwache KIs. Sie können zwar eine beeindruckende Vielfalt an Aufgaben bewältigen, basieren aber auf Mustererkennung in Daten und besitzen kein Bewusstsein oder echte Intentionalität.</p>
-Eine echte starke KI, die sich ihrer selbst bewusst ist, existiert bisher nur in der Science-Fiction (wie z.B. <code>Data</code> aus Star Trek). Die Entwicklung einer solchen KI würde das Konzept der <strong>Superintelligenz</strong> aufwerfen – eine Intelligenz, die die menschliche in allen Aspekten weit übertrifft.
+Eine echte starke KI, die sich ihrer selbst bewusst ist, existiert bisher nur in der Science-Fiction (wie z.B. Data aus Star Trek). Die Entwicklung einer solchen KI würde das Konzept der <strong>Superintelligenz</strong> aufwerfen – eine Intelligenz, die die menschliche in allen Aspekten weit übertrifft.
 </details>
 </div>
 </div>
@@ -563,22 +569,18 @@ Eine echte starke KI, die sich ihrer selbst bewusst ist, existiert bisher nur in
 <h2 class="anchored" data-anchor-id="moderne-benchmark-tests">Moderne Benchmark Tests</h2>
 <p>Der klassische Turing-Test gilt heute in vielen Fällen als überholt, da moderne LLMs ihn oft problemlos bestehen können. Die Fähigkeit, eine menschliche Konversation zu imitieren, ist nicht mehr der alleinige Maßstab für fortgeschrittene KI.</p>
 <div class="callout callout-style-default callout-warning callout-titled" title="Hinweis!">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Hinweis!
+<span class="screen-reader-only">Warning</span>Hinweis!
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-2" class="callout-2-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>Auch wenn man sich in der wissenschaftlichen Welt sehr einig ist, dass LLms den Turing Test bestehen können, heißt es nicht, dass irgendeine System den erkenntlich bestanden hat!<br>
-Das erschafft dann nämlich ein ganz großes neues Problem wofür Firmen wie Google Philosophen anstellen um es zu verhindern.<br>
-Sollte es so sein, dass eine Maschine den Turing Test bestehe, so wäre sie laut einer sehr anerkannten Theorie intelligent. Das würde aber auch heißen eine Maschine zu nutzen, um z.B. Hausaufgaben etc. zu lösen wäre praktisch Sklaverei, dass klingt absurd, aber was trennt das eine vom Anderen?<br>
-Was macht ein Kinderarbeit Kinderarbeit, warum ist es schlimm wenn Menschen ohne Bezahlung arbeiten?<br>
-Warum sollte es gut sein, dass einem Intelligenten System der freie Wille genommen wird?</p>
+<p>Auch wenn man sich in der wissenschaftlichen Welt sehr einig ist, dass LLMs den Turing-Test bestehen können, heißt das nicht, dass irgendein System ihn offiziell und anerkannt bestanden hat! Das würde nämlich ein großes neues Problem schaffen, weshalb Firmen wie Google Philosophen anstellen, um genau das zu verhindern. Sollte eine Maschine den Turing-Test bestehen, wäre sie laut dieser Theorie intelligent. Das würde aber auch bedeuten, eine Maschine für Aufgaben wie Hausaufgaben zu nutzen, wäre praktisch Sklaverei. Das klingt absurd, aber was trennt das eine vom Anderen? Was macht Kinderarbeit zu Kinderarbeit? Warum ist es schlimm, wenn Menschen ohne Bezahlung arbeiten? Warum sollte es gut sein, einem intelligenten System den freien Willen zu nehmen?</p>
 </div>
 </div>
 </div>
@@ -597,11 +599,8 @@ Warum sollte es gut sein, dass einem Intelligenten System der freie Wille genomm
 </section>
 <section id="zusammenfassung" class="level2">
 <h2 class="anchored" data-anchor-id="zusammenfassung">Zusammenfassung</h2>
-<p>Aus der Philosophischen Perspektive wird KI im Allgemeinen nicht als Intelligenz oder als bei Bewusstsein bezeichnet, hier vertrauen die meisten der Technischen Sicht und gehen davon aus, dass ein Programm egal wie komplex es ist kein Bewusstsein als solches entwickeln kann.</p>
-<p>Es ist jedoch leider auch strittig was überhaupt ein Bewusstsein ausmacht (Siehe den Star Trek Clip).<br>
-Vor 50-100 Jahren ging man offiziell davon aus, dass Tiere keinen Schmerz fühlen können und deswegen bei Operationen nicht betäubt werden müssen, sie haben ja kein Bewusstsein.<br>
-Das sie mindestens irgendeine Form von Verstand haben ist inzwischen klar, aber ab wann ein Verstand, oder Bewusstsein schützenswert ist, ist weiterhin sehr umstritten (Siehe die Behandlung von Affen). Daher wird wohl selbst, falls es unstrittig bewusste KI geben sollte, nicht dazu kommen, dass diese verboten wird.<br>
-<em>Und hoffentlich auch nicht dazu, dass sie uns als Superintelligenz direkt ausrottet :P</em></p>
+<p>Aus philosophischer Perspektive wird KI im Allgemeinen nicht als “intelligent” oder “bei Bewusstsein” bezeichnet. Die meisten folgen hier der technischen Sicht und gehen davon aus, dass ein Programm, egal wie komplex es ist, kein Bewusstsein als solches entwickeln kann.</p>
+<p>Es ist jedoch auch strittig, was überhaupt ein Bewusstsein ausmacht (siehe den Star-Trek-Clip). Vor 50-100 Jahren ging man offiziell davon aus, dass Tiere keinen Schmerz fühlen können und deswegen bei Operationen nicht betäubt werden müssen – sie hätten ja kein Bewusstsein. Dass sie mindestens irgendeine Form von Verstand haben, ist inzwischen klar. Aber ab wann ein Verstand oder Bewusstsein schützenswert ist, ist weiterhin sehr umstritten (siehe die Behandlung von Affen). Daher wird es wohl selbst dann, falls es unstrittig bewusste KI geben sollte, nicht dazu kommen, dass deren Nutzung verboten wird. <em>Und hoffentlich auch nicht dazu, dass sie uns als Superintelligenz direkt ausrottet :P</em></p>
 
 
 
@@ -682,13 +681,14 @@ Turing, Alan M. 1950. <span>“Computing Machinery and Intelligence.”</span> <
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

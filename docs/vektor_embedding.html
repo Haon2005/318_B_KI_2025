@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.33">
+<meta name="generator" content="quarto-1.8.24">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -32,18 +32,19 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="./">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-bc185b5c5bdbcb35c2eb49d8a876ef70.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b651517ce65839d647a86e2780455cfb.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-72b10730c1ee6527289f76fc36b831bd.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-08799928d293638fe9563d5c5a2794e5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-72b10730c1ee6527289f76fc36b831bd.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-870b6070356b2f6ba798b4fc2bd491a6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-24772959a0e306aba8d7698078628ce7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-870b6070356b2f6ba798b4fc2bd491a6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -607,7 +608,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -804,6 +805,8 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Geburtstagsgeschenk 2025</span>
     </a>
@@ -849,6 +852,10 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+      <a href="./index.html" class="sidebar-logo-link">
+      </a>
+      </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Search"></div>
@@ -999,16 +1006,14 @@ window.Quarto = {
 <p>Erstmal ein kleiner Gag um darauf hinzuweisen, wie gut Sortieralgorithmen bereits funktionieren (nicht KI).</p>
 <p>Ein beliebtes Spiel in meiner Schulzeit war der <a href="https://de.akinator.com">Akinator</a><br>
 <span class="math inline">\(\rightarrow\)</span> Klicke bitte auf Spielen in der Mitte <span class="math inline">\(\leftarrow\)</span></p>
-Spiele gerne mal ein paar Runden und überlege dabei, wie das System wohl funktioninert!
+Spiele gerne mal ein paar Runden und überlege dabei, wie das System wohl funktioniert!
 <details>
 <summary>
 Spielregeln
 </summary>
-Das Spiel ist recht Simpel, in die Richtung Wer Bin ich.<br>
-Du überlegst dir entweder ein Tier oder eine Figur.<br>
+Das Spiel ist recht simpel, in die Richtung “Wer bin ich?”. Du überlegst dir entweder ein Tier oder eine Figur.<br>
 Dabei ist es egal ob es fiktive oder reale Figuren/Tiere sind, solange sie auf die eine oder andere Art und Weise bekannt sind.<br>
-Das Spiel wird nun in möglichst wenigen Fragen versuchen zu Erfragen was du dir vorgestellt hast.<br>
-Viel Spaß! :D
+Das Spiel wird nun in möglichst wenigen Fragen versuchen zu erfragen, was du dir vorgestellt hast. Viel Spaß! :D
 </details>
 <section id="wie-funktioniert-das" class="level2">
 <h2 class="anchored" data-anchor-id="wie-funktioniert-das">Wie funktioniert das?</h2>
@@ -1016,20 +1021,19 @@ Viel Spaß! :D
 <p>Das heißt ein Vektor könnte z.B. so aussehen. <span class="math display">\[(Größe, Haarfarbe, real/fiktiv, Alter, ...)\]</span><br>
 Man sieht schnell die Einträge können unterschiedliche Formen/Definitionen haben, aber das Prinzip ist schnell verstanden.</p>
 <div class="callout callout-style-simple callout-none no-icon callout-titled" title="Umsetzung mit Python">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Umsetzung mit Python
+<span class="screen-reader-only">None</span>Umsetzung mit Python
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>Im folgenden ein Beispiel Code, mit dem du ein bisschen die Grundidee von Vektor-Embedding testen kannst.<br>
-Du kannst den Code ausführen nachdem du deine Werte eingegeben hast mit dem Run Symbol oben rechts.<br>
-Du kannst auch gerne weitere Personen zum <code>variablen</code>-Dictionary hinzufügen, um zu sehen, wie sich die Ergebnisse ändern!</p>
+Du kannst den Code ausführen, nachdem du deine Werte eingegeben hast, mit dem Run-Symbol oben rechts. Du kannst auch gerne weitere Personen zum <code>variablen</code>-Dictionary hinzufügen, um zu sehen, wie sich die Ergebnisse ändern!</p>
 <div id="qpyodide-insertion-location-1"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </div>
@@ -1047,7 +1051,7 @@ Du kannst auch gerne weitere Personen zum <code>variablen</code>-Dictionary hinz
 </ol>
 <p>Ältere Systeme, wie die Online-Übersetzer der 2010er Jahre, hätten für “bat” in beiden Fällen denselben Vektor verwendet und oft falsche Übersetzungen geliefert. Ein modernes LLM hingegen analysiert die umliegenden Wörter (“flying”, “hit the ball”) und erzeugt für “bat” in jedem Satz einen unterschiedlichen Vektor. Der Vektor für “Fledermaus” liegt im Vektorraum dann näher an “Tier” und “fliegen”, während der Vektor für “Schläger” näher an “Sport” und “schlagen” liegt.</p>
 <p>Diese Fähigkeit, Wörter im Kontext zu verstehen, ist der entscheidende Durchbruch, der die heutigen beeindruckenden KI-Leistungen erst möglich macht. Wenn ein LLM dann Text erzeugt, wählt es auf Basis des bisherigen Kontexts das Token aus, dessen Vektor mathematisch am besten als Nächstes passt.<br>
-<a href="./deterministisch_vs_probabilistisch.html">Wie diese Wahl funktioniert werden wird in Unterkapitel</a> genauer betrachten.</p>
+Wie diese Wahl im Detail funktioniert, werden wir im nächsten Kapitel genauer betrachten: <a href="./deterministisch_vs_probabilistisch.html">Deterministisch vs.&nbsp;Probabilistisch</a>.</p>
 
 
 </section>
@@ -1117,13 +1121,14 @@ Du kannst auch gerne weitere Personen zum <code>variablen</code>-Dictionary hinz
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

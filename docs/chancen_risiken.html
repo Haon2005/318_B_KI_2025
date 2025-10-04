@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.33">
+<meta name="generator" content="quarto-1.8.24">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -32,18 +32,19 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="./">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-bc185b5c5bdbcb35c2eb49d8a876ef70.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b651517ce65839d647a86e2780455cfb.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-72b10730c1ee6527289f76fc36b831bd.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-08799928d293638fe9563d5c5a2794e5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-72b10730c1ee6527289f76fc36b831bd.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-870b6070356b2f6ba798b4fc2bd491a6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-24772959a0e306aba8d7698078628ce7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-870b6070356b2f6ba798b4fc2bd491a6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -86,7 +87,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -283,6 +284,8 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Geburtstagsgeschenk 2025</span>
     </a>
@@ -328,6 +331,10 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+      <a href="./index.html" class="sidebar-logo-link">
+      </a>
+      </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Search"></div>
@@ -466,35 +473,33 @@ window.Quarto = {
 </header>
 
 
-<p>Bevor man sich verabschiedet muss man leider bei einem solchen Thema noch unbedingt darüber Reden welche Chancen und Gefahren KI und oder LLM haben.</p>
+<p>Bevor wir zum Ende kommen, ist es bei einem Thema wie diesem unvermeidbar, auch über die Chancen und Gefahren von KI und LLMs zu sprechen.</p>
 <section id="chancen" class="level2">
 <h2 class="anchored" data-anchor-id="chancen">Chancen</h2>
 <ul>
-<li><strong>Automatisierung:</strong> Es ist ein neuer technologischer Schritt der vieles vieles automatisieren wird können, dadurch wird die Produktivität der Gesellschaft stark steigen können.</li>
-<li><strong>Individualbetreuung:</strong> Es ist viel leichter, dafür zu sorgen, dass jede Person für ihre spezifisches Problem eine Lösung bekommt. Das funktioniert auch in Schulen/ beim lernen sehr gut.</li>
-<li><strong>Wissenschaft:</strong> Die Analyse von riesigen Datenmengen wird leichte, sowie Simulationen, Erstellung neuer Komplexer Systeme (Proteine)</li>
-<li><strong>Werkzeug:</strong> Die KI kann z.B. zum erstellen von Webseiten wie dieser genutzt werden, sie kann zum Programmieren genutzt werden, für vieles in vielen Bereichen</li>
+<li><strong>Automatisierung:</strong> Es ist ein neuer technologischer Schritt, der sehr vieles automatisieren kann. Dadurch wird die Produktivität der Gesellschaft stark steigen können.</li>
+<li><strong>Individualbetreuung:</strong> Es ist viel leichter, dafür zu sorgen, dass jede Person für ihr spezifisches Problem eine Lösung bekommt. Das funktioniert auch in Schulen und beim Lernen sehr gut.</li>
+<li><strong>Wissenschaft:</strong> Die Analyse von riesigen Datenmengen wird leichter, ebenso wie Simulationen oder die Erstellung neuer komplexer Systeme (z.B. Proteine).</li>
+<li><strong>Werkzeug:</strong> Die KI kann z.B. zum Erstellen von Webseiten wie dieser genutzt werden, sie kann zum Programmieren genutzt werden und für vieles in vielen Bereichen.</li>
 </ul>
 </section>
 <section id="gefahren" class="level2">
 <h2 class="anchored" data-anchor-id="gefahren">Gefahren</h2>
 <ul>
 <li><strong>Automatisierung</strong> bedeutet immer auch Arbeitsplatzverlust, mehr Frustration in der Bevölkerung, größeres Krisenpotential</li>
-<li><strong>Individualbetreuung</strong> bedeutet immer auch weniger soziale Interaktion, bedeutet mehr psychisch kranke, mehr Vereinsamung</li>
+<li><strong>Individualbetreuung</strong> bedeutet immer auch weniger soziale Interaktion, was zu mehr psychisch Kranken und mehr Vereinsamung führen kann.</li>
 <li><strong>Bias:</strong> KI lernt aus Datensätzen, wenn die diskriminierend sind, ist die KI es auch</li>
-<li><strong>Fehlinformationen:</strong> Ähnlich wie bei Taschenrechner &amp; Co.&nbsp;wird mehr dem System geglaubt als der eigenen Intuition, dass heißt Fehler werden selten bemerkt</li>
+<li><strong>Fehlinformationen:</strong> Ähnlich wie bei Taschenrechnern &amp; Co.&nbsp;wird dem System oft mehr geglaubt als der eigenen Intuition. Das heißt, Fehler werden seltener bemerkt.</li>
 <li><strong>Manipulation:</strong> Konzerne und Länder können KI auf bestimmte Trigger-Worte bestimmt reagieren lassen <a href="https://huggingface.co/blog/leonardlin/chinese-llm-censorship-analysis">Beispiel Qwens Einschränkungen (bis unten lesen!)</a></li>
-<li><strong>falsches Selbstbewusstsein:</strong> LLM sind darauf trainiert freundlich und nett zu sein, dazu gehört einer Person die eigentlich für etwas nicht bereit ist Mut zu zu sprechen, dass heißt wenn ich eine KI frage: “Bin ich jetzt gut genug auf die Prüfung vorbereitet?” Dann wird die KI mir nicht die Wahrheit als Antwort geben sondern ein: “Du schaffst das!” Hierdurch wird falsche Sicherheit erzeugt.</li>
-<li><strong>fehlende Motivation:</strong> Ähnlich wie beim Internet ist es nun noch einfacher spezifisches Wissen zu lernen, jeder kann alles lernen und das relativ schnell, dass sorgt leider auch dafür, dass ein großer Teil der Gesellschaft kein Interesse mehr daran hat, sich damit auseinander zu setzen. Beispiel Schule, viele SchülerInnen lösen ihre Hausaufgaben nur noch mit KI, kann man es ihnen verübeln nein, ist es gut für ihre Bildung, nein.<br>
-</li>
-<li><strong>Datenschutz:</strong> Der Einsatz von KI wird auf kurz oder lang dafür sorgen, dass die Privatsphäre des Individuums immer und immer mehr eingeschränkt wird. (Wo es früher noch möglich war manchmal ein bisschen doofe Sachen anzustellen, wird das irgendwann nicht mehr möglich sein, weil alles mit Kameras ausgestattet sind, welche Bewegung automatisch wahrnehmen und melden) Das letzte war ein wenig sehr dystopisch aber betrachten wir alleine die automatische Kennzeichenerfassung von Kennzeichen an vielen Ampeln heute.</li>
+<li><strong>Falsches Selbstbewusstsein:</strong> LLMs sind darauf trainiert, freundlich und nett zu sein. Dazu gehört auch, einer Person, die für etwas eigentlich nicht bereit ist, Mut zuzusprechen. Das heißt, wenn ich eine KI frage: “Bin ich jetzt gut genug auf die Prüfung vorbereitet?”, wird die KI mir nicht die Wahrheit als Antwort geben, sondern ein: “Du schaffst das!” Hierdurch wird falsche Sicherheit erzeugt.</li>
+<li><strong>Fehlende Motivation:</strong> Ähnlich wie beim Internet ist es nun noch einfacher, spezifisches Wissen zu lernen. Jeder kann alles lernen, und das relativ schnell. Das sorgt leider auch dafür, dass ein großer Teil der Gesellschaft kein Interesse mehr daran hat, sich damit auseinanderzusetzen. Beispiel Schule: Viele SchülerInnen lösen ihre Hausaufgaben nur noch mit KI. Kann man es ihnen verübeln? Nein. Ist es gut für ihre Bildung? Nein.</li>
+<li><strong>Datenschutz:</strong> Der Einsatz von KI wird auf kurz oder lang dafür sorgen, dass die Privatsphäre des Individuums immer weiter eingeschränkt wird. (Wo es früher noch möglich war, manchmal ein bisschen “dumme Sachen” anzustellen, wird das irgendwann nicht mehr möglich sein, weil alles mit Kameras ausgestattet ist, die Bewegungen automatisch wahrnehmen und melden.) Das letzte war ein wenig sehr dystopisch aber betrachten wir alleine die automatische Kennzeichenerfassung von Kennzeichen an vielen Ampeln heute.</li>
 </ul>
 </section>
 <section id="zusammenfassung" class="level2">
 <h2 class="anchored" data-anchor-id="zusammenfassung">Zusammenfassung</h2>
-<p>Klar die KI ist eine geniale tolle Erfindung, ABER so wie viele auf der Konferenz an der ich teilnehmen durfte feststellten, KI ist besonders dann nützlich, wenn man zu einem Thema bereits etwas weiß. Sich mit KI fortzubilden geht unglaublich schnell und gut. Aber etwas unbekanntes zu lernen (oder als unerfahrene Person so etwas nutzen) ist wirklich nicht gut.<br>
-Dabei ging es noch gar nicht um die Thematik der möglichen Terrorhilfe <span class="math inline">\(\dots\)</span> wie schlimm wird Terror, wenn alle Terroristen in der Lage sind innerhalb von ein paar Stunden raus zu finden, wie man möglichst effizient möglichst viele Zivlisten tötet. (Prima von einer lokalen KI bestimmt <span class="math inline">\(\dots\)</span>).</p>
-<p>nach diesem hoffentlich nicht zu viel Besorgnis erregendem Ende, geht es weiter beim <a href="./abschied.html">Abschied</a>.</p>
+<p>Klar, KI ist eine geniale Erfindung. ABER, wie viele auf der Konferenz, an der ich teilnehmen durfte, feststellten: KI ist besonders dann nützlich, wenn man zu einem Thema bereits etwas weiß. Sich mit KI fortzubilden, geht unglaublich schnell und gut. Aber etwas Unbekanntes zu lernen (oder als unerfahrene Person so etwas zu nutzen), ist nicht zu empfehlen. Dabei ging es noch gar nicht um die Thematik der möglichen Terrorhilfe <span class="math inline">\(\dots\)</span> Wie schlimm wird Terror, wenn alle Terroristen in der Lage sind, innerhalb von ein paar Stunden herauszufinden, wie man möglichst effizient möglichst viele Zivilisten tötet? (Prima von einer lokalen KI bestimmt <span class="math inline">\(\dots\)</span>).</p>
+<p>Nach diesem hoffentlich nicht zu besorgniserregenden Ende geht es weiter beim <a href="abschied.html">Abschied</a>.</p>
 
 
 </section>
@@ -564,13 +569,14 @@ Dabei ging es noch gar nicht um die Thematik der möglichen Terrorhilfe <span cl
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
